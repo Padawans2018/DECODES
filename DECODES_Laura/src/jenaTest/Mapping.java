@@ -15,7 +15,7 @@ public class Mapping {
   public void reunion() {  
 	  Document doc = readXML("C:\\Users\\laura\\OneDrive\\Documents\\Centrale\\S8\\DECODES\\reunion\\daeuaSocial.xml");
   
-	  Model model = Main.initiliazeModel(); 
+	  Model model = MyModel.initiliazeModel(); 
 	  
   }
   

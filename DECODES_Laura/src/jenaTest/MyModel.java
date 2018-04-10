@@ -5,7 +5,7 @@ import org.apache.jena.rdf.model.*;
 import org.apache.jena.rdf.*;
 import org.apache.jena.vocabulary.*;
 
-public class Main {
+public class MyModel {
 	
       public static Model initiliazeModel() {
     	// some definitions
