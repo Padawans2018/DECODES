@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move element &apos;XMLToRDF.java&apos; to &apos;DECODES_Till/src/testPackage&apos;&#x0D;&#x0A;- Original project: &apos;DECODES_Till&apos;&#x0D;&#x0A;- Destination element: &apos;DECODES_Till/src/testPackage&apos;&#x0D;&#x0A;- Original element: &apos;XMLToRDF.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;testPackage" element1="/src&lt;{XMLToRDF.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1523352975913" units="1" version="1.0"/>
-</session>
