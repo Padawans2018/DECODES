@@ -4,7 +4,6 @@ package jenaTest;
 /* Steps : 
  *  Initialize writes <!DOCTYPE html>, <html> and head
  *  Open tags, write in them, close them
- *  
  */
 
 public class WriteHTML {
