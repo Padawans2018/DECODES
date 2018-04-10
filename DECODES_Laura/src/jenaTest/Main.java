@@ -7,16 +7,15 @@ import org.apache.jena.vocabulary.*;
 
 public class Main {
 	
-      public static void main(String[] args) {
+      public static Model initiliazeModel() {
     	// some definitions
     		String uriProperties = "http://decodes/properties/";
     		String uriResources = "http://decodes/resources/";
     		
-    	    // create an empty model
+    	// create an empty model
     	    Model model = ModelFactory.createDefaultModel();
     	    
-    	    
-    	    //create alllllll properties
+       //create alllllll properties
     	    Property name = model.createProperty(uriProperties,"Name");
     	    Property institutionLogo = model.createProperty(uriProperties,"InstitutionLogo");
     	    Property rncp = model.createProperty(uriProperties,"RNCP");
@@ -59,20 +58,8 @@ public class Main {
     	    Property isWelcomedBy = model.createProperty(uriProperties,"IsWelcomedBy");
     	    Property isCertifiedBy = model.createProperty(uriProperties,"IsCertifiedBy");
     	    Property takesPlaceIn = model.createProperty(uriProperties,"TakesPlaceIn");
-		   
-        // create the resource
-        //   and add the properties cascading style
-
-    	String formationName = "formation_1 Lyon1";
         
-        Resource formation1Lyon1  = model.createResource(uriResources+"formation1Lyon1")
-             .addProperty(name, formationName);  
-        
-       model.write(System.out);
-        System.out.println(formation1Lyon1);
+       return(model);
       }
       
-      public void firstMapping() {
-    	  
-      }
 }
