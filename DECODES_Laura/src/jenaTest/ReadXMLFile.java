@@ -7,22 +7,27 @@ import java.io.File;
 
 
 public class ReadXMLFile {
+  
+  public void reunion() {  
+	  
+  }
+  
+  public Document readXML(String xmlPath) {
+	  try {
+		File fXmlFile = new File("C:\\Users\\laura\\OneDrive\\Documents\\Centrale\\S8\\DECODES\\reunion\\daeuaSocial.xml");
+		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+		DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+		Document doc = dBuilder.parse(fXmlFile);
+			
+		doc.getDocumentElement().normalize();
 
-  public static void main(String[] args) {
-
-    try {
-
-	File fXmlFile = new File("C:\\Users\\laura\\OneDrive\\Documents\\Centrale\\S8\\DECODES\\stEtienne\\example.xml");
-	DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-	DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-	Document doc = dBuilder.parse(fXmlFile);
+		return(doc);
 		
-	doc.getDocumentElement().normalize();
-
-	System.out.println("Root element :" + doc.getDocumentElement().getNodeName());
-    } catch (Exception e) {
-	e.printStackTrace();
-    }
+	  }
+	  catch (Exception e) {
+		e.printStackTrace();
+		return(null);
+	  }	    		  
   }
 
 }
