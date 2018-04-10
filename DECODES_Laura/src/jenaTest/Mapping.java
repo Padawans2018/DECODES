@@ -30,6 +30,33 @@ public class Mapping {
 	  String audience = getTextInTag(doc, "targetGroup");
 	  formation.addProperty(model.getProperty(MyModel.uriProp, "Audience"), audience);
 	  
+	  // add RNCP (maybe won't work in other files ?)
+	  Node validation = doc.getElementsByTagName("ametys-cdm:ujm-validation").item(0); 
+	  NodeList validationChildren = validation.getChildNodes();
+	  String RNCP = "";
+	  //TODO
+	  System.out.println(RNCP);
+	  
+	  // add prerequisites (can not do until we have more info) 
+	  String requirements = getTextInTag(doc, "formalPrerequisites");
+	  formation.addProperty(model.getProperty(MyModel.uriProp, "Requirements"), requirements);
+	  
+	  //add goals
+	  String goals = getTextInTag(doc, "learningObjectives");
+	  formation.addProperty(model.getProperty(MyModel.uriProp, "Goals"), goals);
+	  
+	  //add time organisation
+	  String timeOrganisation = getTextInTag(doc, "ametys-cdm:ujm-calendrier");
+	  formation.addProperty(model.getProperty(MyModel.uriProp, "TimeOrganisation"), timeOrganisation);
+	  
+	  //add grading methods
+	  String gradingMethods = getTextInTag(doc, "ametys-cdm:ujm-validation");
+	  formation.addProperty(model.getProperty(MyModel.uriProp, "GradingMethods"), gradingMethods);
+	  
+	  //add price
+	  String price = getTextInTag(doc, "ametys-cdm:ujm-specific-rights");
+	  formation.addProperty(model.getProperty(MyModel.uriProp, "Price"), price);
+	  
 	  model.write(System.out);
 	
 }
@@ -50,7 +77,11 @@ public class Mapping {
 	  else { return null ; }
  }
   
-  
+  /**
+   * This function allows us to get a Document on which DOM methods can be used.
+   * @param xmlPath The path to the xml file in your computer
+   * @return the Document corresponding to the XML file
+   */
   public static Document readXML(String xmlPath) {
 	  try {
 		File fXmlFile = new File(xmlPath);
@@ -69,6 +100,9 @@ public class Mapping {
 	  }	    		  
   }
 
+  
+  
+  
   public static void main(String[] args) {
 	Mapping.stEtienne(); 
 }
