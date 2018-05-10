@@ -56,7 +56,6 @@ public class Mapping {
 	  //add price
 	  String price = getTextInTag(doc, "ametys-cdm:ujm-specific-rights");
 	  formation.addProperty(model.getProperty(MyModel.uriProp, "Price"), price);
-	  
 	  model.write(System.out);
 	
 }

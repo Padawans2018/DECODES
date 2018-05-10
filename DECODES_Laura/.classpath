@@ -7,5 +7,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Jena"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Jsoup"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
