@@ -4,13 +4,12 @@ formation/Requirements conditions-specifiques
 formation/Goals objectif-formation 
 formation/SkillsLearned resultats-attendus 
 formation/TotalDuration duree-indicative 
-formation/StartDate debut 
-formation/EndDate fin 
 formation/RomeCode code-ROME 
-Location/Adress lieu-de-formation/coordonnees/adresse/codepostal
-Location/Institution lieu-de-formation/nom
+Location/Address lieu-de-formation/coordonnees/adresse
+Location/Institution lieu-de-formation/coordonnees/nom
 Authority/Name nom-organisme 
 formation/ID SIRET 
 Contact/Name contact-formation/coordonnees/nom 
 Contact/PhoneNumber contact-formation/coordonnees/telfixe/numtel
-Contact/EmailAddress courriel 
+Contact/EmailAddress courriel
+ 
