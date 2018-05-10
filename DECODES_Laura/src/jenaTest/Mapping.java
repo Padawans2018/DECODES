@@ -115,48 +115,52 @@ public class Mapping {
   
   
   /**
-   * This function allows us to get the text in a tag in an xml doc. Asserts that there is only one tag by the name given, returns null if not. 
-   * @param doc The xml doc.
-   * @param tagName The name of the tag where the text is. Make sure it refers to a unique tag.
-   * @return The string of the text.
+   * This function allows us to get the text in a tag in an xml doc. Calls the function getElementsByTagList, therefore returns null element if the String tags is null or empty. 
+   * @param node The node in which we search for tags
+   * @param formation The resource we want to modify with what we find in the xml document
+   * @param model The model to which the resource is linked
+   * @param tags The tree structure of tags, separated by "/", allowing us to get to the tag containing useful information.
+   * @param propertyName The property matching the tag. 
    */
- public static void findAndAddValueToProperty(Element node, Resource formation, Model model, String tagName, String propertyName) {
- 	  NodeList nodeList = node.getElementsByTagName(tagName);
- 	  if (nodeList.getLength()==1) {
- 		  String text = nodeList.item(0).getTextContent();
- 		  text = text.replace("\t", "");
- 		  formation.addProperty(model.getProperty(MyModel.uriProp,propertyName), text);
- 	  }
- 	 
+ public static void findAndAddValueToProperty(Element node, Resource formation, Model model, String tags, String propertyName) {
+ 	 ArrayList<String> tagsList = new ArrayList<>(Arrays.asList(tags.split("/"))); 
+	 Node mainNode = Mapping.getElementsByTagList(node, tagsList);
+	 String text = mainNode.getTextContent();
+	 text = text.replace("\t", "");
+	 formation.addProperty(model.getProperty(MyModel.uriProp,propertyName), text); 
  }
  
- /*
- public static NodeList getElementsByTagList(Document doc, ArrayList<String> tagsList) {
-	 if (tagsList.isEmpty()) { return null ;}
+ 
+ public static Node getElementsByTagList(Element node, ArrayList<String> tagsList) {
+	 Element mainNode = null;
+	 
+	 if (tagsList.isEmpty()) { 
+		 System.out.println("Tags list was empty, we returned null element.");
+		 return null ;
+	 }
 	 else {
+		 NodeList nodeL =node.getElementsByTagName(tagsList.get(0)) ;
+		 
+		 if (nodeL.getLength()==1) {
+			 mainNode = (Element) nodeL.item(0);
+		 }
+		 else {
+	 		  System.out.println("First tag was not unique, we returned null element.");
+	 		  return null; 
+	 	  }
 	 
-		 NodeList nodeL = doc. ; 
-		 //TODO everything
-	 
-	 
-	 File fXmlFile = new File("frcompte");
-		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-		DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-		Document doc = dBuilder.parse(fXmlFile);
-		
-			
-		doc.getDocumentElement().normalize();
-	 
-	
-	 for (String tag : tagsList) {
-		 nodeL = node.get
+		 for (int i = 1; i < tagsList.size() ; i++) {
+			 nodeL = mainNode.getElementsByTagName(tagsList.get(i)); 
+			 mainNode = (Element) nodeL.item(0);
+			 if (nodeL.getLength()!=1) {
+				 System.out.println("One of the tag was not unique, we took the first child found.");  
+		 	  }
+		 }
 	 }
-	 }
 		
-	return nodeL ; 
- 	}
-   */
-  
+	 return mainNode ; 
+	 
+ 	}  
   
   
   
