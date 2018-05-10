@@ -1,0 +1,347 @@
+/* _____________________________GENERAL_____________________________ */ 
+
+body
+{
+	display:flex;
+	flex-direction: column;
+	font-family: 'Source Sans Pro', Verdana, sans-serif;
+	background-color: #EEEEEE;
+	text-align : justify;
+    margin: 0px;
+ }
+
+mark
+{ 
+    color:#FFFFFF;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+p
+{
+    word-wrap: break-word;
+    margin: 2%;
+}
+
+a, a:active, a:visited, a:hover  /* Liens par défaut (non survolés) */
+{
+    color: #000000;
+   text-decoration: none;
+}
+
+section 
+{
+	overflow: auto;
+	width: 100%;
+}
+
+ul, ol
+{
+	text-align: left;
+}
+
+
+/* _____________________________NAVPP_____________________________ */ 
+
+#navPP
+{   
+    text-align: left;
+    background-color: #EEEEEE;
+    display : flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+
+
+#pro, #part
+{
+    font-size: 1.2em;
+    text-align: center;
+    width: 20%;
+    padding-top: 1%;
+    padding-bottom: 1%;    
+    transition: 0.4s;
+}
+
+.active, #pro:hover, #part:hover 
+{
+    background-color: #DDDDDD;
+    cursor: pointer;
+}
+
+#pro
+{
+    background-color: #CC0000;
+}
+
+#part
+{
+    background-color: #0066CC;
+}
+
+#pro a, #pro a:active, #pro a:visited, #pro a:hover, #part a, #part a:active, #part a:visited, #part a:hover
+{
+    color:#000000;
+}
+
+
+#search input
+{
+    float: right;
+    padding: 1%;
+    border: #0066CC;
+    font-size: 1em;
+}
+
+#search
+{
+     width: 50% ;
+}
+
+/* _____________________________BANNER_____________________________ */
+
+#banner
+{
+   display : flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: space-around;
+    flex-wrap: wrap; 
+    background-color: #0066CC;
+    width: 90%;
+    margin-left: 5%;
+}
+
+#students
+{
+    width:70%;
+
+}
+
+#moto
+{
+    width:30%;
+    color: #FFFFFF;
+    text-align: center;
+     font-family: 'Kalam';
+    font-size: 1.1em;
+}
+
+
+
+/* _____________________________NAVG_____________________________ */ 
+
+#navG
+{   
+    text-align: left;
+    background-color: #CCCCCC;
+    display : flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    width:90%;
+    margin-left: 5%;
+}
+
+.navG_div
+{
+    width: 15%;
+    text-align: center;    
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.active, .navG_div:hover
+{
+    background-color: #DDDDDD;
+    cursor: pointer;
+}
+
+/* _____________________________Formation_____________________________ */ 
+#formationTotal
+{
+    text-align: left;
+    background-color: #EEEEEE;
+    display : flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:90%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+#logo
+{
+    float: right;
+    margin-right: 3%;
+}
+
+#formation
+{
+    width: 80%;
+    background-color: #FFFFFF; 
+    align-self: center;
+    
+}
+
+#formation h3
+{
+    padding-left: 1%;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #0066CC;
+    color: #000000;
+    cursor: pointer;
+    width: auto;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #DDDDDD;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: #FFFFFF;
+    display: none;
+    overflow: hidden;
+}
+
+#contact
+{
+    width:20%;
+    height: fill;
+    background-color: #CCCCCC;
+    text-align: center;
+}
+
+#contact h3, #contact p
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 0;
+    font-size: 1em;
+}
+
+#contact h3
+{
+    color: #0066CC;
+}
+
+.deuxpoints
+{
+    display : flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 0%;
+}
+
+.deuxpoints h3, .deuxpoints p
+{
+    text-align: center; 
+    padding: 0%;
+    vertical-align: middle;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 0%;
+}
+
+
+/* _____________________________TITLES_____________________________ */
+
+h1
+{
+    font-size: 1.5em;
+    color: #FFFFFF;
+}
+
+h2
+{
+    font-size: 1.3em;
+    padding: 1%;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+header
+{
+    text-align: center;
+    color: #000000;
+    background-color: #0066CC;
+    width:fill;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 5%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+
+@media screen and (max-width: 600px) {
+h1
+{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+h2
+{
+    font-size: 1.1em;
+
+    font-weight: bold;
+}
+h3
+{
+    color: #000000;
+    font-weight: bold;
+    font-size: 1em;
+}
+}
+
+/* _____________________________FOOTER_____________________________ */
+
+footer
+{
+    text-align: left;
+    background-color: #CCCCCC;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    width:90%;
+    margin-left: 5%;
+}
+
+.foot_div
+{
+    width: 15%;
+    text-align: center;    
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.active, .foot_div:hover
+{
+    background-color: #DDDDDD;   
+    cursor: pointer;
+}
