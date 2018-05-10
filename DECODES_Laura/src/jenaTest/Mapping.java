@@ -3,8 +3,19 @@ package jenaTest;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.DocumentBuilder;
 import org.w3c.dom.Document;
+import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Arrays;
 
 import java.io.File;
 
@@ -12,6 +23,7 @@ import org.apache.jena.rdf.model.*;
 
 import org.apache.jena.rdf.*;
 import org.apache.jena.vocabulary.*;
+
 
 public class Mapping {
   
@@ -98,11 +110,95 @@ public class Mapping {
 		return(null);
 	  }	    		  
   }
+  
+  
+  
+  
+  /**
+   * This function allows us to get the text in a tag in an xml doc. Asserts that there is only one tag by the name given, returns null if not. 
+   * @param doc The xml doc.
+   * @param tagName The name of the tag where the text is. Make sure it refers to a unique tag.
+   * @return The string of the text.
+   */
+ public static void findAndAddValueToProperty(Element node, Resource formation, Model model, String tagName, String propertyName) {
+ 	  NodeList nodeList = node.getElementsByTagName(tagName);
+ 	  if (nodeList.getLength()==1) {
+ 		  String text = nodeList.item(0).getTextContent();
+ 		  text = text.replace("\t", "");
+ 		  formation.addProperty(model.getProperty(MyModel.uriProp,propertyName), text);
+ 	  }
+ 	 
+ }
+ 
+ /*
+ public static NodeList getElementsByTagList(Document doc, ArrayList<String> tagsList) {
+	 if (tagsList.isEmpty()) { return null ;}
+	 else {
+	 
+		 NodeList nodeL = doc. ; 
+		 //TODO everything
+	 
+	 
+	 File fXmlFile = new File("frcompte");
+		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+		DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+		Document doc = dBuilder.parse(fXmlFile);
+		
+			
+		doc.getDocumentElement().normalize();
+	 
+	
+	 for (String tag : tagsList) {
+		 nodeL = node.get
+	 }
+	 }
+		
+	return nodeL ; 
+ 	}
+   */
+  
+  
+  
+  
+  
+  public static HashMap<String, List<String>> initiliazeTypeProperty() { 
+	  FileReader file = null;
+	  BufferedReader reader = null;
+	  HashMap<String, List<String>> typeProperty = new HashMap<String, List<String>>(); 
+		
+		try{
+			String fileName = "linkTypeProperty.txt";
+			file = new FileReader(fileName);
+			
+			reader = new BufferedReader(file);
+			String line = "";
+			String type ;
+			List<String> properties ;
+			
+			
+			while ((line = reader.readLine()) != null){
+				String[] all = line.split(" ");
+				ArrayList<String> allnew = new ArrayList<>(Arrays.asList(all));
+				type = all[0];
+				properties = allnew.subList(1, all.length -1); 
+				typeProperty.put(type, properties);
+				System.out.println(line);
+			} 
+			
+		}
+		catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+		
+		return typeProperty ; 
+	}
+  
 
   
   
   
   public static void main(String[] args) {
-	Mapping.stEtienne(); 
-}
+	Mapping.stEtienne();
+  }
+  
 }
