@@ -42,51 +42,32 @@ public class Mapping {
 		  
 		  HashMap<String, Resource> linkTypeRes = new HashMap<String, Resource>();
 		  
-		  linkTypeRes.put("Formation", model.createResource(MyModel.uriRes+"formation_FrancheComte_"+i));	  
-		  linkTypeRes.put("Location", model.createResource(MyModel.uriRes+"location_FrancheComte_"+i));
-		  linkTypeRes.put("Domain", model.createResource(MyModel.uriRes+"domain_FrancheComte_"+i));
-		  linkTypeRes.put("Respo", model.createResource(MyModel.uriRes+"respo_FrancheComte_"+i));
-		  linkTypeRes.put("Sector", model.createResource(MyModel.uriRes+"sector_FrancheComte_"+i));
-		  linkTypeRes.put("Job", model.createResource(MyModel.uriRes+"job_FrancheComte_"+i));
-		  linkTypeRes.put("Label", model.createResource(MyModel.uriRes+"label_FrancheComte_"+i));
-		  linkTypeRes.put("Contact", model.createResource(MyModel.uriRes+"contact_FrancheComte_"+i));
-		  linkTypeRes.put("Company", model.createResource(MyModel.uriRes+"company_FrancheComte_"+i));
-		  linkTypeRes.put("Authority", model.createResource(MyModel.uriRes+"authority_FrancheComte_"+i));
+		  linkTypeRes.put("formation", model.createResource(MyModel.uriRes+"formation_FrancheComte_"+i));	  
+		  linkTypeRes.put("location", model.createResource(MyModel.uriRes+"location_FrancheComte_"+i));
+		  linkTypeRes.put("domain", model.createResource(MyModel.uriRes+"domain_FrancheComte_"+i));
+		  linkTypeRes.put("respo", model.createResource(MyModel.uriRes+"respo_FrancheComte_"+i));
+		  linkTypeRes.put("sector", model.createResource(MyModel.uriRes+"sector_FrancheComte_"+i));
+		  linkTypeRes.put("job", model.createResource(MyModel.uriRes+"job_FrancheComte_"+i));
+		  linkTypeRes.put("label", model.createResource(MyModel.uriRes+"label_FrancheComte_"+i));
+		  linkTypeRes.put("contact", model.createResource(MyModel.uriRes+"contact_FrancheComte_"+i));
+		  linkTypeRes.put("company", model.createResource(MyModel.uriRes+"company_FrancheComte_"+i));
+		  linkTypeRes.put("authority", model.createResource(MyModel.uriRes+"authority_FrancheComte_"+i));
 		  
 		  
 		  for (String type : linkTypeProp.keySet()) {
 			  for (String prop : linkTypeProp.get(type)) {
 				  
-				  Resource res = linkTypeRes.get(type); 
+				  Resource res = linkTypeRes.get(type.toLowerCase()); 
 				  String tag = keysHM.get(type.toLowerCase()).get(prop);
 			
-				  findAndAddValueToProperty(formationNode, res , model, tag, prop);
+				  //System.out.println("Type: "+type+"; Tag: "+ tag+"; Prop: "+prop);
+				  if (tag!=null){
+					  findAndAddValueToProperty(formationNode, res , model, tag, prop);
+				  }
 				  
 			  }
 		  }
-	  }
-	  
-	  
-	  
-	  
-	  
-	  
-	  int i = 1;
-	  
-	  Resource formationResource = model.createResource(MyModel.uriRes+"formation_FrancheComte_"+i);
-	  Resource locationResource = model.createResource(MyModel.uriRes+"location_FrancheComte_"+i);
-	  Resource domainResource = model.createResource(MyModel.uriRes+"domain_FrancheComte_"+i);
-	  Resource respoResource = model.createResource(MyModel.uriRes+"respo_FrancheComte_"+i);
-	  Resource sectorResource = model.createResource(MyModel.uriRes+"sector_FrancheComte_"+i);
-	  Resource jobResource = model.createResource(MyModel.uriRes+"job_FrancheComte_"+i);
-	  Resource labelResource = model.createResource(MyModel.uriRes+"label_FrancheComte_"+i);
-	  Resource contactResource = model.createResource(MyModel.uriRes+"contact_FrancheComte_"+i);
-	  Resource companyResource = model.createResource(MyModel.uriRes+"company_FrancheComte_"+i);
-	  Resource authorityResource = model.createResource(MyModel.uriRes+"authority_FrancheComte_"+i);
-
-	  
-	  
-	  
+	  }	  
 	  
 	  model.write(System.out);
 	
@@ -117,9 +98,9 @@ public class Mapping {
   * @param propertyName The name of the RDF predicate's resource
   * @return The string of the text.
   */
-public static void findAndAddValueToProperty(Element node, Resource formation, Model model, String tagName, String propertyName) {
+public static void findAndAddValueToProperty(Element node, Resource formation, Model model, String propertyName, String tagName) {
 	  NodeList nodeList = node.getElementsByTagName(tagName);
-	  if (nodeList.getLength()==1) {
+	  if (nodeList!=null && nodeList.getLength()==1) {
 		  String text = nodeList.item(0).getTextContent();
 		  text = text.replace("\t", "");
 		  formation.addProperty(model.getProperty(MyModel.uriProp,propertyName), text);
@@ -171,10 +152,10 @@ public static void findAndAddValueToProperty(Element node, Resource formation, M
 			
 			while ((line = reader.readLine()) != null){
 				String[] all = line.split(" ");
-				ArrayList<String> allnew = new ArrayList<>(Arrays.asList(all));
+				ArrayList<String> allnew = new ArrayList<String>(Arrays.asList(all));
 				type = all[0];
 				properties = allnew.subList(1, all.length -1); 
-				typeProperty.put(type, properties);
+				typeProperty.put(type.toLowerCase(), properties);
 				System.out.println(line);
 			} 
 			

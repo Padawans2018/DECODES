@@ -76,7 +76,7 @@ public class KeyReader {
 	{
 		HashMap<String,HashMap<String,String>> keysHM = new HashMap<String,HashMap<String,String>>();
 		keysHM.put("formation", new HashMap<String,String>());
-		keysHM.put("focation", new HashMap<String,String>()); 
+		keysHM.put("location", new HashMap<String,String>()); 
 		keysHM.put("domain", new HashMap<String,String>()); 
 		keysHM.put("respo", new HashMap<String,String>()); 
 		keysHM.put("sector", new HashMap<String,String>()); 
