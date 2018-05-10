@@ -161,7 +161,7 @@ public class Mapping {
   
   
   
-  public static HashMap<String, List<String>> initiliazeTypeProperty() { 
+  public static HashMap<String, List<String>> linkTypeAndProperties() { 
 	  FileReader file = null;
 	  BufferedReader reader = null;
 	  HashMap<String, List<String>> typeProperty = new HashMap<String, List<String>>(); 
@@ -189,7 +189,7 @@ public class Mapping {
 		catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
-		
+		finally{}
 		return typeProperty ; 
 	}
   
