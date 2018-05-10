@@ -11,7 +11,9 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 
 import org.apache.jena.rdf.model.*;
 
@@ -23,11 +25,10 @@ public class Mapping {
   public static void FrComte() {  
 	  //TODO path to XML
 	  Document doc = readXML("bin/FrComte.XML");
-	  ArrayList<HashMap<String,String>> listKeys;
-	  listKeys = new KeyReader().readKeys("bin/FrComte_key.txt");
+	  HashMap<String,HashMap<String,String>> keysHM;
+	  keysHM = KeyReader.readKeys("bin/FrComte_key.txt");
 	  
-	  HashMap<String, ArrayList<String>> predicates;
-	  //predicates = magicalLauraFunction(path);
+	  HashMap<String, List<String>> linkTypeProp = Mapping.linkTypeAndProperties(); 
 	  
 	  //initialize model
 	  Model model = MyModel.initiliazeModel(); 
@@ -35,7 +36,40 @@ public class Mapping {
 	  //TODO loop: iterate over all the formations in the source.
 	  //for now: only the first
 	  NodeList allPrograms = doc.getElementsByTagName("formation");
-	  Element formationNode = (Element) allPrograms.item(0);
+	  
+	  for (int i = 0 ; i<allPrograms.getLength() ; i++) {
+		  Element formationNode = (Element) allPrograms.item(i);
+		  
+		  HashMap<String, Resource> linkTypeRes = new HashMap<String, Resource>();
+		  
+		  linkTypeRes.put("Formation", model.createResource(MyModel.uriRes+"formation_FrancheComte_"+i));	  
+		  linkTypeRes.put("Location", model.createResource(MyModel.uriRes+"location_FrancheComte_"+i));
+		  linkTypeRes.put("Domain", model.createResource(MyModel.uriRes+"domain_FrancheComte_"+i));
+		  linkTypeRes.put("Respo", model.createResource(MyModel.uriRes+"respo_FrancheComte_"+i));
+		  linkTypeRes.put("Sector", model.createResource(MyModel.uriRes+"sector_FrancheComte_"+i));
+		  linkTypeRes.put("Job", model.createResource(MyModel.uriRes+"job_FrancheComte_"+i));
+		  linkTypeRes.put("Label", model.createResource(MyModel.uriRes+"label_FrancheComte_"+i));
+		  linkTypeRes.put("Contact", model.createResource(MyModel.uriRes+"contact_FrancheComte_"+i));
+		  linkTypeRes.put("Company", model.createResource(MyModel.uriRes+"company_FrancheComte_"+i));
+		  linkTypeRes.put("Authority", model.createResource(MyModel.uriRes+"authority_FrancheComte_"+i));
+		  
+		  
+		  for (String type : linkTypeProp.keySet()) {
+			  for (String prop : linkTypeProp.get(type)) {
+				  
+				  Resource res = linkTypeRes.get(type); 
+				  String tag = keysHM.get(type.toLowerCase()).get(prop);
+			
+				  findAndAddValueToProperty(formationNode, res , model, tag, prop);
+				  
+			  }
+		  }
+	  }
+	  
+	  
+	  
+	  
+	  
 	  
 	  int i = 1;
 	  
@@ -52,40 +86,7 @@ public class Mapping {
 
 	  
 	  
-	  // add formation name
-	  findAndAddValueToProperty(formationNode, formationResource, model, "intitule-formation", "name");
 	  
-	  // add audience
-	  findAndAddValueToProperty(formationNode, formationResource, model, "rythme-formation", "typology");
-	  /*String audience = getTextInTagDocument(doc, "targetGroup");
-	  formationResource.addProperty(model.getProperty(MyModel.uriProp, "Audience"), audience);
-	  
-	  // add RNCP (maybe won't work in other files ?)
-	  Node validation = doc.getElementsByTagName("ametys-cdm:ujm-validation").item(0); 
-	  NodeList validationChildren = validation.getChildNodes();
-	  String RNCP = "";
-	  //TODO
-	  System.out.println(RNCP);
-	  
-	  // add prerequisites (can not do until we have more info) 
-	  String requirements = getTextInTagDocument(doc, "formalPrerequisites");
-	  formationResource.addProperty(model.getProperty(MyModel.uriProp, "Requirements"), requirements);
-	  
-	  //add goals
-	  String goals = getTextInTagDocument(doc, "learningObjectives");
-	  formationResource.addProperty(model.getProperty(MyModel.uriProp, "Goals"), goals);
-	  
-	  //add time organisation
-	  String timeOrganisation = getTextInTagDocument(doc, "ametys-cdm:ujm-calendrier");
-	  formationResource.addProperty(model.getProperty(MyModel.uriProp, "TimeOrganisation"), timeOrganisation);
-	  
-	  //add grading methods
-	  String gradingMethods = getTextInTagDocument(doc, "ametys-cdm:ujm-validation");
-	  formationResource.addProperty(model.getProperty(MyModel.uriProp, "GradingMethods"), gradingMethods);
-	  
-	  //add price
-	  String price = getTextInTagDocument(doc, "ametys-cdm:ujm-specific-rights");
-	  formationResource.addProperty(model.getProperty(MyModel.uriProp, "Price"), price);*/
 	  
 	  model.write(System.out);
 	
@@ -116,7 +117,7 @@ public class Mapping {
   * @param propertyName The name of the RDF predicate's resource
   * @return The string of the text.
   */
-public static void findAndAddValueToProperty(Element node, MyResource formation, Model model, String tagName, String propertyName) {
+public static void findAndAddValueToProperty(Element node, Resource formation, Model model, String tagName, String propertyName) {
 	  NodeList nodeList = node.getElementsByTagName(tagName);
 	  if (nodeList.getLength()==1) {
 		  String text = nodeList.item(0).getTextContent();
@@ -148,6 +149,42 @@ public static void findAndAddValueToProperty(Element node, MyResource formation,
 		return(null);
 	  }	    		  
   }
+  
+  /**
+   * This function reads a document explaining which properties match with which resources type
+   * @return A HashMap linking type with corresponding properties. 
+   */
+  public static HashMap<String, List<String>> linkTypeAndProperties() { 
+	  FileReader file = null;
+	  BufferedReader reader = null;
+	  HashMap<String, List<String>> typeProperty = new HashMap<String, List<String>>(); 
+		
+		try{
+			String fileName = "bin/linkTypeProperty.txt";
+			file = new FileReader(fileName);
+			
+			reader = new BufferedReader(file);
+			String line = "";
+			String type ;
+			List<String> properties ;
+			
+			
+			while ((line = reader.readLine()) != null){
+				String[] all = line.split(" ");
+				ArrayList<String> allnew = new ArrayList<>(Arrays.asList(all));
+				type = all[0];
+				properties = allnew.subList(1, all.length -1); 
+				typeProperty.put(type, properties);
+				System.out.println(line);
+			} 
+			
+		}
+		catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+		finally{}
+		return typeProperty ; 
+	}
 
   
   

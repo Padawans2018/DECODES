@@ -6,16 +6,18 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class KeyReader {
-	public KeyReader() {
-		// TODO Auto-generated constructor stub
-	}
 	
-	public ArrayList<HashMap<String,String>> readKeys(String path)
+	/**
+	 * This function reads the key document written by the user, to understand which property matches with which tag in the xml doc.
+	 * @param path The path to the key document 
+	 * @return An array list containing hashMaps, each hashMap corresponding to one resource and linking all the properties corresponding to this resource with the rigth tag.
+	 */
+	public static ArrayList<HashMap<String,String>> readKeysTill(String path)
 	{
 		/* of the keys for the different subjects 
 		 * Course - 0
 		 * Location - 1
-		 * Domaine - 2
+		 * Domain - 2
 		 * Responsible - 3
 		 * Sector of activity - 4
 		 * Job - 5
@@ -63,5 +65,41 @@ public class KeyReader {
 		  }catch(Exception e){}
 		  finally{}
 		return listKeys;
+	}
+	
+	/**
+	 * This function reads the key document written by the user, to understand which property matches with which tag in the xml doc.
+	 * @param path The path to the key document 
+	 * @return An array list containing hashMaps, each hashMap corresponding to one resource and linking all the properties corresponding to this resource with the rigth tag.
+	 */
+	public static HashMap<String,HashMap<String,String>> readKeys(String path)
+	{
+		HashMap<String,HashMap<String,String>> keysHM = new HashMap<String,HashMap<String,String>>();
+		keysHM.put("formation", new HashMap<String,String>());
+		keysHM.put("focation", new HashMap<String,String>()); 
+		keysHM.put("domain", new HashMap<String,String>()); 
+		keysHM.put("respo", new HashMap<String,String>()); 
+		keysHM.put("sector", new HashMap<String,String>()); 
+		keysHM.put("job", new HashMap<String,String>()); 
+		keysHM.put("label", new HashMap<String,String>()); 
+		keysHM.put("contact", new HashMap<String,String>()); 
+		keysHM.put("company", new HashMap<String,String>()); 
+		keysHM.put("authority", new HashMap<String,String>()); 
+		try {
+			  FileReader fr = new FileReader(path);
+			  String line = null;
+			  String key;
+			  String tag;
+			  BufferedReader br = new BufferedReader(fr);
+			  while ((line = br.readLine()) != null)
+			  {
+				  key = line.split(" ")[0];
+				  tag = line.split(" ")[1];
+				  String subject = key.split("/")[0];
+				  keysHM.get(subject).put(key.split("/")[1], tag);  
+			  }
+		  }catch(Exception e){}
+		  finally{}
+		return keysHM;
 	}
 }

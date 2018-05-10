@@ -1,0 +1,10 @@
+Formation Name InstitutionLogo RNCP CPF DCP Typology Audience Requirements Goals SkillsLearned LearningMethods TimeOrganisation GradingMethods DistanceLearning Apprenticeship ProfessionalisationConract EAV Accessibility TotalDuration IncludingCompanyDuration Schedule Price Notes
+Location Instituion Address
+Domain Name NSFCode
+Respo ID Name Job Speciality 
+Sector Name NAF
+Job Name RomeCode
+Label QualityLogo
+Contact Name ID Job PhoneNUmber EmailAddress
+Company Name Address Duration
+Authority Name ID
