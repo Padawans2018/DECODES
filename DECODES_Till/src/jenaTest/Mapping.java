@@ -47,17 +47,38 @@ public class Mapping {
 		  
 		  HashMap<String, Resource> linkTypeRes = new HashMap<String, Resource>();
 		  
-		  linkTypeRes.put("formation", model.createResource(MyModel.uriRes+"formation_FrancheComte_"+i));	  
-		  linkTypeRes.put("location", model.createResource(MyModel.uriRes+"location_FrancheComte_"+i));
-		  linkTypeRes.put("domain", model.createResource(MyModel.uriRes+"domain_FrancheComte_"+i));
-		  linkTypeRes.put("respo", model.createResource(MyModel.uriRes+"respo_FrancheComte_"+i));
-		  linkTypeRes.put("sector", model.createResource(MyModel.uriRes+"sector_FrancheComte_"+i));
-		  linkTypeRes.put("job", model.createResource(MyModel.uriRes+"job_FrancheComte_"+i));
-		  linkTypeRes.put("label", model.createResource(MyModel.uriRes+"label_FrancheComte_"+i));
-		  linkTypeRes.put("contact", model.createResource(MyModel.uriRes+"contact_FrancheComte_"+i));
-		  linkTypeRes.put("company", model.createResource(MyModel.uriRes+"company_FrancheComte_"+i));
-		  linkTypeRes.put("authority", model.createResource(MyModel.uriRes+"authority_FrancheComte_"+i));
+		  Resource formationResource = model.createResource(MyModel.uriRes+"formation_FrancheComte_"+i);
+		  Resource locationResource = model.createResource(MyModel.uriRes+"location_FrancheComte_"+i);
+		  Resource domainResource = model.createResource(MyModel.uriRes+"domain_FrancheComte_"+i);
+		  Resource respoResource = model.createResource(MyModel.uriRes+"respo_FrancheComte_"+i);
+		  Resource sectorResource = model.createResource(MyModel.uriRes+"sector_FrancheComte_"+i);
+		  Resource jobResource = model.createResource(MyModel.uriRes+"job_FrancheComte_"+i);
+		  Resource labelResource = model.createResource(MyModel.uriRes+"label_FrancheComte_"+i);
+		  Resource contactResource = model.createResource(MyModel.uriRes+"contact_FrancheComte_"+i);
+		  Resource companyResource = model.createResource(MyModel.uriRes+"company_FrancheComte_"+i);
+		  Resource authorityResource = model.createResource(MyModel.uriRes+"authority_FrancheComte_"+i);
 		  
+		  formationResource.addProperty(model.getProperty(MyModel.uriProp,"takesPlaceIn"), locationResource);
+		  formationResource.addProperty(model.getProperty(MyModel.uriProp,"isPartOf"), domainResource);
+		  formationResource.addProperty(model.getProperty(MyModel.uriProp,"isSubmittedBy"), respoResource);
+		  formationResource.addProperty(model.getProperty(MyModel.uriProp,"givesOpportunitiesIn"), sectorResource);
+		  formationResource.addProperty(model.getProperty(MyModel.uriProp,"givesOpportunitiesIn"), jobResource);
+		  formationResource.addProperty(model.getProperty(MyModel.uriProp,"has"), labelResource);
+		  formationResource.addProperty(model.getProperty(MyModel.uriProp,"isManagedBy"), contactResource);
+		  formationResource.addProperty(model.getProperty(MyModel.uriProp,"isWelcomedBy"), companyResource);
+		  formationResource.addProperty(model.getProperty(MyModel.uriProp,"isCertifiedBy"), authorityResource);
+		  
+		  linkTypeRes.put("formation", formationResource);	  
+		  linkTypeRes.put("location", locationResource);
+		  linkTypeRes.put("domain", domainResource);
+		  linkTypeRes.put("respo", respoResource);
+		  linkTypeRes.put("sector", sectorResource);
+		  linkTypeRes.put("job", jobResource);
+		  linkTypeRes.put("label", labelResource);
+		  linkTypeRes.put("contact", contactResource);
+		  linkTypeRes.put("company", companyResource);
+		  linkTypeRes.put("authority", authorityResource);
+
 		  
 		  for (String type : linkTypeProp.keySet()) {
 			  for (String prop : linkTypeProp.get(type)) {
@@ -208,8 +229,9 @@ public static Node getElementsByTagList(Element node, ArrayList<String> tagsList
 				String[] all = line.split(" ");
 				ArrayList<String> allnew = new ArrayList<String>(Arrays.asList(all));
 				type = all[0];
-				properties = allnew.subList(1, all.length -1); 
+				properties = allnew.subList(1, all.length ); 
 				typeProperty.put(type.toLowerCase(), properties);
+				System.out.println("===" + type + properties);
 			} 
 			
 		}
