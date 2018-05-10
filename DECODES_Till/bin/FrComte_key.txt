@@ -1,0 +1,17 @@
+intitule-formation Course/Name
+rythme-formation Typology
+conditions-specifiques Requirements
+objectifs-formation Goals
+resultats-attendus SkillsLearned
+duree-indicative TotalDuration
+debut StartDate
+fin EndDate
+code-ROM RomeCode
+lieu-de-formation/coordonnees/adresse/ligne AddressNumber
+lieu-de-formation/coordonnees/adresse/ville AddressCity
+lieu-de-formation/coordonnees/adresse/codepostal AddressCode
+nom-organisme Certifcate/Name
+SIRET ID
+contact-formation/coordonnees/nom Contact/Name
+numtel PhoneNumber
+courriel EmailAddress
