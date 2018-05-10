@@ -75,10 +75,8 @@ public class Mapping {
 	  }	  
 	  
 	  
-	  
-	  printModel(model);
-	  
 	  model.write(System.out);
+	  printModel(model);
 	  
 	
 }
@@ -114,23 +112,55 @@ public static void printModel(Model model)
  }
  
  /**
-  * This function finds a Value in the formation given the name of the tag and saves it into the property given.
-  * @param node the formation
-  * @param formation current RDF resource
-  * @param model entire RDF model
-  * @param tagName The name of the tag where the text is. 
-  * @param propertyName The name of the RDF predicate's resource
-  * @return The string of the text.
+  * This function allows us to get the text in a tag in an xml doc. Calls the function getElementsByTagList, therefore returns null element if the String tags is null or empty. 
+  * @param node The node in which we search for tags
+  * @param formation The resource we want to modify with what we find in the xml document
+  * @param model The model to which the resource is linked
+  * @param tags The tree structure of tags, separated by "/", allowing us to get to the tag containing useful information.
+  * @param propertyName The property matching the tag. 
   */
-public static void findAndAddValueToProperty(Element node, Resource formation, Model model, String propertyName, String tagName) {
-	  NodeList nodeList = node.getElementsByTagName(tagName);
-	  if (nodeList!=null && nodeList.getLength()==1) {
-		  String text = nodeList.item(0).getTextContent();
-		  text = text.replace("\t", "");
-		  formation.addProperty(model.getProperty(MyModel.uriProp,propertyName), text);
-	  }
-	 
+public static void findAndAddValueToProperty(Element node, Resource formation, Model model, String propertyName, String tags) {
+	 ArrayList<String> tagsList = new ArrayList<>(Arrays.asList(tags.split("/"))); 
+	 Node mainNode = Mapping.getElementsByTagList(node, tagsList);
+	 if (mainNode!=null) {
+		 String text = mainNode.getTextContent();
+		 text = text.replace("\t", "");
+		 formation.addProperty(model.getProperty(MyModel.uriProp,propertyName), text);
+	 }
 }
+
+
+public static Node getElementsByTagList(Element node, ArrayList<String> tagsList) {
+	 Element mainNode = null;
+	 NodeList nodeL ;
+	 
+	 //System.out.println(tagsList);
+	 
+	 if (tagsList.isEmpty()) { 
+		 System.out.println("Tags list was empty, we returned null element.");
+		 return null ;
+	 }
+	 else {
+		 nodeL =node.getElementsByTagName(tagsList.get(0)) ;
+		 mainNode = (Element) nodeL.item(0);
+		 
+		 if (nodeL.getLength()!=1) {
+			 System.out.println("First tag was not unique.");
+		 }
+	 
+		 for (int i = 1; i < tagsList.size() ; i++) {
+			 nodeL = mainNode.getElementsByTagName(tagsList.get(i)); 
+			 mainNode = (Element) nodeL.item(0);
+			 if (nodeL.getLength()!=1) {
+				 System.out.println("One of the tag, not the first, was not unique."); 
+				 break; 
+		 	 }
+		 }
+	 }
+	
+	 return mainNode ; 
+	 
+	}  
   
   /**
    * This function allows us to get a Document on which DOM methods can be used.

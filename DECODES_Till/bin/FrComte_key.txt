@@ -1,7 +1,7 @@
 formation/Name intitule-formation 
 formation/Typology rythme-formation 
 formation/Requirements conditions-specifiques 
-formation/Goals objectifs-formation 
+formation/Goals objectif-formation 
 formation/SkillsLearned resultats-attendus 
 formation/TotalDuration duree-indicative 
 formation/StartDate debut 
@@ -12,5 +12,5 @@ Location/Institution lieu-de-formation/nom
 Authority/Name nom-organisme 
 formation/ID SIRET 
 Contact/Name contact-formation/coordonnees/nom 
-Contact/PhoneNumber numtel 
+Contact/PhoneNumber contact-formation/coordonnees/telfixe/numtel
 Contact/EmailAddress courriel 

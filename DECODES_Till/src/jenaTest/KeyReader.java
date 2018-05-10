@@ -91,12 +91,13 @@ public class KeyReader {
 			  String key;
 			  String tag;
 			  BufferedReader br = new BufferedReader(fr);
+			  
 			  while ((line = br.readLine()) != null)
 			  {
 				  key = line.split(" ")[0];
 				  tag = line.split(" ")[1];
 				  String subject = key.split("/")[0];
-				  keysHM.get(subject).put(key.split("/")[1], tag);  
+				  keysHM.get(subject.toLowerCase()).put(key.split("/")[1], tag);
 			  }
 		  }catch(Exception e){}
 		  finally{}
