@@ -1,14 +1,18 @@
-package fonctionsUtiles;
+package jenaTest;
 
-import org.apache.jena.rdf.model.Model;
-import org.apache.jena.rdf.model.ModelFactory;
-import org.apache.jena.rdf.model.Property;
+import org.apache.jena.rdf.model.*;
 
-public class RDFfunctions {
-	public static Model initiliazeModel() {
+import org.apache.jena.rdf.*;
+import org.apache.jena.vocabulary.*;
+
+public class MyModel {
+	public static String uriProp = "http://decodes/properties/";
+	public static String uriRes = "http://decodes/resources/";
+	
+      public static Model initiliazeModel() {
     	// some definitions
-    		String uriProperties = "http://decodes/properties/";
-    		String uriResources = "http://decodes/resources/";
+    		String uriProperties = MyModel.uriProp;
+    		String uriResources = MyModel.uriRes; 
     		
     	// create an empty model
     	    Model model = ModelFactory.createDefaultModel();
@@ -59,4 +63,5 @@ public class RDFfunctions {
         
        return(model);
       }
+      
 }
