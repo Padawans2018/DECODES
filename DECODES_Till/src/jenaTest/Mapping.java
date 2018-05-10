@@ -26,6 +26,79 @@ import org.apache.jena.rdf.*;
 import org.apache.jena.vocabulary.*;
 
 public class Mapping {
+	
+	public static void mapping(String pathXML, String pathKeyDoc, String tagFormation, String institutionName){
+		//TODO path to XML
+		  Document doc = readXML(pathXML);
+		  HashMap<String,HashMap<String,String>> keysHM;
+		  keysHM = KeyReader.readKeys(pathKeyDoc);
+		  
+		  HashMap<String, List<String>> linkTypeProp = Mapping.linkTypeAndProperties(); 
+		  
+		  //initialize model
+		  Model model = MyModel.initiliazeModel(); 
+		  
+		  //TODO loop: iterate over all the formations in the source.
+		  //for now: only the first
+		  NodeList allPrograms = doc.getElementsByTagName(tagFormation);
+		  
+		  for (int i = 0 ; i<allPrograms.getLength() ; i++) {
+			  Element formationNode = (Element) allPrograms.item(i);
+			  
+			  HashMap<String, Resource> linkTypeRes = new HashMap<String, Resource>();
+			  
+			  Resource formationResource = model.createResource(MyModel.uriRes+"formation" + institutionName + "_" +i);
+			  Resource locationResource = model.createResource(MyModel.uriRes+"location" + institutionName + "_" +i);
+			  Resource domainResource = model.createResource(MyModel.uriRes+"domain" + institutionName + "_" +i);
+			  Resource respoResource = model.createResource(MyModel.uriRes+"respo" + institutionName + "_" +i);
+			  Resource sectorResource = model.createResource(MyModel.uriRes+"sector" + institutionName + "_" +i);
+			  Resource jobResource = model.createResource(MyModel.uriRes+"job" + institutionName + "_" +i);
+			  Resource labelResource = model.createResource(MyModel.uriRes+"label" + institutionName + "_" +i);
+			  Resource contactResource = model.createResource(MyModel.uriRes+"contact" + institutionName + "_" +i);
+			  Resource companyResource = model.createResource(MyModel.uriRes+"company" + institutionName + "_" +i);
+			  Resource authorityResource = model.createResource(MyModel.uriRes+"authority" + institutionName + "_" +i);
+			  
+			  formationResource.addProperty(model.getProperty(MyModel.uriProp,"takesPlaceIn"), locationResource);
+			  formationResource.addProperty(model.getProperty(MyModel.uriProp,"isPartOf"), domainResource);
+			  formationResource.addProperty(model.getProperty(MyModel.uriProp,"isSubmittedBy"), respoResource);
+			  formationResource.addProperty(model.getProperty(MyModel.uriProp,"givesOpportunitiesIn"), sectorResource);
+			  formationResource.addProperty(model.getProperty(MyModel.uriProp,"givesOpportunitiesIn"), jobResource);
+			  formationResource.addProperty(model.getProperty(MyModel.uriProp,"has"), labelResource);
+			  formationResource.addProperty(model.getProperty(MyModel.uriProp,"isManagedBy"), contactResource);
+			  formationResource.addProperty(model.getProperty(MyModel.uriProp,"isWelcomedBy"), companyResource);
+			  formationResource.addProperty(model.getProperty(MyModel.uriProp,"isCertifiedBy"), authorityResource);
+			  
+			  linkTypeRes.put("formation", formationResource);	  
+			  linkTypeRes.put("location", locationResource);
+			  linkTypeRes.put("domain", domainResource);
+			  linkTypeRes.put("respo", respoResource);
+			  linkTypeRes.put("sector", sectorResource);
+			  linkTypeRes.put("job", jobResource);
+			  linkTypeRes.put("label", labelResource);
+			  linkTypeRes.put("contact", contactResource);
+			  linkTypeRes.put("company", companyResource);
+			  linkTypeRes.put("authority", authorityResource);
+
+			  
+			  for (String type : linkTypeProp.keySet()) {
+				  for (String prop : linkTypeProp.get(type)) {
+					  
+					  Resource res = linkTypeRes.get(type.toLowerCase()); 
+					  String tag = keysHM.get(type.toLowerCase()).get(prop);
+				
+					  //System.out.println("Type: "+type+"; Tag: "+ tag+"; Prop: "+prop);
+					  if (tag!=null){
+						  findAndAddValueToProperty(formationNode, res , model, prop, tag);
+					  }
+					  
+				  }
+			  }
+		  }	  
+		  
+		  
+		  model.write(System.out);
+		  printModel(model);
+	}
   
   public static void FrComte() {  
 	  //TODO path to XML
@@ -97,14 +170,14 @@ public class Mapping {
 	  
 	  
 	  model.write(System.out);
-	  printModel(model);
+	  printModel(model, "FrCompteOutput");
 	  
 	
 }
   
-public static void printModel(Model model)
+public static void printModel(Model model, String fileName)
 {
-	File file = new File("bin/output.txt");
+	File file = new File("bin/" + fileName + ".txt");
 	  try {
 		file.createNewFile();
 		OutputStream stream = new DataOutputStream(new FileOutputStream(file));
@@ -231,7 +304,6 @@ public static Node getElementsByTagList(Element node, ArrayList<String> tagsList
 				type = all[0];
 				properties = allnew.subList(1, all.length ); 
 				typeProperty.put(type.toLowerCase(), properties);
-				System.out.println("===" + type + properties);
 			} 
 			
 		}
