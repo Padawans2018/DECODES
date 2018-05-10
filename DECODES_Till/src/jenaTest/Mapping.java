@@ -8,15 +8,20 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 import java.io.BufferedReader;
+import java.io.DataOutputStream;
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.FileReader;
+import java.io.IOException;
+import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
 import org.apache.jena.rdf.model.*;
-
+import org.apache.jena.riot.Lang;
+import org.apache.jena.riot.RDFDataMgr;
 import org.apache.jena.rdf.*;
 import org.apache.jena.vocabulary.*;
 
@@ -62,15 +67,34 @@ public class Mapping {
 			
 				  //System.out.println("Type: "+type+"; Tag: "+ tag+"; Prop: "+prop);
 				  if (tag!=null){
-					  findAndAddValueToProperty(formationNode, res , model, tag, prop);
+					  findAndAddValueToProperty(formationNode, res , model, prop, tag);
 				  }
 				  
 			  }
 		  }
 	  }	  
 	  
+	  
+	  
+	  printModel(model);
+	  
 	  model.write(System.out);
+	  
 	
+}
+  
+public static void printModel(Model model)
+{
+	File file = new File("bin/output.txt");
+	  try {
+		file.createNewFile();
+		OutputStream stream = new DataOutputStream(new FileOutputStream(file));
+		RDFDataMgr.write(stream, model, Lang.RDFXML);
+
+		stream.close();
+	} catch (IOException e) {
+		e.printStackTrace();
+	}
 }
 
   /**
@@ -156,7 +180,6 @@ public static void findAndAddValueToProperty(Element node, Resource formation, M
 				type = all[0];
 				properties = allnew.subList(1, all.length -1); 
 				typeProperty.put(type.toLowerCase(), properties);
-				System.out.println(line);
 			} 
 			
 		}
