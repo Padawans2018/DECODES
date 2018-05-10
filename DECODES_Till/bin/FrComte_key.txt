@@ -6,8 +6,9 @@ formation/SkillsLearned resultats-attendus
 formation/TotalDuration duree-indicative 
 formation/StartDate debut 
 formation/EndDate fin 
-formation/RomeCode code-ROM 
+formation/RomeCode code-ROME 
 Location/Adress lieu-de-formation/coordonnees/adresse/codepostal
+Location/Institution lieu-de-formation/nom
 Authority/Name nom-organisme 
 formation/ID SIRET 
 Contact/Name contact-formation/coordonnees/nom 
