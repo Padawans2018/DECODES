@@ -28,8 +28,8 @@ import org.apache.jena.vocabulary.*;
 public class Mapping {
 	
 	public static void mapping(String pathXML, String pathKeyDoc, String tagFormation, String institutionName){
-		//TODO path to XML
 		  Document doc = readXML(pathXML);
+		  
 		  HashMap<String,HashMap<String,String>> keysHM;
 		  keysHM = KeyReader.readKeys(pathKeyDoc);
 		  
@@ -38,8 +38,6 @@ public class Mapping {
 		  //initialize model
 		  Model model = MyModel.initiliazeModel(); 
 		  
-		  //TODO loop: iterate over all the formations in the source.
-		  //for now: only the first
 		  NodeList allPrograms = doc.getElementsByTagName(tagFormation);
 		  
 		  for (int i = 0 ; i<allPrograms.getLength() ; i++) {
@@ -47,16 +45,16 @@ public class Mapping {
 			  
 			  HashMap<String, Resource> linkTypeRes = new HashMap<String, Resource>();
 			  
-			  Resource formationResource = model.createResource(MyModel.uriRes+"formation" + institutionName + "_" +i);
-			  Resource locationResource = model.createResource(MyModel.uriRes+"location" + institutionName + "_" +i);
-			  Resource domainResource = model.createResource(MyModel.uriRes+"domain" + institutionName + "_" +i);
-			  Resource respoResource = model.createResource(MyModel.uriRes+"respo" + institutionName + "_" +i);
-			  Resource sectorResource = model.createResource(MyModel.uriRes+"sector" + institutionName + "_" +i);
-			  Resource jobResource = model.createResource(MyModel.uriRes+"job" + institutionName + "_" +i);
-			  Resource labelResource = model.createResource(MyModel.uriRes+"label" + institutionName + "_" +i);
-			  Resource contactResource = model.createResource(MyModel.uriRes+"contact" + institutionName + "_" +i);
-			  Resource companyResource = model.createResource(MyModel.uriRes+"company" + institutionName + "_" +i);
-			  Resource authorityResource = model.createResource(MyModel.uriRes+"authority" + institutionName + "_" +i);
+			  Resource formationResource = model.createResource(MyModel.uriRes+"formation" + "_" + institutionName + "_" +i);
+			  Resource locationResource = model.createResource(MyModel.uriRes+"location" + "_" + institutionName + "_" +i);
+			  Resource domainResource = model.createResource(MyModel.uriRes+"domain" + "_" + institutionName + "_" +i);
+			  Resource respoResource = model.createResource(MyModel.uriRes+"respo" + "_" + institutionName + "_" +i);
+			  Resource sectorResource = model.createResource(MyModel.uriRes+"sector" + "_" + institutionName + "_" +i);
+			  Resource jobResource = model.createResource(MyModel.uriRes+"job" + "_" + institutionName + "_" +i);
+			  Resource labelResource = model.createResource(MyModel.uriRes+"label" + "_" + institutionName + "_" +i);
+			  Resource contactResource = model.createResource(MyModel.uriRes+"contact" + "_" + institutionName + "_" +i);
+			  Resource companyResource = model.createResource(MyModel.uriRes+"company" + "_" + institutionName + "_" +i);
+			  Resource authorityResource = model.createResource(MyModel.uriRes+"authority" + "_" + institutionName + "_" +i);
 			  
 			  formationResource.addProperty(model.getProperty(MyModel.uriProp,"takesPlaceIn"), locationResource);
 			  formationResource.addProperty(model.getProperty(MyModel.uriProp,"isPartOf"), domainResource);
@@ -97,7 +95,7 @@ public class Mapping {
 		  
 		  
 		  model.write(System.out);
-		  printModel(model);
+		  printModel(model, institutionName + "Output");
 	}
   
   public static void FrComte() {  
@@ -170,14 +168,14 @@ public class Mapping {
 	  
 	  
 	  model.write(System.out);
-	  printModel(model, "FrCompteOutput");
+	  printModel(model, "FrComteOutput");
 	  
 	
 }
   
 public static void printModel(Model model, String fileName)
 {
-	File file = new File("bin/" + fileName + ".txt");
+	File file = new File("bin/" + fileName + ".rdf");
 	  try {
 		file.createNewFile();
 		OutputStream stream = new DataOutputStream(new FileOutputStream(file));
@@ -218,7 +216,7 @@ public static void findAndAddValueToProperty(Element node, Resource formation, M
 	 Node mainNode = Mapping.getElementsByTagList(node, tagsList);
 	 if (mainNode!=null) {
 		 String text = mainNode.getTextContent();
-		 text = text.replace("\t", "");
+		 text = text.replace("\t", ""); //Suppress uselesstabs
 		 formation.addProperty(model.getProperty(MyModel.uriProp,propertyName), text);
 	 }
 }
@@ -239,14 +237,16 @@ public static Node getElementsByTagList(Element node, ArrayList<String> tagsList
 		 mainNode = (Element) nodeL.item(0);
 		 
 		 if (nodeL.getLength()!=1) {
-			 System.out.println("First tag was not unique.");
+			 if (nodeL.getLength()==0) {System.out.println("There was no \"" + tagsList.get(0) + "\" tag.");}
+			 else {System.out.println("There was more than one \"" + tagsList.get(0) + "\" tag.");}
 		 }
 	 
 		 for (int i = 1; i < tagsList.size() ; i++) {
 			 nodeL = mainNode.getElementsByTagName(tagsList.get(i)); 
 			 mainNode = (Element) nodeL.item(0);
 			 if (nodeL.getLength()!=1) {
-				 System.out.println("One of the tag, not the first, was not unique."); 
+				 if (nodeL.getLength()==0) {System.out.println("There was no \"" + tagsList.get(i) + "\" tag.");}
+				 else {System.out.println("There was more than one \"" + tagsList.get(i) + "\" tag.");}
 				 break; 
 		 	 }
 		 }
