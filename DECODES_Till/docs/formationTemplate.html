@@ -30,59 +30,61 @@
 	<body>
 		
 		<header>
-			<h1>$Name</h1>
+			<h1>$formation/Name</h1>
 		</header>
 		<div id="formationTotal">
 
 			<div id="formation">
 
 				<p> $Généralités </p>
-				<img src="$Logo" alt="Logo" id="logo">
+				<img src="$formation/InstitutionLogo" alt="$formation/InstitutionLogo" id="logo">
 				<h3> Domaine de formation </h3>
-				<p> $DomaineFormation</p>
+				<p> $domain/Name (Code NSF : $domain/NSFCode) </p>
 				<h3> Public visé </h3>
-				<p> $Audience </p>
+				<p> $formation/Audience </p>
 				<h3> Prérequis </h3>
-				<p> $Requirements </p>
+				<p> $formation/Requirements </p>
 				<h3> Objectifs </h3>
-				<p> $Goals </p>
+				<p> $formation/Goals </p>
 
 				<h2 class="accordion">Programme</h2>
 				<div class="panel">
 					<h3> Compétences visées </h3>
-					<p> $SkillsLearned </p>
+					<p> $formation/SkillsLearned </p>
 					<h3> Modalités pédagogiques </h3>
-					<p> $LearningMethods </p>
+					<p> $formation/LearningMethods </p>
 					<h3> Modalités d'évaluation </h3>
-					<p> $GradingMethods </p>
+					<p> $formation/GradingMethods </p>
 					<h3> Secteur d'activité </h3>
-					<p> $SecteurActivite </p>
+					<p> $sector/Name (NAF : $sector/NAF) </p>
 					<h3> Métiers </h3>
-					<p> $Metiers </p>
+					<p> $job/Name (Code Rome : $job/RomeCode) </p>
 				</div>
 
 				<h2 class="accordion">Organisation</h2>
 				<div class="panel">
 					<h3> Organisation temporelle </h3>
-					<p> $TimeOrganisation </p>
+					<p> $formation/TimeOrganisation </p>
 					<h3> Calendrier </h3>
-					<p> $Schedule </p>
+					<p> $formation/Schedule </p>
 					<h3> Durée totale </h3>
-					<p> $TotalDuration </p>
+					<p> $formation/TotalDuration </p>
 					<h3> Dont durée en entreprise </h3>
-					<p> $IncludingCompanyDuration </p>
+					<p> $formation/IncludingCompanyDuration </p>
 					<h3> Entrepice d'accueil </h3>
-					<p> $EntrepriseDAccueil </p>
+					<p> $company/Name </br>
+						Adresse : $company/Address </br>
+						Durée : $company/Duration </p>
 				</div>
 
 				<h2 class="accordion">Plus d'informations</h2>
 				<div class="panel">
 					<h3> Accessibilité </h3>
-					<p> $Accessibility </p>
+					<p> $formation/Accessibility </p>
 					<h3> Tarif </h3>
-					<p> $Price </p>
+					<p> $formation/Price </p>
 					<h3> Label qualité </h3>
-					<p> $QualityLabel </p>
+					<p> $label/QualityLogo </p>
 				</div>
 
 			</div>
@@ -91,39 +93,45 @@
 
 				<div class="deuxpoints">
 					<h3> RNCP :</h3>
-					<p>$RNCP</p>
+					<p>$formation/RNCP</p>
 				</div>
 				<div class="deuxpoints">
 					<h3> CPF :</h3>
-					<p>$CPF</p>
+					<p>$formation/CPF</p>
 				</div>
 				<div class="deuxpoints">
 					<h3>DCP :</h3>
-					<p>$DCP</p>
+					<p>$formation/DCP</p>
 				</div>
 				<div class="deuxpoints">
 					<h3>A distance :</h3>
-					<p>$DistanceLearning </p>
+					<p>$formation/DistanceLearning </p>
 				</div>
 				<div class="deuxpoints">
 					<h3>En apprentissage :</h3>
-					<p>$Apprenticeship</p>
+					<p>$formation/Apprenticeship</p>
 				</div>
 				<div class="deuxpoints">
 					<h3>En professionalisation :</h3>
-					<p>$ProfessionalisationContract</p>
+					<p>$formation/ProfessionalisationContract</p>
 				</div>
 				<div class="deuxpoints">
 					<h3>En VAE:</h3>
-					<p>$EAV</p>
+					<p>$formation/EAV</p>
 				</div>
 
 				<h3> Lieu </h3>
-				<p> $Lieu </p>
+				<p> $location/Institution </br>
+					Adresse : $location/Address </p>
 				<h3> Contact </h3>
-				<p> $Contact </p>
+				<p> $contact/Name </br>
+					Poste : $contact/Job </br>
+					Téléphone : $contact/PhoneNumber </br>
+					Mail : $contact/EmailAddress </p>
 				<h3> Responsable pédagodique </h3>
-				<p> $ResponsablePedagogique </p>
+				<p> $respo/Name </br>
+					Poste : $respo/Job </br>
+					Spécialité : $respo/Speciality </p>
 
 			</div>
 
