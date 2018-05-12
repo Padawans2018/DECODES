@@ -97,82 +97,12 @@ public class Mapping {
 		  model.write(System.out);
 		  printModel(model, institutionName + "Output");
 	}
-  
-  public static void FrComte() {  
-	  //TODO path to XML
-	  Document doc = readXML("bin/FrComte.XML");
-	  HashMap<String,HashMap<String,String>> keysHM;
-	  keysHM = KeyReader.readKeys("bin/FrComte_key.txt");
-	  
-	  HashMap<String, List<String>> linkTypeProp = Mapping.linkTypeAndProperties(); 
-	  
-	  //initialize model
-	  Model model = MyModel.initiliazeModel(); 
-	  
-	  //TODO loop: iterate over all the formations in the source.
-	  //for now: only the first
-	  NodeList allPrograms = doc.getElementsByTagName("formation");
-	  
-	  for (int i = 0 ; i<allPrograms.getLength() ; i++) {
-		  Element formationNode = (Element) allPrograms.item(i);
-		  
-		  HashMap<String, Resource> linkTypeRes = new HashMap<String, Resource>();
-		  
-		  Resource formationResource = model.createResource(MyModel.uriRes+"formation_FrancheComte_"+i);
-		  Resource locationResource = model.createResource(MyModel.uriRes+"location_FrancheComte_"+i);
-		  Resource domainResource = model.createResource(MyModel.uriRes+"domain_FrancheComte_"+i);
-		  Resource respoResource = model.createResource(MyModel.uriRes+"respo_FrancheComte_"+i);
-		  Resource sectorResource = model.createResource(MyModel.uriRes+"sector_FrancheComte_"+i);
-		  Resource jobResource = model.createResource(MyModel.uriRes+"job_FrancheComte_"+i);
-		  Resource labelResource = model.createResource(MyModel.uriRes+"label_FrancheComte_"+i);
-		  Resource contactResource = model.createResource(MyModel.uriRes+"contact_FrancheComte_"+i);
-		  Resource companyResource = model.createResource(MyModel.uriRes+"company_FrancheComte_"+i);
-		  Resource authorityResource = model.createResource(MyModel.uriRes+"authority_FrancheComte_"+i);
-		  
-		  formationResource.addProperty(model.getProperty(MyModel.uriProp,"takesPlaceIn"), locationResource);
-		  formationResource.addProperty(model.getProperty(MyModel.uriProp,"isPartOf"), domainResource);
-		  formationResource.addProperty(model.getProperty(MyModel.uriProp,"isSubmittedBy"), respoResource);
-		  formationResource.addProperty(model.getProperty(MyModel.uriProp,"givesOpportunitiesIn"), sectorResource);
-		  formationResource.addProperty(model.getProperty(MyModel.uriProp,"givesOpportunitiesIn"), jobResource);
-		  formationResource.addProperty(model.getProperty(MyModel.uriProp,"has"), labelResource);
-		  formationResource.addProperty(model.getProperty(MyModel.uriProp,"isManagedBy"), contactResource);
-		  formationResource.addProperty(model.getProperty(MyModel.uriProp,"isWelcomedBy"), companyResource);
-		  formationResource.addProperty(model.getProperty(MyModel.uriProp,"isCertifiedBy"), authorityResource);
-		  
-		  linkTypeRes.put("formation", formationResource);	  
-		  linkTypeRes.put("location", locationResource);
-		  linkTypeRes.put("domain", domainResource);
-		  linkTypeRes.put("respo", respoResource);
-		  linkTypeRes.put("sector", sectorResource);
-		  linkTypeRes.put("job", jobResource);
-		  linkTypeRes.put("label", labelResource);
-		  linkTypeRes.put("contact", contactResource);
-		  linkTypeRes.put("company", companyResource);
-		  linkTypeRes.put("authority", authorityResource);
-
-		  
-		  for (String type : linkTypeProp.keySet()) {
-			  for (String prop : linkTypeProp.get(type)) {
-				  
-				  Resource res = linkTypeRes.get(type.toLowerCase()); 
-				  String tag = keysHM.get(type.toLowerCase()).get(prop);
-			
-				  //System.out.println("Type: "+type+"; Tag: "+ tag+"; Prop: "+prop);
-				  if (tag!=null){
-					  findAndAddValueToProperty(formationNode, res , model, prop, tag);
-				  }
-				  
-			  }
-		  }
-	  }	  
-	  
-	  
-	  model.write(System.out);
-	  printModel(model, "FrComteOutput");
-	  
-	
-}
-  
+ 
+/**
+ * This function allows us to export a model to an .rdf file
+ * @param model The model we want to export
+ * @param fileName The name of the .rdf that will be created
+ */
 public static void printModel(Model model, String fileName)
 {
 	File file = new File("bin/" + fileName + ".rdf");
@@ -186,22 +116,6 @@ public static void printModel(Model model, String fileName)
 		e.printStackTrace();
 	}
 }
-
-  /**
-   * This function allows us to get the text in a tag in an xml doc. Asserts that there is only one tag by the name given, returns null if not. 
-   * @param doc The xml doc.
-   * @param tagName The name of the tag where the text is. Make sure it refers to a unique tag.
-   * @return The string of the text.
-   */
- public static String getTextInTagDocument(Document doc, String tagName) {
-	  NodeList nodeList = doc.getElementsByTagName(tagName);
-	  if (nodeList.getLength()==1) {
-		  String text = nodeList.item(0).getTextContent();
-		  text = text.replace("\t", "");
-		  return text;		  
-	  }
-	  else { return null ; }
- }
  
  /**
   * This function allows us to get the text in a tag in an xml doc. Calls the function getElementsByTagList, therefore returns null element if the String tags is null or empty. 
@@ -221,7 +135,12 @@ public static void findAndAddValueToProperty(Element node, Resource formation, M
 	 }
 }
 
-
+/**
+ * This function allows us to get the Node in a model corresponding to the child of a list of tags.
+ * @param node The node in which we want to find the tag
+ * @param tagsList A list of tag, each the parent of the following one
+ * @return
+ */
 public static Node getElementsByTagList(Element node, ArrayList<String> tagsList) {
 	 Element mainNode = null;
 	 NodeList nodeL ;
@@ -318,6 +237,6 @@ public static Node getElementsByTagList(Element node, ArrayList<String> tagsList
   
   
   public static void main(String[] args) {
-	Mapping.FrComte(); 
+	Mapping.mapping("bin/FrComte.xml", "bin/FrComte_key.txt", "formation", "FrancheComte"); 
 }
 }
