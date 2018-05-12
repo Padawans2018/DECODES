@@ -1,15 +1,15 @@
 formation/Name intitule-formation 
-formation/Typology rythme-formation 
-formation/Requirements conditions-specifiques 
+formation/Typology action/rythme-formation 
+formation/Requirements action/conditions-specifiques 
 formation/Goals objectif-formation 
 formation/SkillsLearned resultats-attendus 
 formation/TotalDuration duree-indicative 
 formation/RomeCode code-ROME 
 Location/Address lieu-de-formation/coordonnees/adresse
 Location/Institution lieu-de-formation/coordonnees/nom
-Authority/Name nom-organisme 
+Authority/Name organisme-formation-responsable/nom-organisme 
 formation/ID SIRET 
 Contact/Name contact-formation/coordonnees/nom 
 Contact/PhoneNumber contact-formation/coordonnees/telfixe/numtel
-Contact/EmailAddress courriel
+Contact/EmailAddress contact-formation/coordonnees/courriel
  
