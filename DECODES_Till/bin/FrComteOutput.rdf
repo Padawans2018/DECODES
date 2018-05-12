@@ -1,0 +1,1337 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://decodes/properties/">
+  <rdf:Description rdf:about="http://decodes/resources/formation_FrancheComte_5">
+    <j.0:isCertifiedBy>
+      <rdf:Description rdf:about="http://decodes/resources/authority_FrancheComte_5">
+        <j.0:Name>Université de Franche-Comté</j.0:Name>
+      </rdf:Description>
+    </j.0:isCertifiedBy>
+    <j.0:isSubmittedBy rdf:resource="http://decodes/resources/respo_FrancheComte_5"/>
+    <j.0:isPartOf rdf:resource="http://decodes/resources/domain_FrancheComte_5"/>
+    <j.0:isManagedBy>
+      <rdf:Description rdf:about="http://decodes/resources/contact_FrancheComte_5">
+        <j.0:EmailAddress>nadege.chavel@univ-fcomte.fr</j.0:EmailAddress>
+        <j.0:PhoneNumber>03 81 66 53 37</j.0:PhoneNumber>
+        <j.0:Name>Nadège CHAVEL</j.0:Name>
+      </rdf:Description>
+    </j.0:isManagedBy>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/sector_FrancheComte_5"/>
+    <j.0:SkillsLearned>
+
+La licence de Sciences du Langage dote ses diplômé-e-s de connaissances solides sur le langage, les langues et les pratiques langagières dans leurs différents aspects (fonctionnement, diversité, usages sociaux) ; des compétences conceptuelles et méthodologiques pour la description des langues et des discours ; et des compétences pratiques : conception et gestion de situations d'enseignement, analyse de discours, expertise rédactionnelle, expertise en politique linguistique...
+
+
+Compétences disciplinaires
+
+
+L'étudiant-e diplômé-e est doté-e d'une large culture en sciences du langage et de l'information-communication (diversité et histoire des langues ; discours, médias et société, langues et cultures...). Il-elle a une excellente maîtrise des outils de base de l'analyse linguistique (phonétique, phonologie, morphologie, lexicologie, syntaxe, sémantique, pragmatique) et de l'analyse sémiotique. Il-elle peut décrire des langues, des situations de communication, il-elle sait analyser les discours en relation avec leurs environnements matériels, historiques et sociaux.
+
+
+Il-elle sait concevoir et expliciter une problématique linguistique et mettre en œuvre son traitement scientifique avec les méthodes adaptées, qualitatives (enquêtes) et quantitatives (outils informatiques et statistiques) ; il-elle est capable de recueillir des données linguistiques (orales et/ou écrites), les organiser et les structurer (selon les standards internationaux d'encodage XML-TEI).
+
+
+Compétences préprofessionnelles
+
+
+Á l'issue de leur licence, les étudiant-e-s de SL disposent d'une expertise rédactionnelle forte adossée à une capacité d'analyse pointue : ils-elles savent identifier les processus de production, de diffusion et de valorisation de l'information. Ils-elles sont en mesure de conduire un projet seul ou en équipe, de mener une recherche documentaire en usant des ressources spécialisées dûment identifiées et sélectionnées ; ils-elles peuvent analyser et rédiger des documents (rapports, recommandations...) à partir de problématiques contemporaines concrètes.
+
+
+Les étudiant-e-s savent enfin utiliser les outils numériques de référence pour acquérir, traiter, produire et diffuser de l'information.
+
+
+Compétences transversales
+
+
+La licence permet de développer des capacités rédactionnelles et de veille informationnelle. L'étudiant-e sait analyser et synthétiser des données en vue de leur exploitation, en utilisant tous les outils informatiques nécessaires.
+
+
+L'étudiant-e possède une aisance écrite et orale en langue française ; sa formation le rend capable d'identifier et de mettre en œuvre les différents registres d'expression écrite et orale, en développant une argumentation solide et circonstanciée.
+
+
+La diversité des approches théoriques et la variété des situations étudiées lui permet de s'adapter à des langues et cultures particulières ainsi qu'à des contextes non « connus » (environnement plurilingues et pluriculturels).
+
+
+Il-elle a développé son autonomie, est capable d'organiser, documenter et mener à bien une recherche individuelle ou collective.
+
+</j.0:SkillsLearned>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/job_FrancheComte_5"/>
+    <j.0:TotalDuration>1520 heures</j.0:TotalDuration>
+    <j.0:has rdf:resource="http://decodes/resources/label_FrancheComte_5"/>
+    <j.0:Requirements>
+Pour rentrer en L3 : Titulaires L2 mention Sciences du Langage ou Information-Communication à l'UFC, ou VA.
+</j.0:Requirements>
+    <j.0:Name>
+Licence Sciences du langage parcours Sciences du langage
+</j.0:Name>
+    <j.0:Typology>Formation Initiale, Continue</j.0:Typology>
+    <j.0:Goals>
+
+Les Sciences du Langage cherchent à comprendre et à décrire l'activité de langage à travers l'étude des langues dans leur diversité, et sous différents aspects : fonctionnement, structure, variation et évolution des langues. Elles s'intéressent également à l'acquisition du langage, à l'apprentissage et à l'enseignement des langues, aux usages sociaux des pratiques de communication, à la circulation des discours dans la vie sociale, ou encore aux différents types de signes culturels qui nous entourent...
+
+
+Cette licence a ainsi pour objectif de préparer ses diplômé-e-s à des secteurs d'activités bien identifiés qui requièrent de telles connaissances, tels que les métiers de l'enseignement (enseignement primaire, formation professionnelle...), de l'édition (notamment numérique) et de la rédaction, de l'ingénierie linguistique, de la communication et enfin de la recherche en sciences sociales.
+
+
+
+Les trois années de la licence offrent une spécialisation progressive tout en embrassant un large champ de connaissances : sémiologie, phonologie, grammaire, langues du monde, histoire de la langue... En plus des cours de linguistique, des options de culture générale et des enseignements transversaux (langues vivantes, informatique...) complètent la formation.
+
+
+La troisième année du parcours « Sciences du Langage » prépare également l'intégration dans le monde du travail, avec un stage en entreprise et des enseignements dispensés par des professionnels ainsi que la possibilité de faire un stage de cinq semaines.
+
+
+La licence de Sciences du Langage est la porte d'entrée du Master Sciences du Langage de l'UFC, et permet l'accès à d'autres masters nationaux et internationaux en Sciences du Langage, ainsi qu'au Master MEEF. La licence fournit une base de connaissances et compétences solides pour ensuite préparer plus particulièrement son entrée en École d'orthophonie, en École de journalisme, ou des concours de la fonction publique (territoriale en particulier).
+
+</j.0:Goals>
+    <j.0:isWelcomedBy rdf:resource="http://decodes/resources/company_FrancheComte_5"/>
+    <j.0:takesPlaceIn>
+      <rdf:Description rdf:about="http://decodes/resources/location_FrancheComte_5">
+        <j.0:Address>
+30 rue Mégevand
+Besançon cedex
+25030
+</j.0:Address>
+        <j.0:Institution>
+UFR Sciences du langage, de l'homme et de la société
+</j.0:Institution>
+      </rdf:Description>
+    </j.0:takesPlaceIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/formation_FrancheComte_1">
+    <j.0:Name>
+Licence Arts du spectacle parcours En attente - Jeu de l'acteur, arts frères et mise en scène
+</j.0:Name>
+    <j.0:Requirements>
+Avoir validé une première année de Licence dans le domaine Arts et humanités
+</j.0:Requirements>
+    <j.0:isWelcomedBy rdf:resource="http://decodes/resources/company_FrancheComte_1"/>
+    <j.0:takesPlaceIn>
+      <rdf:Description rdf:about="http://decodes/resources/location_FrancheComte_1">
+        <j.0:Address>
+30 rue Mégevand
+Besançon cedex
+25030
+</j.0:Address>
+        <j.0:Institution>
+UFR Sciences du langage, de l'homme et de la société
+</j.0:Institution>
+      </rdf:Description>
+    </j.0:takesPlaceIn>
+    <j.0:SkillsLearned>
+
+- Analyser des œuvres dramatiques françaises et étrangères grâce à une bonne connaissance théorique de l'histoire du théâtre en France, en Europe et dans le monde, et une bonne connaissance pratique du jeu de l'acteur et de la dramaturgie appliquée.
+
+
+- Conceptualiser et organiser une réflexion dans le domaine des arts du spectacle de l'espace culturel et du patrimoine théâtral européen et extra-européen, en appuyant celle-ci sur les réalités du métier au niveau des processus de la création.
+
+
+-Élaborer des projets, dossiers ou articles concernant les arts de la scène pour des structures culturelles.
+
+
+-Connaissance des politiques culturelles et des métiers du spectacle vivant.
+
+
+-Repérage des problématiques de l'interculturalité et des relations entre les arts.
+
+</j.0:SkillsLearned>
+    <j.0:TotalDuration>960 heures</j.0:TotalDuration>
+    <j.0:has rdf:resource="http://decodes/resources/label_FrancheComte_1"/>
+    <j.0:isManagedBy>
+      <rdf:Description rdf:about="http://decodes/resources/contact_FrancheComte_1">
+        <j.0:EmailAddress>nadege.chavel@univ-fcomte.fr</j.0:EmailAddress>
+        <j.0:PhoneNumber>03 81 66 51 67</j.0:PhoneNumber>
+        <j.0:Name>Nadège CHAVEL</j.0:Name>
+      </rdf:Description>
+    </j.0:isManagedBy>
+    <j.0:isSubmittedBy rdf:resource="http://decodes/resources/respo_FrancheComte_1"/>
+    <j.0:isPartOf rdf:resource="http://decodes/resources/domain_FrancheComte_1"/>
+    <j.0:Typology>Formation Initiale</j.0:Typology>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/job_FrancheComte_1"/>
+    <j.0:isCertifiedBy>
+      <rdf:Description rdf:about="http://decodes/resources/authority_FrancheComte_1">
+        <j.0:Name>Université de Franche-Comté</j.0:Name>
+      </rdf:Description>
+    </j.0:isCertifiedBy>
+    <j.0:Goals>
+
+-Approfondir les connaissances théoriques et pratique du théâtre, en mettant l'accent sur l'apprentissage des fondamentaux du jeu de l'acteur.
+
+
+- Etude des différentes formes prises par l'
+
+interculturalité
+dans la pratique des arts vivants tout en s'appuyant sur une bonne connaissance des arts de la scène en Europe et dans le monde, dans une perspective historique, esthétique, analytique et pratique.
+
+
+
+- Développer des compétences pratiques au niveau en particulier du jeu de l'acteur dans l'approche des processus de création et en particulier l'interprétation de textes dramatiques, dans la dramaturgie et la mise en scène, et plus largement dans la transmission des œuvres.
+
+</j.0:Goals>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/sector_FrancheComte_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/formation_FrancheComte_9">
+    <j.0:isSubmittedBy rdf:resource="http://decodes/resources/respo_FrancheComte_9"/>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/job_FrancheComte_9"/>
+    <j.0:Goals>
+
+Le Master LLCER est composé de cinq parcours: quatre parcours de langues (parcours Langues, Cultures et Traduction) et un parcours Traitement Automatique des Langues.
+
+
+Les parcours Langues, Cultures et Traduction visent à approfondir les quatre sous-disciplines qui forment leur socle: la langue, la littérature, la civilisation, l'étude de l'image fixe et mobile dans le domaine de ce qui fait sa spécificité : « les Etudes culturelles » (les « cultural studies » nées en Grande-Bretagne dans les années soixante). Ce domaine est en cohérence avec les études de langues, car, « les études culturelles » sont transdisciplinaires, recoupant la civilisation, la littérature, l'étude de l'image, et la traduction.
+
+
+
+
+A la fois un master de recherche et un master professionnalisant, cette proposition offre une formation culturelle étendue permettant aux étudiants d'acquérir une polyvalence à la fois dans leur regard critique et dans les compétences linguistique, rédactionnelles et de culture générale pouvant être mises en valeur.
+
+Le tronc commun, enseigné en français, assure la diffusion des connaissances sur l'histoire et la conceptualisation des études culturelles, ainsi que la méthodologie de la recherche. Les enseignements dans la langue du parcours complètent cette formation.
+
+
+De façon générale, le titulaire du diplôme fait carrière dans les domaines de la traduction et de l'interprétariat, du tourisme et, notamment à leur croisée avec l'international, dans ceux du journalisme, de la culture, de la communication, de l'humanitaire, ou encore du commerce et de l'industrie. Lui sont ouvertes aussi les portes de l'administration et de l'enseignement secondaire et supérieur et ceux de la recherche.
+
+</j.0:Goals>
+    <j.0:Typology>Formation Initiale</j.0:Typology>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/sector_FrancheComte_9"/>
+    <j.0:isWelcomedBy rdf:resource="http://decodes/resources/company_FrancheComte_9"/>
+    <j.0:isCertifiedBy>
+      <rdf:Description rdf:about="http://decodes/resources/authority_FrancheComte_9">
+        <j.0:Name>Université de Franche-Comté</j.0:Name>
+      </rdf:Description>
+    </j.0:isCertifiedBy>
+    <j.0:takesPlaceIn>
+      <rdf:Description rdf:about="http://decodes/resources/location_FrancheComte_9">
+        <j.0:Address>
+30 rue Mégevand
+Besançon cedex
+25030
+</j.0:Address>
+        <j.0:Institution>
+UFR Sciences du langage, de l'homme et de la société
+</j.0:Institution>
+      </rdf:Description>
+    </j.0:takesPlaceIn>
+    <j.0:isPartOf rdf:resource="http://decodes/resources/domain_FrancheComte_9"/>
+    <j.0:Requirements></j.0:Requirements>
+    <j.0:has rdf:resource="http://decodes/resources/label_FrancheComte_9"/>
+    <j.0:SkillsLearned>
+
+Ayant reçu une formation dans les humanités, le titulaire de ce master ayant suivi un parcours: langue, cultures, traduction aura une certaine polyvalence dont l'intérêt professionnel sera renforcé par sa double compétence dans la langue et dans la culture du pays dont il est spécialiste, la formation en langues ayant pour objectif de travailler à la fois la langue et le contenu culturel. Ce contenu culturel est appréhendé à travers les quatre sous-disciplines des langues qui sont la linguistique, la civilisation, la littérature et les arts visuels.
+
+Il sera donc capable de:
+
+
+
+s'exprimer à l'oral comme à l'écrit dans toutes les nuances de la langue étrangère cible de sa formation.
+
+
+
+
+traduire et interpréter dans tous les domaines (littéraire, journalistique, professionnel, voire technique ou commercial) des textes depuis et vers la langue étrangère cible.
+
+
+
+
+communiquer efficacement dans sa langue seconde (obligatoire dans les 3 UE transversales du parcours).
+
+
+
+
+rédiger des textes (discours, présentations, comptes rendus, synthèses, articles, etc) grâce aux compétences rédactionnelles acquises lors des divers travaux écrits (commentaires de texte, dissertations, traductions) demandés dans sa formation en civilisation, littérature, arts visuels et études culturelles en général.
+
+
+
+
+synthétiser un texte.
+
+
+
+
+en faire une analyse critique.
+
+
+
+
+déterminer une problématique; délimiter un champ de recherche, identifier et décrire des sources primaires et secondaires, organiser une problématique ; organiser et présenter une bibliographie, présenter et défendre oralement les résultats de la recherche et la méthode de travail suivie.
+
+
+
+
+faire de la recherche documentaire.
+
+
+
+
+mener à bien un travail de thèse et de recherche en général.
+
+
+
+
+tenir compte, notamment grâce à sa formation en littérature, des situations d'énonciation et de l'implicite que véhiculent les discours, dimension essentielle dans toute situation de communication.
+
+
+
+
+appréhender l'inter-culturalité : comprendre et communiquer avec des personnes (clients, collègues, partenaires divers dans l'industrie, le monde politique, les fondations ou associations internationales...) ayant une culture et des valeurs différentes.
+
+
+
+
+utiliser la connaissance approfondie de l'histoire, des institutions et de la société du pays cible acquise dans les cours de civilisation (la comprendre et l'analyser, la faire comprendre aux autres, en tenir compte dans une situation professionnelle; mener une enquête de type sociologique ou politique, en faire un compte rendu).
+
+
+
+
+exploiter dans le domaine de la culture, notamment là où il y a contact entre les cultures (services culturels en France ou à l'étranger, événements culturels, musées ...) les outils techniques tout comme les connaissances culturelles mobilisés dans les cours de cinéma et de peinture, dont l'originalité à l'UFC est qu'ils sont introduits dans les départements de langues, notamment en anglais, dès la première année.
+
+
+
+</j.0:SkillsLearned>
+    <j.0:isManagedBy>
+      <rdf:Description rdf:about="http://decodes/resources/contact_FrancheComte_9">
+        <j.0:EmailAddress>marie-pascale.behra@univ-fcomte.fr</j.0:EmailAddress>
+        <j.0:PhoneNumber>03 81 66 53 41</j.0:PhoneNumber>
+        <j.0:Name>Marie-Pascale BEHRA</j.0:Name>
+      </rdf:Description>
+    </j.0:isManagedBy>
+    <j.0:Name>
+Master Langues, littératures et civilisations étrangères et régionales parcours Italien - Langues, Cultures, Traduction
+</j.0:Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/formation_FrancheComte_6">
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/job_FrancheComte_6"/>
+    <j.0:isCertifiedBy>
+      <rdf:Description rdf:about="http://decodes/resources/authority_FrancheComte_6">
+        <j.0:Name>Université de Franche-Comté</j.0:Name>
+      </rdf:Description>
+    </j.0:isCertifiedBy>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/sector_FrancheComte_6"/>
+    <j.0:Name>
+Master Langues, littératures et civilisations étrangères et régionales parcours Allemand - Langues, Cultures, Traduction
+</j.0:Name>
+    <j.0:isManagedBy>
+      <rdf:Description rdf:about="http://decodes/resources/contact_FrancheComte_6">
+        <j.0:EmailAddress>marie-pascale.behra@univ-fcomte.fr</j.0:EmailAddress>
+        <j.0:PhoneNumber>03 81 66 53 41</j.0:PhoneNumber>
+        <j.0:Name>Marie-Pascale BEHRA</j.0:Name>
+      </rdf:Description>
+    </j.0:isManagedBy>
+    <j.0:Requirements></j.0:Requirements>
+    <j.0:has rdf:resource="http://decodes/resources/label_FrancheComte_6"/>
+    <j.0:isSubmittedBy rdf:resource="http://decodes/resources/respo_FrancheComte_6"/>
+    <j.0:Typology>Formation Initiale</j.0:Typology>
+    <j.0:Goals>
+
+Le Master LLCER est composé de cinq parcours: quatre parcours de langues (parcours Langues, Cultures et Traduction) et un parcours Traitement Automatique des Langues.
+
+
+Les parcours Langues, Cultures et Traduction visent à approfondir les quatre sous-disciplines qui forment leur socle: la langue, la littérature, la civilisation, l'étude de l'image fixe et mobile dans le domaine de ce qui fait sa spécificité : « les Etudes culturelles » (les « cultural studies » nées en Grande-Bretagne dans les années soixante). Ce domaine est en cohérence avec les études de langues, car, « les études culturelles » sont transdisciplinaires, recoupant la civilisation, la littérature, l'étude de l'image, et la traduction.
+
+
+
+
+A la fois un master de recherche et un master professionnalisant, cette proposition offre une formation culturelle étendue permettant aux étudiants d'acquérir une polyvalence à la fois dans leur regard critique et dans les compétences linguistique, rédactionnelles et de culture générale pouvant être mises en valeur.
+
+Le tronc commun, enseigné en français, assure la diffusion des connaissances sur l'histoire et la conceptualisation des études culturelles, ainsi que la méthodologie de la recherche. Les enseignements dans la langue du parcours complètent cette formation.
+
+
+De façon générale, le titulaire du diplôme fait carrière dans les domaines de la traduction et de l'interprétariat, du tourisme et, notamment à leur croisée avec l'international, dans ceux du journalisme, de la culture, de la communication, de l'humanitaire, ou encore du commerce et de l'industrie. Lui sont ouvertes aussi les portes de l'administration et de l'enseignement secondaire et supérieur et ceux de la recherche.
+
+</j.0:Goals>
+    <j.0:isPartOf rdf:resource="http://decodes/resources/domain_FrancheComte_6"/>
+    <j.0:isWelcomedBy rdf:resource="http://decodes/resources/company_FrancheComte_6"/>
+    <j.0:takesPlaceIn>
+      <rdf:Description rdf:about="http://decodes/resources/location_FrancheComte_6">
+        <j.0:Address>
+30 rue Mégevand
+Besançon cedex
+25030
+</j.0:Address>
+        <j.0:Institution>
+UFR Sciences du langage, de l'homme et de la société
+</j.0:Institution>
+      </rdf:Description>
+    </j.0:takesPlaceIn>
+    <j.0:SkillsLearned>
+
+Ayant reçu une formation dans les humanités, le titulaire de ce master ayant suivi un parcours: langue, cultures, traduction aura une certaine polyvalence dont l'intérêt professionnel sera renforcé par sa double compétence dans la langue et dans la culture du pays dont il est spécialiste, la formation en langues ayant pour objectif de travailler à la fois la langue et le contenu culturel. Ce contenu culturel est appréhendé à travers les quatre sous-disciplines des langues qui sont la linguistique, la civilisation, la littérature et les arts visuels.
+
+Il sera donc capable de:
+
+
+
+s'exprimer à l'oral comme à l'écrit dans toutes les nuances de la langue étrangère cible de sa formation.
+
+
+
+
+traduire et interpréter dans tous les domaines (littéraire, journalistique, professionnel, voire technique ou commercial) des textes depuis et vers la langue étrangère cible.
+
+
+
+
+communiquer efficacement dans sa langue seconde (obligatoire dans les 3 UE transversales du parcours).
+
+
+
+
+rédiger des textes (discours, présentations, comptes rendus, synthèses, articles, etc) grâce aux compétences rédactionnelles acquises lors des divers travaux écrits (commentaires de texte, dissertations, traductions) demandés dans sa formation en civilisation, littérature, arts visuels et études culturelles en général.
+
+
+
+
+synthétiser un texte.
+
+
+
+
+en faire une analyse critique.
+
+
+
+
+déterminer une problématique; délimiter un champ de recherche, identifier et décrire des sources primaires et secondaires, organiser une problématique ; organiser et présenter une bibliographie, présenter et défendre oralement les résultats de la recherche et la méthode de travail suivie.
+
+
+
+
+faire de la recherche documentaire.
+
+
+
+
+mener à bien un travail de thèse et de recherche en général.
+
+
+
+
+tenir compte, notamment grâce à sa formation en littérature, des situations d'énonciation et de l'implicite que véhiculent les discours, dimension essentielle dans toute situation de communication.
+
+
+
+
+appréhender l'inter-culturalité : comprendre et communiquer avec des personnes (clients, collègues, partenaires divers dans l'industrie, le monde politique, les fondations ou associations internationales...) ayant une culture et des valeurs différentes.
+
+
+
+
+utiliser la connaissance approfondie de l'histoire, des institutions et de la société du pays cible acquise dans les cours de civilisation (la comprendre et l'analyser, la faire comprendre aux autres, en tenir compte dans une situation professionnelle; mener une enquête de type sociologique ou politique, en faire un compte rendu).
+
+
+
+
+exploiter dans le domaine de la culture, notamment là où il y a contact entre les cultures (services culturels en France ou à l'étranger, événements culturels, musées ...) les outils techniques tout comme les connaissances culturelles mobilisés dans les cours de cinéma et de peinture, dont l'originalité à l'UFC est qu'ils sont introduits dans les départements de langues, notamment en anglais, dès la première année.
+
+
+
+</j.0:SkillsLearned>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/formation_FrancheComte_2">
+    <j.0:TotalDuration>480 heures</j.0:TotalDuration>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/job_FrancheComte_2"/>
+    <j.0:isCertifiedBy>
+      <rdf:Description rdf:about="http://decodes/resources/authority_FrancheComte_2">
+        <j.0:Name>Université de Franche-Comté</j.0:Name>
+      </rdf:Description>
+    </j.0:isCertifiedBy>
+    <j.0:isWelcomedBy rdf:resource="http://decodes/resources/company_FrancheComte_2"/>
+    <j.0:Typology>Formation Initiale</j.0:Typology>
+    <j.0:Requirements>
+Etre titulaire d'un DEUST théâtre. Possibilité d'admission sur validation d'acquis.
+</j.0:Requirements>
+    <j.0:Name>
+Licence Arts du spectacle parcours En attente - Pré-professionnalisation dans les métiers du théâtre (DEUST)
+</j.0:Name>
+    <j.0:isSubmittedBy rdf:resource="http://decodes/resources/respo_FrancheComte_2"/>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/sector_FrancheComte_2"/>
+    <j.0:isPartOf rdf:resource="http://decodes/resources/domain_FrancheComte_2"/>
+    <j.0:SkillsLearned>
+
+- Posséder une bonne maîtrise des fondamentaux du jeu de l'acteur : interprétation des scènes du répertoire et des textes contemporains, analyse dramaturgique des oeuvres, travail vocal et corporel.
+
+
+- Analyser des œuvres dramatiques françaises et étrangères grâce à une bonne connaissance théorique de l'histoire du théâtre en France, en Europe et dans le monde, et une bonne connaissance pratique du jeu de l'acteur et de la dramaturgie appliquée.
+
+
+- Conceptualiser et organiser une réflexion dans le domaine des arts du spectacle de l'espace culturel et du patrimoine théâtral européen et extra-européen, en appuyant celle-ci sur les réalités du métier au niveau des processus de la création.
+
+
+-Élaborer des projets, dossiers ou articles concernant les arts de la scène pour des structures culturelles.
+
+
+-Connaissance des politiques culturelles et des métiers du spectacle vivant.
+
+
+-Repérage des problématiques de l'interculturalité et des relations entre les arts.
+
+</j.0:SkillsLearned>
+    <j.0:has rdf:resource="http://decodes/resources/label_FrancheComte_2"/>
+    <j.0:takesPlaceIn>
+      <rdf:Description rdf:about="http://decodes/resources/location_FrancheComte_2">
+        <j.0:Address>
+30 rue Mégevand
+Besançon cedex
+25030
+</j.0:Address>
+        <j.0:Institution>
+UFR Sciences du langage, de l'homme et de la société
+</j.0:Institution>
+      </rdf:Description>
+    </j.0:takesPlaceIn>
+    <j.0:isManagedBy>
+      <rdf:Description rdf:about="http://decodes/resources/contact_FrancheComte_2">
+        <j.0:EmailAddress>nadege.chavel@univ-fcomte.fr</j.0:EmailAddress>
+        <j.0:PhoneNumber>03 81 66 51 67</j.0:PhoneNumber>
+        <j.0:Name>Nadège CHAVEL</j.0:Name>
+      </rdf:Description>
+    </j.0:isManagedBy>
+    <j.0:Goals>
+
+- Préparer aux métiers du spectacle, en particulier dans le domaine artistique : comédien, metteur en scène, auteur, dramaturge...
+
+
+- Approfondir les connaissances théoriques et pratiques du théâtre, en mettant l'accent sur l'apprentissage des fondamentaux du jeu de l'acteur.
+
+
+- Préparer aux concours d'entrée des Écoles nationales supérieures d'art dramatique
+
+
+- Développer les compétences dans l'approche des processus de création, en particulier l'interprétation de textes dramatiques, la dramaturgie et la mise en scène, et plus largement la transmission des œuvres.
+
+</j.0:Goals>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/formation_FrancheComte_10">
+    <j.0:isPartOf rdf:resource="http://decodes/resources/domain_FrancheComte_10"/>
+    <j.0:has rdf:resource="http://decodes/resources/label_FrancheComte_10"/>
+    <j.0:Requirements></j.0:Requirements>
+    <j.0:isManagedBy>
+      <rdf:Description rdf:about="http://decodes/resources/contact_FrancheComte_10">
+        <j.0:EmailAddress>nadege.chavel@univ-fcomte.fr</j.0:EmailAddress>
+        <j.0:PhoneNumber>03 81 66 53 41</j.0:PhoneNumber>
+        <j.0:Name>Nadège CHAVEL</j.0:Name>
+      </rdf:Description>
+    </j.0:isManagedBy>
+    <j.0:Name>
+Master Langues, littératures et civilisations étrangères et régionales parcours Traitement Automatique des Langues
+</j.0:Name>
+    <j.0:Typology>Formation Initiale</j.0:Typology>
+    <j.0:isWelcomedBy rdf:resource="http://decodes/resources/company_FrancheComte_10"/>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/job_FrancheComte_10"/>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/sector_FrancheComte_10"/>
+    <j.0:Goals>
+
+Le Master LLCER est composé de cinq parcours: quatre parcours de langues (parcours Langues, Cultures et Traduction) et un parcours Traitement Automatique des Langues.
+
+
+Les parcours Langues, Cultures et Traduction visent à approfondir les quatre sous-disciplines qui forment leur socle: la langue, la littérature, la civilisation, l'étude de l'image fixe et mobile dans le domaine de ce qui fait sa spécificité : « les Etudes culturelles » (les « cultural studies » nées en Grande-Bretagne dans les années soixante). Ce domaine est en cohérence avec les études de langues, car, « les études culturelles » sont transdisciplinaires, recoupant la civilisation, la littérature, l'étude de l'image, et la traduction.
+
+
+
+
+A la fois un master de recherche et un master professionnalisant, cette proposition offre une formation culturelle étendue permettant aux étudiants d'acquérir une polyvalence à la fois dans leur regard critique et dans les compétences linguistique, rédactionnelles et de culture générale pouvant être mises en valeur.
+
+Le tronc commun, enseigné en français, assure la diffusion des connaissances sur l'histoire et la conceptualisation des études culturelles, ainsi que la méthodologie de la recherche. Les enseignements dans la langue du parcours complètent cette formation.
+
+
+De façon générale, le titulaire du diplôme fait carrière dans les domaines de la traduction et de l'interprétariat, du tourisme et, notamment à leur croisée avec l'international, dans ceux du journalisme, de la culture, de la communication, de l'humanitaire, ou encore du commerce et de l'industrie. Lui sont ouvertes aussi les portes de l'administration et de l'enseignement secondaire et supérieur et ceux de la recherche.
+
+</j.0:Goals>
+    <j.0:takesPlaceIn>
+      <rdf:Description rdf:about="http://decodes/resources/location_FrancheComte_10">
+        <j.0:Address>
+30 rue Mégevand
+Besançon cedex
+25030
+</j.0:Address>
+        <j.0:Institution>
+UFR Sciences du langage, de l'homme et de la société
+</j.0:Institution>
+      </rdf:Description>
+    </j.0:takesPlaceIn>
+    <j.0:isSubmittedBy rdf:resource="http://decodes/resources/respo_FrancheComte_10"/>
+    <j.0:SkillsLearned>
+
+Ayant reçu une formation dans les humanités, le titulaire de ce master ayant suivi un parcours: langue, cultures, traduction aura une certaine polyvalence dont l'intérêt professionnel sera renforcé par sa double compétence dans la langue et dans la culture du pays dont il est spécialiste, la formation en langues ayant pour objectif de travailler à la fois la langue et le contenu culturel. Ce contenu culturel est appréhendé à travers les quatre sous-disciplines des langues qui sont la linguistique, la civilisation, la littérature et les arts visuels.
+
+Il sera donc capable de:
+
+
+
+s'exprimer à l'oral comme à l'écrit dans toutes les nuances de la langue étrangère cible de sa formation.
+
+
+
+
+traduire et interpréter dans tous les domaines (littéraire, journalistique, professionnel, voire technique ou commercial) des textes depuis et vers la langue étrangère cible.
+
+
+
+
+communiquer efficacement dans sa langue seconde (obligatoire dans les 3 UE transversales du parcours).
+
+
+
+
+rédiger des textes (discours, présentations, comptes rendus, synthèses, articles, etc) grâce aux compétences rédactionnelles acquises lors des divers travaux écrits (commentaires de texte, dissertations, traductions) demandés dans sa formation en civilisation, littérature, arts visuels et études culturelles en général.
+
+
+
+
+synthétiser un texte.
+
+
+
+
+en faire une analyse critique.
+
+
+
+
+déterminer une problématique; délimiter un champ de recherche, identifier et décrire des sources primaires et secondaires, organiser une problématique ; organiser et présenter une bibliographie, présenter et défendre oralement les résultats de la recherche et la méthode de travail suivie.
+
+
+
+
+faire de la recherche documentaire.
+
+
+
+
+mener à bien un travail de thèse et de recherche en général.
+
+
+
+
+tenir compte, notamment grâce à sa formation en littérature, des situations d'énonciation et de l'implicite que véhiculent les discours, dimension essentielle dans toute situation de communication.
+
+
+
+
+appréhender l'inter-culturalité : comprendre et communiquer avec des personnes (clients, collègues, partenaires divers dans l'industrie, le monde politique, les fondations ou associations internationales...) ayant une culture et des valeurs différentes.
+
+
+
+
+utiliser la connaissance approfondie de l'histoire, des institutions et de la société du pays cible acquise dans les cours de civilisation (la comprendre et l'analyser, la faire comprendre aux autres, en tenir compte dans une situation professionnelle; mener une enquête de type sociologique ou politique, en faire un compte rendu).
+
+
+
+
+exploiter dans le domaine de la culture, notamment là où il y a contact entre les cultures (services culturels en France ou à l'étranger, événements culturels, musées ...) les outils techniques tout comme les connaissances culturelles mobilisés dans les cours de cinéma et de peinture, dont l'originalité à l'UFC est qu'ils sont introduits dans les départements de langues, notamment en anglais, dès la première année.
+
+
+
+</j.0:SkillsLearned>
+    <j.0:isCertifiedBy>
+      <rdf:Description rdf:about="http://decodes/resources/authority_FrancheComte_10">
+        <j.0:Name>Université de Franche-Comté</j.0:Name>
+      </rdf:Description>
+    </j.0:isCertifiedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/formation_FrancheComte_12">
+    <j.0:has rdf:resource="http://decodes/resources/label_FrancheComte_12"/>
+    <j.0:Name>
+Master Sciences de l'eau parcours Sciences de l'Eau - Qualité des eaux, des sols et traitements
+</j.0:Name>
+    <j.0:isSubmittedBy rdf:resource="http://decodes/resources/respo_FrancheComte_12"/>
+    <j.0:Typology>Formation Initiale, Continue</j.0:Typology>
+    <j.0:takesPlaceIn>
+      <rdf:Description rdf:about="http://decodes/resources/location_FrancheComte_12">
+        <j.0:Address>
+16, route de Gray
+Besançon cedex CS 11809
+25030
+</j.0:Address>
+        <j.0:Institution>UFR Sciences et techniques</j.0:Institution>
+      </rdf:Description>
+    </j.0:takesPlaceIn>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/job_FrancheComte_12"/>
+    <j.0:TotalDuration>850 heures</j.0:TotalDuration>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/sector_FrancheComte_12"/>
+    <j.0:isPartOf rdf:resource="http://decodes/resources/domain_FrancheComte_12"/>
+    <j.0:isWelcomedBy rdf:resource="http://decodes/resources/company_FrancheComte_12"/>
+    <j.0:SkillsLearned>
+Compétences scientifiques et techniques
+
+
+Le diplômé a acquis des compétences scientifiques et techniques précises liées à sa spécialisation dans l'un des domaines suivants :
+
+
+- ingénierie des systèmes aquatiques et des bassins versants,
+
+
+- procédés de traitement et de dépollution.
+
+
+
+En tant que spécialiste des systèmes aquatiques, le diplômé établit des diagnostics de qualité, identifie les éventuels dysfonctionnements et leurs causes, propose des scenarii de gestion et collabore à leur mise en pratique.
+
+
+
+En tant que spécialiste de la dépollution, le diplômé contribue à élaborer, à choisir et à mettre en oeuvre les procédés adaptés aux effluents et sols contaminés qu'il a en charge de traiter. Symétriquement, il maîtrise également le langage et les concepts du domaine connexe à sa spécialité.
+
+
+
+Il est capable de formuler une problématique scientifique et technique dans un contexte de recherche et développement ou d'études
+
+in natura.
+Il est apte à mettre en oeuvre les outils d'analyse correspondants, et à les articuler dans un contexte pluri-disciplinaire.
+
+
+
+Le diplômé est capable d'apporter des réponses à des problèmes environnementaux complexes et d'identifier et de proposer des solutions techniques en matière de gestion de la ressource en eau et des milieux aquatiques.
+
+
+
+Ce professionnel de l'environnement est apte à proposer des solutions en matière de protection, préservation de la ressource en eau et des milieux aquatiques en utilisant :
+
+
+- ses connaissances scientifiques liées à l'ingénierie de l'eau et des milieux connexes,
+
+
+- sa compréhension du milieu institutionnel, réglementaire et humain de ces domaines d'activité,
+
+
+- sa pratique des réalités économiques, juridiques et sociologiques des techniques mises en oeuvre et des solutions proposées,
+
+
+- sa maîtrise des principes fondamentaux du droit de l'environnement et de l'urbanisme.
+
+
+
+Il est apte à évaluer les coûts des solutions proposées et s'appuie pour cela sur sa connaissance du fonctionnement des services publics, des mécanismes de la commande publique et des grandes orientations des politiques de l'eau et de l'environnement.
+
+
+
+Compétences transverses
+
+
+
+Le titulaire du diplôme possède des compétences transverses.
+
+
+- Il est capable de mettre en place et de réaliser un protocole d'études et d'être innovant dans cette pratique.
+
+
+- Il pratique le travail en commun et est capable d'organiser et de gérer la répartition des tâches au sein d'une équipe projet.
+
+
+- Il maîtrise la gestion de projets et est apte à une évaluation réaliste des moyens humains, matériels et du temps nécessaire à la réalisation d'un projet.
+
+
+- Il sait communiquer ses résultats sous une forme scientifiquement et linguistiquement correcte, tant à l'oral qu'à l'écrit.
+
+
+- Il lit et écrit l'anglais scientifique et est capable de communiquer oralement dans cette langue de manière basique.
+
+
+
+</j.0:SkillsLearned>
+    <j.0:Requirements>
+Les pré-requis correspondent aux connaissances et compétences acquises par les titulaires d'une licence de Sciences de la vie, biologie, écologie.
+
+
+Des candidatures issues de formations voisines ou touchant à des domaines connexes (chimie environnementale, géosciences, génie des procédés...) sont régulièrement évaluées favorablement. Dans de tels cas, les futurs étudiants sont alertés sur les efforts de remise à niveau qu'ils auront à effectuer notamment dans les disciplines biologiques. En début d'année universitaire, l'équipe pédagogique assure un suivi spécifique pour permettre aux étudiants concernés d'accéder aux ressources et outils adéquats.
+
+</j.0:Requirements>
+    <j.0:isCertifiedBy>
+      <rdf:Description rdf:about="http://decodes/resources/authority_FrancheComte_12">
+        <j.0:Name>Université de Franche-Comté</j.0:Name>
+      </rdf:Description>
+    </j.0:isCertifiedBy>
+    <j.0:isManagedBy>
+      <rdf:Description rdf:about="http://decodes/resources/contact_FrancheComte_12">
+        <j.0:EmailAddress>scolarite.master.ufr-st@univ-fcomte.fr</j.0:EmailAddress>
+        <j.0:PhoneNumber>03-81-66-66-50</j.0:PhoneNumber>
+      </rdf:Description>
+    </j.0:isManagedBy>
+    <j.0:Goals>
+Le master mention Sciences de l'Eau (Qualité des Eaux, des Sols et Traitements) vise à former des professionnels exerçant des activités de diagnostic et d'ingénierie écologique, de conception et de mise en oeuvre de procédés de traitement et de dépollution des eaux, effluents, sols et sédiments et de restauration de sites contaminés.
+
+
+
+Les domaines de compétence sont l'ingénierie et la gestion des eaux continentales et de leurs bassins versants, la protection des sols et de la ressource en eau, l'assainissement et la dépollution, le conseil et les services aux collectivités, la fourniture d'outils d'aide à la décision aux autorités.
+
+
+
+Les métiers visés sont exercés aussi bien dans les secteurs public (services décentralisés de l'état, acteurs institutionnels de l'eau et de l'environnement, collectivités...) et associatif (fédérations de pêche, de chasse, protection de l'environnement...) que privé (bureaux d'études, cabinets d'ingénierie, PME, grandes entreprises de services environnementaux...).
+
+
+
+</j.0:Goals>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/formation_FrancheComte_7">
+    <j.0:Name>
+Master Langues, littératures et civilisations étrangères et régionales parcours Anglais - Langues, Cultures, Traduction
+</j.0:Name>
+    <j.0:Typology>Formation Initiale</j.0:Typology>
+    <j.0:isPartOf rdf:resource="http://decodes/resources/domain_FrancheComte_7"/>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/sector_FrancheComte_7"/>
+    <j.0:isManagedBy>
+      <rdf:Description rdf:about="http://decodes/resources/contact_FrancheComte_7">
+        <j.0:EmailAddress>marie-pascale.behra@univ-fcomte.fr</j.0:EmailAddress>
+        <j.0:PhoneNumber>03 81 66 53 41</j.0:PhoneNumber>
+        <j.0:Name>Marie-Pascale BEHRA</j.0:Name>
+      </rdf:Description>
+    </j.0:isManagedBy>
+    <j.0:isSubmittedBy rdf:resource="http://decodes/resources/respo_FrancheComte_7"/>
+    <j.0:isWelcomedBy rdf:resource="http://decodes/resources/company_FrancheComte_7"/>
+    <j.0:Goals>
+
+Le Master LLCER est composé de cinq parcours: quatre parcours de langues (parcours Langues, Cultures et Traduction) et un parcours Traitement Automatique des Langues.
+
+
+Les parcours Langues, Cultures et Traduction visent à approfondir les quatre sous-disciplines qui forment leur socle: la langue, la littérature, la civilisation, l'étude de l'image fixe et mobile dans le domaine de ce qui fait sa spécificité : « les Etudes culturelles » (les « cultural studies » nées en Grande-Bretagne dans les années soixante). Ce domaine est en cohérence avec les études de langues, car, « les études culturelles » sont transdisciplinaires, recoupant la civilisation, la littérature, l'étude de l'image, et la traduction.
+
+
+
+
+A la fois un master de recherche et un master professionnalisant, cette proposition offre une formation culturelle étendue permettant aux étudiants d'acquérir une polyvalence à la fois dans leur regard critique et dans les compétences linguistique, rédactionnelles et de culture générale pouvant être mises en valeur.
+
+Le tronc commun, enseigné en français, assure la diffusion des connaissances sur l'histoire et la conceptualisation des études culturelles, ainsi que la méthodologie de la recherche. Les enseignements dans la langue du parcours complètent cette formation.
+
+
+De façon générale, le titulaire du diplôme fait carrière dans les domaines de la traduction et de l'interprétariat, du tourisme et, notamment à leur croisée avec l'international, dans ceux du journalisme, de la culture, de la communication, de l'humanitaire, ou encore du commerce et de l'industrie. Lui sont ouvertes aussi les portes de l'administration et de l'enseignement secondaire et supérieur et ceux de la recherche.
+
+</j.0:Goals>
+    <j.0:SkillsLearned>
+
+Ayant reçu une formation dans les humanités, le titulaire de ce master ayant suivi un parcours: langue, cultures, traduction aura une certaine polyvalence dont l'intérêt professionnel sera renforcé par sa double compétence dans la langue et dans la culture du pays dont il est spécialiste, la formation en langues ayant pour objectif de travailler à la fois la langue et le contenu culturel. Ce contenu culturel est appréhendé à travers les quatre sous-disciplines des langues qui sont la linguistique, la civilisation, la littérature et les arts visuels.
+
+Il sera donc capable de:
+
+
+
+s'exprimer à l'oral comme à l'écrit dans toutes les nuances de la langue étrangère cible de sa formation.
+
+
+
+
+traduire et interpréter dans tous les domaines (littéraire, journalistique, professionnel, voire technique ou commercial) des textes depuis et vers la langue étrangère cible.
+
+
+
+
+communiquer efficacement dans sa langue seconde (obligatoire dans les 3 UE transversales du parcours).
+
+
+
+
+rédiger des textes (discours, présentations, comptes rendus, synthèses, articles, etc) grâce aux compétences rédactionnelles acquises lors des divers travaux écrits (commentaires de texte, dissertations, traductions) demandés dans sa formation en civilisation, littérature, arts visuels et études culturelles en général.
+
+
+
+
+synthétiser un texte.
+
+
+
+
+en faire une analyse critique.
+
+
+
+
+déterminer une problématique; délimiter un champ de recherche, identifier et décrire des sources primaires et secondaires, organiser une problématique ; organiser et présenter une bibliographie, présenter et défendre oralement les résultats de la recherche et la méthode de travail suivie.
+
+
+
+
+faire de la recherche documentaire.
+
+
+
+
+mener à bien un travail de thèse et de recherche en général.
+
+
+
+
+tenir compte, notamment grâce à sa formation en littérature, des situations d'énonciation et de l'implicite que véhiculent les discours, dimension essentielle dans toute situation de communication.
+
+
+
+
+appréhender l'inter-culturalité : comprendre et communiquer avec des personnes (clients, collègues, partenaires divers dans l'industrie, le monde politique, les fondations ou associations internationales...) ayant une culture et des valeurs différentes.
+
+
+
+
+utiliser la connaissance approfondie de l'histoire, des institutions et de la société du pays cible acquise dans les cours de civilisation (la comprendre et l'analyser, la faire comprendre aux autres, en tenir compte dans une situation professionnelle; mener une enquête de type sociologique ou politique, en faire un compte rendu).
+
+
+
+
+exploiter dans le domaine de la culture, notamment là où il y a contact entre les cultures (services culturels en France ou à l'étranger, événements culturels, musées ...) les outils techniques tout comme les connaissances culturelles mobilisés dans les cours de cinéma et de peinture, dont l'originalité à l'UFC est qu'ils sont introduits dans les départements de langues, notamment en anglais, dès la première année.
+
+
+
+</j.0:SkillsLearned>
+    <j.0:has rdf:resource="http://decodes/resources/label_FrancheComte_7"/>
+    <j.0:takesPlaceIn>
+      <rdf:Description rdf:about="http://decodes/resources/location_FrancheComte_7">
+        <j.0:Address>
+30 rue Mégevand
+Besançon cedex
+25030
+</j.0:Address>
+        <j.0:Institution>
+UFR Sciences du langage, de l'homme et de la société
+</j.0:Institution>
+      </rdf:Description>
+    </j.0:takesPlaceIn>
+    <j.0:isCertifiedBy>
+      <rdf:Description rdf:about="http://decodes/resources/authority_FrancheComte_7">
+        <j.0:Name>Université de Franche-Comté</j.0:Name>
+      </rdf:Description>
+    </j.0:isCertifiedBy>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/job_FrancheComte_7"/>
+    <j.0:Requirements></j.0:Requirements>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/formation_FrancheComte_3">
+    <j.0:isSubmittedBy rdf:resource="http://decodes/resources/respo_FrancheComte_3"/>
+    <j.0:SkillsLearned></j.0:SkillsLearned>
+    <j.0:Name>
+Licence professionnelle Intervention sociale : insertion et réinsertion sociale et professionnelle
+</j.0:Name>
+    <j.0:isCertifiedBy>
+      <rdf:Description rdf:about="http://decodes/resources/authority_FrancheComte_3">
+        <j.0:Name>Université de Franche-Comté</j.0:Name>
+      </rdf:Description>
+    </j.0:isCertifiedBy>
+    <j.0:isManagedBy rdf:resource="http://decodes/resources/contact_FrancheComte_3"/>
+    <j.0:Goals></j.0:Goals>
+    <j.0:Requirements></j.0:Requirements>
+    <j.0:isPartOf rdf:resource="http://decodes/resources/domain_FrancheComte_3"/>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/job_FrancheComte_3"/>
+    <j.0:takesPlaceIn>
+      <rdf:Description rdf:about="http://decodes/resources/location_FrancheComte_3">
+        <j.0:Address>
+30 rue Mégevand
+Besançon cedex
+25030
+</j.0:Address>
+        <j.0:Institution>
+UFR Sciences du langage, de l'homme et de la société
+</j.0:Institution>
+      </rdf:Description>
+    </j.0:takesPlaceIn>
+    <j.0:has rdf:resource="http://decodes/resources/label_FrancheComte_3"/>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/sector_FrancheComte_3"/>
+    <j.0:isWelcomedBy rdf:resource="http://decodes/resources/company_FrancheComte_3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/formation_FrancheComte_11">
+    <j.0:takesPlaceIn>
+      <rdf:Description rdf:about="http://decodes/resources/location_FrancheComte_11">
+        <j.0:Address>
+4 Place Tharradin
+BP 71427
+MONTBELIARD Cedex
+25211
+</j.0:Address>
+        <j.0:Institution>
+UFR Sciences, techniques, et gestion de l'industrie
+</j.0:Institution>
+      </rdf:Description>
+    </j.0:takesPlaceIn>
+    <j.0:isPartOf rdf:resource="http://decodes/resources/domain_FrancheComte_11"/>
+    <j.0:TotalDuration>738 heures</j.0:TotalDuration>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/job_FrancheComte_11"/>
+    <j.0:Goals>
+
+Il s'agit d'un cursus polyvalent qui s'articule autour de trois axes : les langues (40%), l'e-marketing (30%) et le développement Web (30%). Ce parcours propose une option bilingue (Français et Anglais) et trois options trilingues (Français, Anglais + Allemand ou Espagnol ou Italien). Les enseignements ont lieu en petits groupes (maximum une vingtaine d'étudiants) et sont assurés des enseignants français ou de langue maternelle (niveau C1-C2 du CERL à la fin du M2). 40% des enseignements sont dispensés en mode projet individuel ou en groupe (projet tuteuré) : les étudiants apprennent à utiliser toutes leurs compétences simultanément et à travailler avec d'autres, comme ils auront à le faire dans le milieu professionnel. La professionnalisation de la formation est accentuée par deux stages longs en Master 1 et en Master 2. Le stage de Master 1 dure trois mois minimum (maximum 6 mois) et la langue de travail doit obligatoirement être différente de la langue maternelle (stages à l'étranger dans la plupart des cas). Le stage de Master 2, quant à lui, dure 6 mois et doit être effectué en cohérence avec le projet professionnel défini au préalable avec l'équipe enseignante. Les étudiants acquièrent ainsi tout au long des deux ans les outils et les compétences pour construire des projets professionnels « sur mesure ».
+
+</j.0:Goals>
+    <j.0:isManagedBy>
+      <rdf:Description rdf:about="http://decodes/resources/contact_FrancheComte_11">
+        <j.0:EmailAddress>scolaritelea.stgi@univ-fcomte.fr</j.0:EmailAddress>
+        <j.0:PhoneNumber>03.81.99.46.31</j.0:PhoneNumber>
+        <j.0:Name>Scolarité LEA - STGI Montbéliard</j.0:Name>
+      </rdf:Description>
+    </j.0:isManagedBy>
+    <j.0:isWelcomedBy rdf:resource="http://decodes/resources/company_FrancheComte_11"/>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/sector_FrancheComte_11"/>
+    <j.0:isSubmittedBy rdf:resource="http://decodes/resources/respo_FrancheComte_11"/>
+    <j.0:has rdf:resource="http://decodes/resources/label_FrancheComte_11"/>
+    <j.0:Requirements>
+De par son double enseignement linguistique et technique, le master 2LCE accueille aussi bien des étudiants des filières LEA ou LLCE que des étudiants à formation technique en informatique, conception, etc. Dans notre politique de recrutement, nous apprécions les profils atypiques qui sont sélectionnés sur dossier : étudiants étrangers, professionnels, étudiants en réorientation, etc. Pour nous, la motivation compte autant que les titres.En première année, seul un bon niveau en langue est exigé.
+
+
+En deuxième année, les candidats sont recrutés sur leurs connaissances en langue ainsi que sur leur maîtrise des techniques multimédia et de publication en ligne (Photoshop, HTML, CSS, Java)
+
+</j.0:Requirements>
+    <j.0:SkillsLearned>
+Le(La) diplômé(e) est capable de
+
+- traduire des documents très spécialisés dans les domaines du commerce international, de la gestion d'entreprise, de la communication d'entreprise ou du marketing international, de l'animation commerciale pour les sites de vente par correspondance en ligne.
+
+
+- mobiliser les mécanismes juridiques (subventions, code du travail, types de sociétés) pour créer une entreprise dans les différentes zones linguistiques étudiées.
+
+
+- Rédiger pour une publication sur la toile des textes traduits et d'optimiser des contenus pour optimiser le référencement du site sur les moteurs de recherche, suivi des statistiques Analytics pour des entreprises d'édition sur le web. Analyse sémantique et choix de requêtes stratégiques. Réalisation de prestations de référencement naturel et payant : audit technique (indexation, crawl, freins au référencement), audit sémantique, analyses backlinks, rapports de positionnement, recommandations ROI (return on investment), analyse de statistiques de mesure d'audience (ROI).
+
+
+- utiliser les outils de la publication en ligne (HTML, Java), iOS, Android et Mobile Web applications pour e-marchands.
+
+
+- utiliser les logiciels de traitement de l'image, les filtres, les scripts, sait optimiser un contenu visuel.
+
+
+- créer des sites dynamiques avec XML en utilisant des logiciels d'animation vectorielle d'images (Flash), la programmation en ActionScript3 : programmation orientée objet.
+
+
+- mettre en œuvre les techniques de l'infographie : plans de communication d'entreprises, supports et charte graphique, création de logos
+
+
+- encadrer la vente en ligne et gère la relation client, l'achat et la vente en ligne, le marketing direct, le ciblage, la fidélisation, l'optimisation du référencement sur les moteurs de recherche.
+
+
+- mettre en place des stratégies d'analyse de performance des sites web marchands (benchmarking) en multilingue, veille stratégique référencement, analyse sémantique, stratégies de maillage externe et interne.
+
+
+- maîtriser le droit des TIC : droit d'auteur, contrats, protection des données, protection des mineurs, signature électronique
+
+
+- gèrer les systèmes de paiement sécurisé en ligne, de mettre en place une stratégie de veille en ligne, maîtrise les principes de l'intelligence économique.
+
+
+- coordonner un projet au sein d'une équipe, manage l'équipe, sait étudier le cycle de vie d'un produit, planifier par l'étude des indicateurs d'avancement, gérer les risques et les opportunités. Analyse fonctionnelle du site web : segmentation, filtrage.
+
+
+</j.0:SkillsLearned>
+    <j.0:isCertifiedBy>
+      <rdf:Description rdf:about="http://decodes/resources/authority_FrancheComte_11">
+        <j.0:Name>Université de Franche-Comté</j.0:Name>
+      </rdf:Description>
+    </j.0:isCertifiedBy>
+    <j.0:Typology>Formation Initiale, Continue</j.0:Typology>
+    <j.0:Name>
+Master Langues étrangères appliquées parcours Langues et commerce électronique
+</j.0:Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/formation_FrancheComte_13">
+    <j.0:has rdf:resource="http://decodes/resources/label_FrancheComte_13"/>
+    <j.0:isWelcomedBy rdf:resource="http://decodes/resources/company_FrancheComte_13"/>
+    <j.0:isPartOf rdf:resource="http://decodes/resources/domain_FrancheComte_13"/>
+    <j.0:isCertifiedBy>
+      <rdf:Description rdf:about="http://decodes/resources/authority_FrancheComte_13">
+        <j.0:Name>Université de Franche-Comté</j.0:Name>
+      </rdf:Description>
+    </j.0:isCertifiedBy>
+    <j.0:SkillsLearned>
+Le titulaire du diplôme est capable de :
+
+
+- Appréhender une problématique environnementale complexe et pluridisciplinaire, dans un contexte de recherche ou d'application,
+
+
+- Proposer des protocoles, sur le terrain comme au laboratoire, permettant d'aborder ces problématiques, de trouver les ressources humaines, techniques, bibliographiques adéquates,
+
+
+- Mettre en œuvre les techniques de mesure et/ou d'analyses adéquates (ou d'établir les collaborations pluridisciplinaires nécessaires), d'analyser et d'interpréter les données obtenues pour proposer des solutions de gestion,
+
+
+- Maîtriser la gestion de projets : évaluer de manière réaliste les moyens financiers, logistiques, humains nécessaires, respecter un calendrier d'exécution, gérer le projet de manière à atteindre les objectifs définis,
+
+
+- Travailler en autonomie et/ou en équipe, organiser et gérer la répartition des tâches au sein d'une équipe,
+
+
+- Communiquer oralement ou par écrit, en français ou en anglais.
+
+</j.0:SkillsLearned>
+    <j.0:Requirements>
+Niveau Licence en Biologie / Ecologie ou équivalence.
+
+
+</j.0:Requirements>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/job_FrancheComte_13"/>
+    <j.0:isSubmittedBy rdf:resource="http://decodes/resources/respo_FrancheComte_13"/>
+    <j.0:takesPlaceIn>
+      <rdf:Description rdf:about="http://decodes/resources/location_FrancheComte_13">
+        <j.0:Address>
+16, route de Gray
+Besançon cedex CS 11809
+25030
+</j.0:Address>
+        <j.0:Institution>UFR Sciences et techniques</j.0:Institution>
+      </rdf:Description>
+    </j.0:takesPlaceIn>
+    <j.0:Typology>
+Formation Initiale, Continue, En alternance (Contrat pro)
+</j.0:Typology>
+    <j.0:Goals>
+Les titulaires du Master EDGE sont spécialisés dans l'écologie, le diagnostic et la gestion des écosystèmes. Ils sont capables d'évaluer l'état écologique d'un écosystème, sa structure (compartiments abiotiques, communautés de microorganismes, d'animaux et de végétaux, et relations entre eux) et son fonctionnement. Ils sont également capables d'appréhender les dysfonctionnements, l'impact des perturbations naturelles et anthropiques, et de proposer des solutions d'aménagement ou de réhabilitation. Ils peuvent mobiliser des concepts pluridisciplinaires, aborder différentes échelles spatiales et temporelles, y compris sur du temps long (paléoécologie), et différents niveaux d'organisation biologique (de l'individu aux écosystèmes). Ces compétences peuvent être déclinées dans des métiers de niveau bac+5 mais confèrent également aux titulaires la capacité à effectuer avec succès une thèse de doctorat. Des choix d'options et la nature des stages de M1 et de M2 effectués permettent d'effectuer ces différentes orientations.
+</j.0:Goals>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/sector_FrancheComte_13"/>
+    <j.0:TotalDuration>720 heures</j.0:TotalDuration>
+    <j.0:isManagedBy>
+      <rdf:Description rdf:about="http://decodes/resources/contact_FrancheComte_13">
+        <j.0:EmailAddress>scolarite.master.ufr-st@univ-fcomte.fr</j.0:EmailAddress>
+        <j.0:PhoneNumber>03-81-66-66-50</j.0:PhoneNumber>
+        <j.0:Name>Scolarité UFR ST</j.0:Name>
+      </rdf:Description>
+    </j.0:isManagedBy>
+    <j.0:Name>
+Master Biodiversité, écologie et évolution parcours Ecologie, Diagnostic et Gestion des Ecosystèmes (Ecology, Monitoring and Management of Ecosystems)
+</j.0:Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/formation_FrancheComte_0">
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/job_FrancheComte_0"/>
+    <j.0:Name>
+Licence Arts du spectacle parcours En attente - Arts de la scène
+</j.0:Name>
+    <j.0:isPartOf rdf:resource="http://decodes/resources/domain_FrancheComte_0"/>
+    <j.0:Goals>
+
+-Approfondir les connaissances théoriques et pratique sur les différentes formes prises par l'
+
+interculturalité
+dans la pratique des arts vivants tout en s'appuyant sur une bonne connaissance des arts de la scène en Europe et dans le monde (dans une perspective historique, esthétique et analytique).
+
+
+
+-Développer des compétences pratiques dans l'approche des processus de création, dans la dramaturgie et la mise en scène, la transmission des œuvres et plus largement la maîtrise des enjeux politiques du spectacle vivant.
+
+
+
+
+</j.0:Goals>
+    <j.0:isCertifiedBy>
+      <rdf:Description rdf:about="http://decodes/resources/authority_FrancheComte_0">
+        <j.0:Name>Université de Franche-Comté</j.0:Name>
+      </rdf:Description>
+    </j.0:isCertifiedBy>
+    <j.0:has rdf:resource="http://decodes/resources/label_FrancheComte_0"/>
+    <j.0:isManagedBy>
+      <rdf:Description rdf:about="http://decodes/resources/contact_FrancheComte_0">
+        <j.0:EmailAddress>nadege.chavel@univ-fcomte.fr</j.0:EmailAddress>
+        <j.0:PhoneNumber>03 81 66 51 67</j.0:PhoneNumber>
+        <j.0:Name>Nadège CHAVEL</j.0:Name>
+      </rdf:Description>
+    </j.0:isManagedBy>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/sector_FrancheComte_0"/>
+    <j.0:TotalDuration>1500 heures</j.0:TotalDuration>
+    <j.0:takesPlaceIn>
+      <rdf:Description rdf:about="http://decodes/resources/location_FrancheComte_0">
+        <j.0:Address>
+30 rue Mégevand
+Besançon cedex
+25030
+</j.0:Address>
+        <j.0:Institution>
+UFR Sciences du langage, de l'homme et de la société
+</j.0:Institution>
+      </rdf:Description>
+    </j.0:takesPlaceIn>
+    <j.0:Requirements>Niveau Bac.</j.0:Requirements>
+    <j.0:SkillsLearned>
+
+- Conceptualiser et organiser une réflexion dans le domaine des arts du spectacle de l'espace culturel et du patrimoine théâtral européen et extra-européen.
+
+
+-Analyser des œuvres dramatiques françaises et étrangères grâce à une bonne connaissance théorique de l'histoire du théâtre en France, en Europe et dans le monde.
+
+
+-Élaborer des projets, dossiers ou articles concernant les arts de la scène pour des structures culturelles.
+
+
+-Connaissance des politiques culturelles et des métiers du spectacle vivant.
+
+
+-Repérage des problématiques de l'interculturalité et des relations entre les arts.
+
+</j.0:SkillsLearned>
+    <j.0:Typology>Formation Initiale</j.0:Typology>
+    <j.0:isSubmittedBy rdf:resource="http://decodes/resources/respo_FrancheComte_0"/>
+    <j.0:isWelcomedBy rdf:resource="http://decodes/resources/company_FrancheComte_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/formation_FrancheComte_8">
+    <j.0:SkillsLearned>
+
+Ayant reçu une formation dans les humanités, le titulaire de ce master ayant suivi un parcours: langue, cultures, traduction aura une certaine polyvalence dont l'intérêt professionnel sera renforcé par sa double compétence dans la langue et dans la culture du pays dont il est spécialiste, la formation en langues ayant pour objectif de travailler à la fois la langue et le contenu culturel. Ce contenu culturel est appréhendé à travers les quatre sous-disciplines des langues qui sont la linguistique, la civilisation, la littérature et les arts visuels.
+
+Il sera donc capable de:
+
+
+
+s'exprimer à l'oral comme à l'écrit dans toutes les nuances de la langue étrangère cible de sa formation.
+
+
+
+
+traduire et interpréter dans tous les domaines (littéraire, journalistique, professionnel, voire technique ou commercial) des textes depuis et vers la langue étrangère cible.
+
+
+
+
+communiquer efficacement dans sa langue seconde (obligatoire dans les 3 UE transversales du parcours).
+
+
+
+
+rédiger des textes (discours, présentations, comptes rendus, synthèses, articles, etc) grâce aux compétences rédactionnelles acquises lors des divers travaux écrits (commentaires de texte, dissertations, traductions) demandés dans sa formation en civilisation, littérature, arts visuels et études culturelles en général.
+
+
+
+
+synthétiser un texte.
+
+
+
+
+en faire une analyse critique.
+
+
+
+
+déterminer une problématique; délimiter un champ de recherche, identifier et décrire des sources primaires et secondaires, organiser une problématique ; organiser et présenter une bibliographie, présenter et défendre oralement les résultats de la recherche et la méthode de travail suivie.
+
+
+
+
+faire de la recherche documentaire.
+
+
+
+
+mener à bien un travail de thèse et de recherche en général.
+
+
+
+
+tenir compte, notamment grâce à sa formation en littérature, des situations d'énonciation et de l'implicite que véhiculent les discours, dimension essentielle dans toute situation de communication.
+
+
+
+
+appréhender l'inter-culturalité : comprendre et communiquer avec des personnes (clients, collègues, partenaires divers dans l'industrie, le monde politique, les fondations ou associations internationales...) ayant une culture et des valeurs différentes.
+
+
+
+
+utiliser la connaissance approfondie de l'histoire, des institutions et de la société du pays cible acquise dans les cours de civilisation (la comprendre et l'analyser, la faire comprendre aux autres, en tenir compte dans une situation professionnelle; mener une enquête de type sociologique ou politique, en faire un compte rendu).
+
+
+
+
+exploiter dans le domaine de la culture, notamment là où il y a contact entre les cultures (services culturels en France ou à l'étranger, événements culturels, musées ...) les outils techniques tout comme les connaissances culturelles mobilisés dans les cours de cinéma et de peinture, dont l'originalité à l'UFC est qu'ils sont introduits dans les départements de langues, notamment en anglais, dès la première année.
+
+
+
+</j.0:SkillsLearned>
+    <j.0:Requirements></j.0:Requirements>
+    <j.0:has rdf:resource="http://decodes/resources/label_FrancheComte_8"/>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/job_FrancheComte_8"/>
+    <j.0:isSubmittedBy rdf:resource="http://decodes/resources/respo_FrancheComte_8"/>
+    <j.0:isWelcomedBy rdf:resource="http://decodes/resources/company_FrancheComte_8"/>
+    <j.0:takesPlaceIn>
+      <rdf:Description rdf:about="http://decodes/resources/location_FrancheComte_8">
+        <j.0:Address>
+30 rue Mégevand
+Besançon cedex
+25030
+</j.0:Address>
+        <j.0:Institution>
+UFR Sciences du langage, de l'homme et de la société
+</j.0:Institution>
+      </rdf:Description>
+    </j.0:takesPlaceIn>
+    <j.0:isCertifiedBy>
+      <rdf:Description rdf:about="http://decodes/resources/authority_FrancheComte_8">
+        <j.0:Name>Université de Franche-Comté</j.0:Name>
+      </rdf:Description>
+    </j.0:isCertifiedBy>
+    <j.0:isManagedBy>
+      <rdf:Description rdf:about="http://decodes/resources/contact_FrancheComte_8">
+        <j.0:EmailAddress>marie-pascale.behra@univ-fcomte.fr</j.0:EmailAddress>
+        <j.0:PhoneNumber>03 81 66 53 41</j.0:PhoneNumber>
+        <j.0:Name>Marie-Pascale BEHRA</j.0:Name>
+      </rdf:Description>
+    </j.0:isManagedBy>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/sector_FrancheComte_8"/>
+    <j.0:Goals>
+
+Le Master LLCER est composé de cinq parcours: quatre parcours de langues (parcours Langues, Cultures et Traduction) et un parcours Traitement Automatique des Langues.
+
+
+Les parcours Langues, Cultures et Traduction visent à approfondir les quatre sous-disciplines qui forment leur socle: la langue, la littérature, la civilisation, l'étude de l'image fixe et mobile dans le domaine de ce qui fait sa spécificité : « les Etudes culturelles » (les « cultural studies » nées en Grande-Bretagne dans les années soixante). Ce domaine est en cohérence avec les études de langues, car, « les études culturelles » sont transdisciplinaires, recoupant la civilisation, la littérature, l'étude de l'image, et la traduction.
+
+
+
+
+A la fois un master de recherche et un master professionnalisant, cette proposition offre une formation culturelle étendue permettant aux étudiants d'acquérir une polyvalence à la fois dans leur regard critique et dans les compétences linguistique, rédactionnelles et de culture générale pouvant être mises en valeur.
+
+Le tronc commun, enseigné en français, assure la diffusion des connaissances sur l'histoire et la conceptualisation des études culturelles, ainsi que la méthodologie de la recherche. Les enseignements dans la langue du parcours complètent cette formation.
+
+
+De façon générale, le titulaire du diplôme fait carrière dans les domaines de la traduction et de l'interprétariat, du tourisme et, notamment à leur croisée avec l'international, dans ceux du journalisme, de la culture, de la communication, de l'humanitaire, ou encore du commerce et de l'industrie. Lui sont ouvertes aussi les portes de l'administration et de l'enseignement secondaire et supérieur et ceux de la recherche.
+
+</j.0:Goals>
+    <j.0:isPartOf rdf:resource="http://decodes/resources/domain_FrancheComte_8"/>
+    <j.0:Name>
+Master Langues, littératures et civilisations étrangères et régionales parcours Espagnol - Langues, Cultures, Traduction
+</j.0:Name>
+    <j.0:Typology>Formation Initiale</j.0:Typology>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/formation_FrancheComte_4">
+    <j.0:isWelcomedBy rdf:resource="http://decodes/resources/company_FrancheComte_4"/>
+    <j.0:TotalDuration>920 heures</j.0:TotalDuration>
+    <j.0:isSubmittedBy rdf:resource="http://decodes/resources/respo_FrancheComte_4"/>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/sector_FrancheComte_4"/>
+    <j.0:has rdf:resource="http://decodes/resources/label_FrancheComte_4"/>
+    <j.0:Requirements>Pour rentrer en L1: Baccalauréat, ou DAEU, ou VA.</j.0:Requirements>
+    <j.0:isManagedBy>
+      <rdf:Description rdf:about="http://decodes/resources/contact_FrancheComte_4">
+        <j.0:EmailAddress>nadege.chavel@univ-fcomte.fr</j.0:EmailAddress>
+        <j.0:PhoneNumber>03 81 66 53 37</j.0:PhoneNumber>
+        <j.0:Name>Nadège CHAVEL</j.0:Name>
+      </rdf:Description>
+    </j.0:isManagedBy>
+    <j.0:Typology>Formation Initiale, Continue</j.0:Typology>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/job_FrancheComte_4"/>
+    <j.0:isCertifiedBy>
+      <rdf:Description rdf:about="http://decodes/resources/authority_FrancheComte_4">
+        <j.0:Name>Université de Franche-Comté</j.0:Name>
+      </rdf:Description>
+    </j.0:isCertifiedBy>
+    <j.0:SkillsLearned>
+Le parcours L3 FLE/FLS s'appuie sur un tronc commun en 1ère et 2ème année de la Licence Sciences du Langage dont les objectifs est d'amener les étudiants à maîtriser leur langue maternelle, à connaître les principes qui structurent les langues et l'ensemble des langages : interactions verbales, langage des images, langages artistiques, langages multimédias, etc., c'est ce qui permet de se repérer dans toutes les situations et toutes les disciplines, de maîtriser les grands repères qui structurent le monde et les rapports humains. Le tronc commun combine une solide formation dans les disciplines traditionnelles (vocabulaire, syntaxe, rhétorique, analyse des textes, etc.) avec deux autres volets scientifiques : les sciences de l'information et celles de la communication. Les enseignements dispensés permettent : - d'acquérir des connaissances théoriques sur les principaux concepts et modèles en sciences du langage et de la communication ; - d'acquérir les compétences méthodologiques et techniques spécifiques aux sciences du langage, de la communication et de la documentation : connaissances des mécanismes de la langue et du discours, analyse de discours (productions verbales et plurimodales), analyse sémiotique, analyse des langues en vue de leur traitement par les machines, analyse informatique des productions linguistique (textes littéraires, médiatiques et scientifiques), élaboration et traitement d'enquêtes et entretiens, - de développer les capacités personnelles d'analyse des modes d'expression dans leurs variétés sémiotiques et de réflexion critique sur les discours, pour ultérieurement conduire un projet d'études ou de recherches. Le parcours FLE/FLS qui commence en troisième année de Licence permet de sensibiliser et préparer les étudiants aux problématiques de l'enseignement/apprentissage du Français Langue Etrangère, ou du Français Langue Seconde dans des contextes variés (milieu francophone, non francophone, multilingue, etc.) et à la didactique des relations d'apprentissage.
+
+
+Les étudiants sont amenés à réfléchir aux pratiques professionnelles à partir d'objets empiriques provenant de leurs observations de terrain. La formation vise à établir un va-et-vient constant entre l'université et le monde professionnel. L'investissement doit être régulier car certains travaux sont effectués en groupe, d'autres sont présentés oralement à la classe et d'autres encore se concrétisent par des mini-recherches ou enquêtes à effectuer au cours du semestre sur les thématiques au programme. En linguistique générale, il s'agit d'apprendre à raisonner les structures linguistiques tantôt à partir de leur forme, tantôt à partir de leur sens. L'enjeu de « dépasser » la grammaire est celui de découvrir les processus plus profonds du langage humain. On confrontera les structures de différentes langues : comprendre le fonctionnement de la langue de l'autre est un premier pas pour l'aider à dépasser ses erreurs. En didactique, la formation est large et progressive.
+
+
+Au premier semestre il s'agit d'initier les étudiants à la didactique des langues et à la didactique du français (FLE/FLS/FLsco) dans ses aspects historiques, contextuels et méthodologiques en mettant l'accent sur l'impact des contacts de langues dans l'enseignement du français. Les étudiants pourront être initiés aux articulations entre les théories linguistiques et l'enseignement/apprentissage des langues étrangères. Il s'agit aussi de découvrir les différents contextes d'enseignement, notamment le contexte FLS (en France et hors de France). Un choix est offert aux étudiants entre la réflexion sur les politiques européennes en matière des langues et la question de l'enseignement du FLE en situation de contacts des langues.
+
+
+Au second semestre, les étudiants sont confrontés aux problématiques de l'enseignement de l'oral et de l'écrit, aux techniques de remédiation phonétique. Le but est d'amener les étudiants à construire des outils théoriques, méthodologiques à partir de l'observation d'études de cas. Une UE est consacrée à la méthodologie de l'observation didactique et à la découverte des outils de la discipline. L'ensemble est orienté dans le choix et le guidage du stage d'observation dans l'un des contextes étudiés au premier semestre. Le stage prévu dans l'UE5 de professionnalisation est obligatoire et dure 18h. Il est encadré par un enseignant et permet aux étudiants d'entrer dans la réalité institutionnelle et didactique de l'enseignement du français. Les terrains de stage offrent la possibilité de découverte du contexte français langue étrangère (FLE) : le Centre de Linguistique Appliquée (CLA) de Besançon ouvre ses classes à tous les niveaux (Débutants, intermédiaires, avancés) ; du contexte français langue seconde (FLS) : l'Académie de Besançon ouvre dans le primaire et dans le secondaire ses classes d'accueil et d'adaptation dédiées aux enfants de migrants. Pour l'UE 4, le choix est offert aux étudiants entre le travail sur les variétés de français au regard de la norme et le travail sur les outils pour le FLE, le manuel et l'environnement numérique.Au semestre 5, comme au semestre 6, une unité transversale est offerte, elle vise à développer les compétences en langue vivante étrangère.
+
+
+Ce parcours prépare parfaitement à l'entrée en master « Français Langue Etrangère », avec ses quatre parcours.
+
+
+</j.0:SkillsLearned>
+    <j.0:Goals>
+Ce parcours poursuit deux objectifs : la construction des savoirs disciplinaires et l'entrée dans la profession d'enseignant de FLE/FLS. La mention de master « Français Langue Etrangère » reste nécessaire pour enseigner en FLE/S. Le large éventail de débouchés - enseignement en présentiel et à distance, conception de ressources pédagogiques, recherche, concours de l'Education nationale, acteurs de politique linguistique, expertise - exige des acteurs aux compétences très variées. Ce parcours permet de s'y préparer, car il propose des outils de réflexion ressortant des sciences humaines, des lettres et des sciences du langage. Les disciplines majeures enseignées sont la linguistique générale, la didactique et la sociolinguistique. Le parcours est conçu de manière à faire découvrir les différents contextes d'intervention (FLE/FLS) aussi bien d'un point de vue théorique (les savoirs) que méthodologique (les outils didactiques) et pratique (stage d'observation tutoré).
+
+
+</j.0:Goals>
+    <j.0:takesPlaceIn>
+      <rdf:Description rdf:about="http://decodes/resources/location_FrancheComte_4">
+        <j.0:Address>
+30 rue Mégevand
+Besançon cedex
+25030
+</j.0:Address>
+        <j.0:Institution>
+UFR Sciences du langage, de l'homme et de la société
+</j.0:Institution>
+      </rdf:Description>
+    </j.0:takesPlaceIn>
+    <j.0:isPartOf rdf:resource="http://decodes/resources/domain_FrancheComte_4"/>
+    <j.0:Name>
+Licence Sciences du langage parcours Français langue étrangère
+</j.0:Name>
+  </rdf:Description>
+</rdf:RDF>
