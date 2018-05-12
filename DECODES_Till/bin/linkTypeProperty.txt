@@ -1,4 +1,4 @@
-Formation Name InstitutionLogo RNCP CPF DCP Typology Audience Requirements Goals SkillsLearned LearningMethods TimeOrganisation GradingMethods DistanceLearning Apprenticeship ProfessionalisationContract EAV Accessibility TotalDuration IncludingCompanyDuration Schedule Price Notes
+Formation Name General InstitutionLogo RNCP CPF DCP Typology Audience Requirements Goals SkillsLearned LearningMethods TimeOrganisation GradingMethods DistanceLearning Apprenticeship ProfessionalisationContract EAV Accessibility TotalDuration IncludingCompanyDuration Schedule Price Notes
 Location Institution Address
 Domain Name NSFCode
 Respo ID Name Job Speciality 

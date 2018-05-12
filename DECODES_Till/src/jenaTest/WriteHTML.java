@@ -155,7 +155,7 @@ public class WriteHTML {
 	}
 	
 	public static void main(String[] args) {
-		WriteHTML.writeHTML("bin/FrComte.xml", "bin/FrComteOutput.rdf", "FrancheComte", "formation");
+		WriteHTML.writeHTML("bin/FrComte.xml", "bin/FrancheComteOutput.rdf", "FrancheComte", "formation");
 	}
 	
 }

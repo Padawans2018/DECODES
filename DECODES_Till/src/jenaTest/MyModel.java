@@ -18,6 +18,7 @@ public class MyModel {
     	    Model model = ModelFactory.createDefaultModel();
     	    
        //create alllllll properties
+    	    Property general = model.createProperty(uriProperties,"General");
     	    Property name = model.createProperty(uriProperties,"Name");
     	    Property institutionLogo = model.createProperty(uriProperties,"InstitutionLogo");
     	    Property rncp = model.createProperty(uriProperties,"RNCP");

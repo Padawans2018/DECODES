@@ -1,4 +1,5 @@
 formation/Name intitule-formation 
+formation/General contenu-formation
 formation/Typology action/rythme-formation 
 formation/Requirements action/conditions-specifiques 
 formation/Goals objectif-formation 
