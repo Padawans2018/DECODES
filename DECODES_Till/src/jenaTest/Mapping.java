@@ -126,7 +126,7 @@ public static void printModel(Model model, String fileName)
   * @param propertyName The property matching the tag. 
   */
 public static void findAndAddValueToProperty(Element node, Resource formation, Model model, String propertyName, String tags) {
-	 ArrayList<String> tagsList = new ArrayList<>(Arrays.asList(tags.split("/"))); 
+	 ArrayList<String> tagsList = new ArrayList<String>(Arrays.asList(tags.split("/"))); 
 	 Node mainNode = Mapping.getElementsByTagList(node, tagsList);
 	 if (mainNode!=null) {
 		 String text = mainNode.getTextContent();
