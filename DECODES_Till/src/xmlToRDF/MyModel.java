@@ -1,4 +1,4 @@
-package jenaTest;
+package xmlToRDF;
 
 import org.apache.jena.rdf.model.*;
 

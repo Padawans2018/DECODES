@@ -1,4 +1,4 @@
-package jenaTest;
+package xmlToRDF;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

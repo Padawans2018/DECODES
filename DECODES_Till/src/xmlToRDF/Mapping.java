@@ -1,4 +1,4 @@
-package jenaTest;
+package xmlToRDF;
 
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.DocumentBuilder;
