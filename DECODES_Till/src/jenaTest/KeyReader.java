@@ -34,6 +34,9 @@ public class KeyReader {
 			  
 			  while ((line = br.readLine()) != null)
 			  {
+				  //when there is no tag in the document for the given property
+				  if (line.split(" ").length == 1)
+					  continue;
 				  key = line.split(" ")[0];
 				  tag = line.split(" ")[1];
 				  String subject = key.split("/")[0];
