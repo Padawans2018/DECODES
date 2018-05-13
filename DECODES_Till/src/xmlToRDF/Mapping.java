@@ -105,7 +105,7 @@ public class Mapping {
  */
 public static void printModel(Model model, String fileName)
 {
-	File file = new File("bin/" + fileName + ".rdf");
+	File file = new File("bin/output/" + fileName + ".rdf");
 	  try {
 		file.createNewFile();
 		OutputStream stream = new DataOutputStream(new FileOutputStream(file));
@@ -208,7 +208,7 @@ public static Node getElementsByTagList(Element node, ArrayList<String> tagsList
 	  HashMap<String, List<String>> typeProperty = new HashMap<String, List<String>>(); 
 		
 		try{
-			String fileName = "bin/linkTypeProperty.txt";
+			String fileName = "bin/xmlToRDF/linkTypeProperty.txt";
 			file = new FileReader(fileName);
 			
 			reader = new BufferedReader(file);
@@ -236,7 +236,7 @@ public static Node getElementsByTagList(Element node, ArrayList<String> tagsList
   
   
   
-  public static void main(String[] args) {
+  /*public static void main(String[] args) {
 	Mapping.mapping("bin/FrComte.xml", "bin/FrComte_key.txt", "formation", "FrancheComte"); 
-}
+}*/
 }
