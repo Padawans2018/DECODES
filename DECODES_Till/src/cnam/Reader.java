@@ -12,8 +12,8 @@ import xmlToRDF.Mapping;
 
 public class Reader {
 	public static void main(String[] args) {
-		String nameDirectory = "bin/cnam";
-		//Reader.normalizeXML(nameDirectory+"/cnam.xml");
+		String nameDirectory = "fichiers/cnam";
+		Reader.normalizeXML(nameDirectory+"/cnam.xml");
 		Mapping.mapping(nameDirectory+"/cnam_normalized.xml", nameDirectory+"/cnam_keys.txt", "formation", "CNAM");
 	}
 	

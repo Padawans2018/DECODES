@@ -155,8 +155,8 @@ public class WriteHTML {
 	}
 	
 	public static void main(String[] args) {
-		//WriteHTML.writeHTML("bin/FrComte.xml", "bin/output/FrancheComteOutput.rdf", "FrancheComte", "formation");
-		//WriteHTML.writeFormationHTML("bin/output/FrComteOutput.rdf", "FrancheComte", 3);
+		//WriteHTML.writeHTML("fichiers/FrComte.xml", "fichiers/output/FrancheComteOutput.rdf", "FrancheComte", "formation");
+		//WriteHTML.writeFormationHTML("fichiers/output/FrComteOutput.rdf", "FrancheComte", 3);
 	}
 	
 }

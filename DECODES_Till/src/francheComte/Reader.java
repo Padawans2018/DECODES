@@ -13,7 +13,7 @@ import xmlToRDF.Mapping;
 
 public class Reader {
 	public static void main(String[] args) {
-		String nameDirectory = "bin/francheComte";
+		String nameDirectory = "fichiers/francheComte";
 		Reader.normalizeXML(nameDirectory+"/frcomte.xml");
 		Mapping.mapping(nameDirectory+"/frcomte_normalized.xml", nameDirectory+"/frcomte_keys.txt", "formation", "FrancheComte");
 	}

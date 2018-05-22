@@ -12,14 +12,14 @@ import xmlToRDF.Mapping;
 
 public class Reader {
 	public static void main(String[] args) {
-		File dir = new File("bin/StEtienne");
+		File dir = new File("fichiers/StEtienne");
 		File[] directoryListing = dir.listFiles();
 		if (directoryListing != null) {
 			int i = 0;
 			for (File child : directoryListing) {
 				//file name starts with a number (== is a formation)
 				if(child.getName().charAt(0)<58){
-					String nameDirectory = "bin/stEtienne";
+					String nameDirectory = "fichiers/stEtienne";
 					//Reader.normalizeXML(nameDirectory+"/cnam.xml");
 					Mapping.mapping(nameDirectory+"/stEtienne.xml", 
 							nameDirectory+"/stEtienne_keys.txt", 
@@ -35,7 +35,7 @@ public class Reader {
 		    // to avoid race conditions with another process that deletes
 		    // directories.
 		  }
-		/*String nameDirectory = "bin/stEtienne";
+		/*String nameDirectory = "fichiers/stEtienne";
 		//Reader.normalizeXML(nameDirectory+"/cnam.xml");
 		Mapping.mapping(nameDirectory+"/stEtienne.xml", nameDirectory+"/stEtienne_keys.txt", "formation", "StEtienne");*/
 	}
