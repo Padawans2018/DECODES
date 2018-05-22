@@ -12,9 +12,32 @@ import xmlToRDF.Mapping;
 
 public class Reader {
 	public static void main(String[] args) {
-		String nameDirectory = "bin/stEtienne";
+		File dir = new File("bin/StEtienne");
+		File[] directoryListing = dir.listFiles();
+		if (directoryListing != null) {
+			int i = 0;
+			for (File child : directoryListing) {
+				//file name starts with a number (== is a formation)
+				if(child.getName().charAt(0)<58){
+					String nameDirectory = "bin/stEtienne";
+					//Reader.normalizeXML(nameDirectory+"/cnam.xml");
+					Mapping.mapping(nameDirectory+"/stEtienne.xml", 
+							nameDirectory+"/stEtienne_keys.txt", 
+							"formation", 
+							"StEtienne_"+i+"_");
+				}
+				i++;
+			}
+		} 
+		else {
+		    // Handle the case where dir is not really a directory.
+		    // Checking dir.isDirectory() above would not be sufficient
+		    // to avoid race conditions with another process that deletes
+		    // directories.
+		  }
+		/*String nameDirectory = "bin/stEtienne";
 		//Reader.normalizeXML(nameDirectory+"/cnam.xml");
-		Mapping.mapping(nameDirectory+"/stEtienne.xml", nameDirectory+"/stEtienne_keys.txt", "formation", "StEtienne");
+		Mapping.mapping(nameDirectory+"/stEtienne.xml", nameDirectory+"/stEtienne_keys.txt", "formation", "StEtienne");*/
 	}
 	
 	public static void normalizeXML(String pathToXML)
