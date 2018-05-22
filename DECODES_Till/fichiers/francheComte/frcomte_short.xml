@@ -1,0 +1,2138 @@
+<lheo
+	xmlns="http://www.lheo.org/2.2">
+	<offres>
+		<formation>
+			<domaine-formation>
+				<code-ROME>L00</code-ROME>
+			</domaine-formation>
+			<intitule-formation>
+Licence Arts du spectacle parcours En attente - Arts de la scène
+</intitule-formation>
+			<objectif-formation>
+				<p>
+-Approfondir les connaissances théoriques et pratique sur les différentes formes prises par l'
+
+					<b>interculturalité</b>
+dans la pratique des arts vivants tout en s'appuyant sur une bonne connaissance des arts de la scène en Europe et dans le monde (dans une perspective historique, esthétique et analytique).
+
+				</p>
+				<p>
+-Développer des compétences pratiques dans l'approche des processus de création, dans la dramaturgie et la mise en scène, la transmission des œuvres et plus largement la maîtrise des enjeux politiques du spectacle vivant.
+</p>
+				<p>
+					<br/>
+				</p>
+			</objectif-formation>
+			<resultats-attendus>
+				<p>
+- Conceptualiser et organiser une réflexion dans le domaine des arts du spectacle de l'espace culturel et du patrimoine théâtral européen et extra-européen.
+</p>
+				<p>
+-Analyser des œuvres dramatiques françaises et étrangères grâce à une bonne connaissance théorique de l'histoire du théâtre en France, en Europe et dans le monde.
+</p>
+				<p>
+-Élaborer des projets, dossiers ou articles concernant les arts de la scène pour des structures culturelles.
+</p>
+				<p>
+-Connaissance des politiques culturelles et des métiers du spectacle vivant.
+</p>
+				<p>
+-Repérage des problématiques de l'interculturalité et des relations entre les arts.
+</p>
+			</resultats-attendus>
+			<contenu-formation>
+				<p>
+La Licence Arts du spectacle est constituée de trois parcours : « Arts de la scène » ; « Jeu de l'acteur », « Pré-professionnalisation dans les métiers du spectacle vivant ». La première année est commune aux trois parcours. Le semestre 1 offre un portail avec une mineure en Musicologie et une mineure en Lettres, avec une possibilité de poursuivre la mineure au semestre 2, et une ré-orientation en Musicologie ou en Lettres au semestre 2 ou au semestre 3.
+</p>
+				<p>
+Le parcours 2, « Jeu de l'acteur », conçu en partenariat avec le Conservatoire à Rayonnement Régional de Besançon, permet un enseignement spécifique dans le jeu dramatique dispensé par les professionnels du Conservatoire de 72h aux semestres 3 et 4, puis de 96 h aux semestre 5 et 6, avec mutualisation des autres UE du parcours général 1.
+</p>
+				<p>
+Le parcours 3, « Pré-professionnalisation dans les métiers du spectacle vivant », ne débute qu'en 3
+
+					<sup>ème</sup>
+année de Licence et offre aux semestres 5 et 6 un enseignement spécifique de 96H (pour moitié en pratique scénique et moitié en stage), avec mutualisation des autres UE du parcours général 1.
+
+				</p>
+			</contenu-formation>
+			<certifiante>1</certifiante>
+			<contact-formation>
+				<coordonnees>
+					<nom>Nadège CHAVEL</nom>
+					<telfixe>
+						<numtel>03 81 66 51 67</numtel>
+					</telfixe>
+					<courriel>nadege.chavel@univ-fcomte.fr</courriel>
+				</coordonnees>
+			</contact-formation>
+			<parcours-de-formation>1</parcours-de-formation>
+			<code-niveau-entree>0</code-niveau-entree>
+			<code-niveau-sortie>7</code-niveau-sortie>
+			<action>
+				<rythme-formation>Formation Initiale</rythme-formation>
+				<code-public-vise ref=""/>
+				<niveau-entree-obligatoire>0</niveau-entree-obligatoire>
+				<modalites-alternance/>
+				<modalites-enseignement>0</modalites-enseignement>
+				<conditions-specifiques>Niveau Bac.</conditions-specifiques>
+				<prise-en-charge-frais-possible/>
+				<lieu-de-formation>
+					<coordonnees>
+						<nom>
+UFR Sciences du langage, de l'homme et de la société
+</nom>
+						<adresse>
+							<ligne>30 rue Mégevand</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+						<web>
+							<urlweb>http://slhs.univ-fcomte.fr</urlweb>
+						</web>
+					</coordonnees>
+				</lieu-de-formation>
+				<modalites-entrees-sorties>0</modalites-entrees-sorties>
+				<duree-indicative>1500 heures</duree-indicative>
+				<session>
+					<periode>
+						<debut>00000000</debut>
+						<fin>00000000</fin>
+					</periode>
+					<adresse-inscription>
+						<adresse>
+							<ligne>30 rue Mégevand</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+					</adresse-inscription>
+					<modalites-inscription>Dossier d'inscription en ligne à la scolarité.</modalites-inscription>
+				</session>
+			</action>
+			<organisme-formation-responsable>
+				<numero-activite>4325P000425</numero-activite>
+				<SIRET-organisme-formation>
+					<SIRET>19251215000363</SIRET>
+				</SIRET-organisme-formation>
+				<nom-organisme>Université de Franche-Comté</nom-organisme>
+				<raison-sociale>Université de Franche-Comté</raison-sociale>
+				<coordonnees-organisme>
+					<coordonnees>
+						<adresse>
+							<ligne>1 rue Claude Goudimel</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+					</coordonnees>
+				</coordonnees-organisme>
+				<contact-organisme/>
+			</organisme-formation-responsable>
+		</formation>
+		<formation>
+			<domaine-formation>
+				<code-ROME>L00</code-ROME>
+			</domaine-formation>
+			<intitule-formation>
+Licence Arts du spectacle parcours En attente - Jeu de l'acteur, arts frères et mise en scène
+</intitule-formation>
+			<objectif-formation>
+				<p>
+-Approfondir les connaissances théoriques et pratique du théâtre, en mettant l'accent sur l'apprentissage des fondamentaux du jeu de l'acteur.
+</p>
+				<p>
+- Etude des différentes formes prises par l'
+
+					<b>interculturalité</b>
+dans la pratique des arts vivants tout en s'appuyant sur une bonne connaissance des arts de la scène en Europe et dans le monde, dans une perspective historique, esthétique, analytique et pratique.
+
+				</p>
+				<p>
+- Développer des compétences pratiques au niveau en particulier du jeu de l'acteur dans l'approche des processus de création et en particulier l'interprétation de textes dramatiques, dans la dramaturgie et la mise en scène, et plus largement dans la transmission des œuvres.
+</p>
+			</objectif-formation>
+			<resultats-attendus>
+				<p>
+- Analyser des œuvres dramatiques françaises et étrangères grâce à une bonne connaissance théorique de l'histoire du théâtre en France, en Europe et dans le monde, et une bonne connaissance pratique du jeu de l'acteur et de la dramaturgie appliquée.
+</p>
+				<p>
+- Conceptualiser et organiser une réflexion dans le domaine des arts du spectacle de l'espace culturel et du patrimoine théâtral européen et extra-européen, en appuyant celle-ci sur les réalités du métier au niveau des processus de la création.
+</p>
+				<p>
+-Élaborer des projets, dossiers ou articles concernant les arts de la scène pour des structures culturelles.
+</p>
+				<p>
+-Connaissance des politiques culturelles et des métiers du spectacle vivant.
+</p>
+				<p>
+-Repérage des problématiques de l'interculturalité et des relations entre les arts.
+</p>
+			</resultats-attendus>
+			<contenu-formation>
+				<p>
+La Licence Arts du spectacle est constituée de trois parcours : « Arts de la scène » ; « Jeu de l'acteur », « Pré-professionnalisation dans les métiers du spectacle vivant ». La première année est commune aux trois parcours. Le semestre 1 offre un portail avec une mineure en Musicologie et une mineure en Lettres, avec une possibilité de poursuivre la mineure au semestre 2, et une ré-orientation en Musicologie ou en Lettres au semestre 2 ou au semestre 3.
+</p>
+				<p>
+Le parcours 2, « Jeu de l'acteur », conçu en partenariat avec le Conservatoire à Rayonnement Régional de Besançon, permet un enseignement spécifique dans le jeu dramatique dispensé par les professionnels du Conservatoire de 72h aux semestres 3 et 4, puis de 96 h aux semestre 5 et 6, avec mutualisation des autres UE du parcours général 1.
+</p>
+				<p>
+Le parcours 3, « Pré-professionnalisation dans les métiers du spectacle vivant », ne débute qu'en 3
+
+					<sup>ème</sup>
+année de Licence et offre aux semestres 5 et 6 un enseignement spécifique de 96H (pour moitié en pratique scénique et moitié en stage), avec mutualisation des autres UE du parcours général 1.
+
+				</p>
+			</contenu-formation>
+			<certifiante>1</certifiante>
+			<contact-formation>
+				<coordonnees>
+					<nom>Nadège CHAVEL</nom>
+					<telfixe>
+						<numtel>03 81 66 51 67</numtel>
+					</telfixe>
+					<courriel>nadege.chavel@univ-fcomte.fr</courriel>
+				</coordonnees>
+			</contact-formation>
+			<parcours-de-formation>1</parcours-de-formation>
+			<code-niveau-entree>0</code-niveau-entree>
+			<code-niveau-sortie>7</code-niveau-sortie>
+			<action>
+				<rythme-formation>Formation Initiale</rythme-formation>
+				<code-public-vise ref=""/>
+				<niveau-entree-obligatoire>0</niveau-entree-obligatoire>
+				<modalites-alternance/>
+				<modalites-enseignement>0</modalites-enseignement>
+				<conditions-specifiques>
+Avoir validé une première année de Licence dans le domaine Arts et humanités
+</conditions-specifiques>
+				<prise-en-charge-frais-possible/>
+				<lieu-de-formation>
+					<coordonnees>
+						<nom>
+UFR Sciences du langage, de l'homme et de la société
+</nom>
+						<adresse>
+							<ligne>30 rue Mégevand</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+						<web>
+							<urlweb>http://slhs.univ-fcomte.fr</urlweb>
+						</web>
+					</coordonnees>
+				</lieu-de-formation>
+				<modalites-entrees-sorties>0</modalites-entrees-sorties>
+				<duree-indicative>960 heures</duree-indicative>
+				<session>
+					<periode>
+						<debut>00000000</debut>
+						<fin>00000000</fin>
+					</periode>
+					<adresse-inscription>
+						<adresse>
+							<ligne>30 rue Mégevand</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+					</adresse-inscription>
+					<modalites-inscription>Scolarité de l'université et du CRR</modalites-inscription>
+				</session>
+			</action>
+			<organisme-formation-responsable>
+				<numero-activite>4325P000425</numero-activite>
+				<SIRET-organisme-formation>
+					<SIRET>19251215000363</SIRET>
+				</SIRET-organisme-formation>
+				<nom-organisme>Université de Franche-Comté</nom-organisme>
+				<raison-sociale>Université de Franche-Comté</raison-sociale>
+				<coordonnees-organisme>
+					<coordonnees>
+						<adresse>
+							<ligne>1 rue Claude Goudimel</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+					</coordonnees>
+				</coordonnees-organisme>
+				<contact-organisme/>
+			</organisme-formation-responsable>
+		</formation>
+		<formation>
+			<domaine-formation>
+				<code-ROME>L1200</code-ROME>
+			</domaine-formation>
+			<intitule-formation>
+Licence Arts du spectacle parcours En attente - Pré-professionnalisation dans les métiers du théâtre (DEUST)
+</intitule-formation>
+			<objectif-formation>
+				<p>
+- Préparer aux métiers du spectacle, en particulier dans le domaine artistique : comédien, metteur en scène, auteur, dramaturge...
+</p>
+				<p>
+- Approfondir les connaissances théoriques et pratiques du théâtre, en mettant l'accent sur l'apprentissage des fondamentaux du jeu de l'acteur.
+</p>
+				<p>
+- Préparer aux concours d'entrée des Écoles nationales supérieures d'art dramatique
+</p>
+				<p>
+- Développer les compétences dans l'approche des processus de création, en particulier l'interprétation de textes dramatiques, la dramaturgie et la mise en scène, et plus largement la transmission des œuvres.
+</p>
+			</objectif-formation>
+			<resultats-attendus>
+				<p>
+- Posséder une bonne maîtrise des fondamentaux du jeu de l'acteur : interprétation des scènes du répertoire et des textes contemporains, analyse dramaturgique des oeuvres, travail vocal et corporel.
+</p>
+				<p>
+- Analyser des œuvres dramatiques françaises et étrangères grâce à une bonne connaissance théorique de l'histoire du théâtre en France, en Europe et dans le monde, et une bonne connaissance pratique du jeu de l'acteur et de la dramaturgie appliquée.
+</p>
+				<p>
+- Conceptualiser et organiser une réflexion dans le domaine des arts du spectacle de l'espace culturel et du patrimoine théâtral européen et extra-européen, en appuyant celle-ci sur les réalités du métier au niveau des processus de la création.
+</p>
+				<p>
+-Élaborer des projets, dossiers ou articles concernant les arts de la scène pour des structures culturelles.
+</p>
+				<p>
+-Connaissance des politiques culturelles et des métiers du spectacle vivant.
+</p>
+				<p>
+-Repérage des problématiques de l'interculturalité et des relations entre les arts.
+</p>
+			</resultats-attendus>
+			<contenu-formation>
+				<p>
+La Licence Arts du spectacle est constituée de trois parcours : « Arts de la scène » ; « Jeu de l'acteur », « Pré-professionnalisation dans les métiers du spectacle vivant ». La première année est commune aux trois parcours. Le semestre 1 offre un portail avec une mineure en Musicologie et une mineure en Lettres, avec une possibilité de poursuivre la mineure au semestre 2, et une ré-orientation en Musicologie ou en Lettres au semestre 2 ou au semestre 3.
+</p>
+				<p>
+Le parcours 2, « Jeu de l'acteur », conçu en partenariat avec le Conservatoire à Rayonnement Régional de Besançon, permet un enseignement spécifique dans le jeu dramatique dispensé par les professionnels du Conservatoire de 72h aux semestres 3 et 4, puis de 96 h aux semestre 5 et 6, avec mutualisation des autres UE du parcours général 1.
+</p>
+				<p>
+Le parcours 3, « Pré-professionnalisation dans les métiers du spectacle vivant », ne débute qu'en 3
+
+					<sup>ème</sup>
+année de Licence et offre aux semestres 5 et 6 un enseignement spécifique de 96H (pour moitié en pratique scénique et moitié en stage), avec mutualisation des autres UE du parcours général 1.
+
+				</p>
+			</contenu-formation>
+			<certifiante>1</certifiante>
+			<contact-formation>
+				<coordonnees>
+					<nom>Nadège CHAVEL</nom>
+					<telfixe>
+						<numtel>03 81 66 51 67</numtel>
+					</telfixe>
+					<courriel>nadege.chavel@univ-fcomte.fr</courriel>
+				</coordonnees>
+			</contact-formation>
+			<parcours-de-formation>1</parcours-de-formation>
+			<code-niveau-entree>0</code-niveau-entree>
+			<code-niveau-sortie>7</code-niveau-sortie>
+			<action>
+				<rythme-formation>Formation Initiale</rythme-formation>
+				<code-public-vise ref=""/>
+				<niveau-entree-obligatoire>0</niveau-entree-obligatoire>
+				<modalites-alternance/>
+				<modalites-enseignement>0</modalites-enseignement>
+				<conditions-specifiques>
+Etre titulaire d'un DEUST théâtre. Possibilité d'admission sur validation d'acquis.
+</conditions-specifiques>
+				<prise-en-charge-frais-possible/>
+				<lieu-de-formation>
+					<coordonnees>
+						<nom>
+UFR Sciences du langage, de l'homme et de la société
+</nom>
+						<adresse>
+							<ligne>30 rue Mégevand</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+						<web>
+							<urlweb>http://slhs.univ-fcomte.fr</urlweb>
+						</web>
+					</coordonnees>
+				</lieu-de-formation>
+				<modalites-entrees-sorties>0</modalites-entrees-sorties>
+				<duree-indicative>480 heures</duree-indicative>
+				<session>
+					<periode>
+						<debut>00000000</debut>
+						<fin>00000000</fin>
+					</periode>
+					<adresse-inscription>
+						<adresse>
+							<ligne>30 rue Mégevand</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+					</adresse-inscription>
+					<modalites-inscription>
+Scolarité de l'UFR SLHS de l'Université de Franche-Comté
+</modalites-inscription>
+				</session>
+			</action>
+			<organisme-formation-responsable>
+				<numero-activite>4325P000425</numero-activite>
+				<SIRET-organisme-formation>
+					<SIRET>19251215000363</SIRET>
+				</SIRET-organisme-formation>
+				<nom-organisme>Université de Franche-Comté</nom-organisme>
+				<raison-sociale>Université de Franche-Comté</raison-sociale>
+				<coordonnees-organisme>
+					<coordonnees>
+						<adresse>
+							<ligne>1 rue Claude Goudimel</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+					</coordonnees>
+				</coordonnees-organisme>
+				<contact-organisme/>
+			</organisme-formation-responsable>
+		</formation>
+		<formation>
+			<domaine-formation/>
+			<intitule-formation>
+Licence professionnelle Intervention sociale : insertion et réinsertion sociale et professionnelle
+</intitule-formation>
+			<objectif-formation/>
+			<resultats-attendus/>
+			<contenu-formation/>
+			<certifiante>1</certifiante>
+			<contact-formation>
+				<coordonnees/>
+			</contact-formation>
+			<parcours-de-formation>1</parcours-de-formation>
+			<code-niveau-entree>0</code-niveau-entree>
+			<code-niveau-sortie>7</code-niveau-sortie>
+			<action>
+				<code-public-vise ref=""/>
+				<niveau-entree-obligatoire>0</niveau-entree-obligatoire>
+				<modalites-alternance/>
+				<modalites-enseignement>0</modalites-enseignement>
+				<conditions-specifiques/>
+				<prise-en-charge-frais-possible/>
+				<lieu-de-formation>
+					<coordonnees>
+						<nom>
+UFR Sciences du langage, de l'homme et de la société
+</nom>
+						<adresse>
+							<ligne>30 rue Mégevand</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+						<web>
+							<urlweb>http://slhs.univ-fcomte.fr</urlweb>
+						</web>
+					</coordonnees>
+				</lieu-de-formation>
+				<modalites-entrees-sorties>0</modalites-entrees-sorties>
+				<session>
+					<periode>
+						<debut>00000000</debut>
+						<fin>00000000</fin>
+					</periode>
+					<adresse-inscription>
+						<adresse>
+							<ligne>30 rue Mégevand</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+					</adresse-inscription>
+					<modalites-inscription>
+Consultez la rubrique
+
+						<a href="https://go.univ-fcomte.fr/admission">
+							<b>Demande d'admission et d'inscription</b>
+						</a>
+sur le site de l'Université de Franche-Comté.
+
+					</modalites-inscription>
+				</session>
+			</action>
+			<organisme-formation-responsable>
+				<numero-activite>4325P000425</numero-activite>
+				<SIRET-organisme-formation>
+					<SIRET>19251215000363</SIRET>
+				</SIRET-organisme-formation>
+				<nom-organisme>Université de Franche-Comté</nom-organisme>
+				<raison-sociale>Université de Franche-Comté</raison-sociale>
+				<coordonnees-organisme>
+					<coordonnees>
+						<adresse>
+							<ligne>1 rue Claude Goudimel</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+					</coordonnees>
+				</coordonnees-organisme>
+				<contact-organisme/>
+			</organisme-formation-responsable>
+		</formation>
+		<formation>
+			<domaine-formation>
+				<code-ROME>E1102</code-ROME>
+				<code-ROME>E1103</code-ROME>
+				<code-ROME>E1105</code-ROME>
+				<code-ROME>E1106</code-ROME>
+				<code-ROME>E1305</code-ROME>
+				<code-ROME>K1205</code-ROME>
+				<code-ROME>K1601</code-ROME>
+				<code-ROME>K2101</code-ROME>
+				<code-ROME>K2102</code-ROME>
+				<code-ROME>K2106</code-ROME>
+				<code-ROME>K2108</code-ROME>
+				<code-ROME>K2111</code-ROME>
+				<code-ROME>K2401</code-ROME>
+				<code-ROME>M1805</code-ROME>
+			</domaine-formation>
+			<intitule-formation>
+Licence Sciences du langage parcours Français langue étrangère
+</intitule-formation>
+			<objectif-formation>
+Ce parcours poursuit deux objectifs : la construction des savoirs disciplinaires et l'entrée dans la profession d'enseignant de FLE/FLS. La mention de master « Français Langue Etrangère » reste nécessaire pour enseigner en FLE/S. Le large éventail de débouchés - enseignement en présentiel et à distance, conception de ressources pédagogiques, recherche, concours de l'Education nationale, acteurs de politique linguistique, expertise - exige des acteurs aux compétences très variées. Ce parcours permet de s'y préparer, car il propose des outils de réflexion ressortant des sciences humaines, des lettres et des sciences du langage. Les disciplines majeures enseignées sont la linguistique générale, la didactique et la sociolinguistique. Le parcours est conçu de manière à faire découvrir les différents contextes d'intervention (FLE/FLS) aussi bien d'un point de vue théorique (les savoirs) que méthodologique (les outils didactiques) et pratique (stage d'observation tutoré).
+
+				<br/>
+			</objectif-formation>
+			<resultats-attendus>
+Le parcours L3 FLE/FLS s'appuie sur un tronc commun en 1ère et 2ème année de la Licence Sciences du Langage dont les objectifs est d'amener les étudiants à maîtriser leur langue maternelle, à connaître les principes qui structurent les langues et l'ensemble des langages : interactions verbales, langage des images, langages artistiques, langages multimédias, etc., c'est ce qui permet de se repérer dans toutes les situations et toutes les disciplines, de maîtriser les grands repères qui structurent le monde et les rapports humains. Le tronc commun combine une solide formation dans les disciplines traditionnelles (vocabulaire, syntaxe, rhétorique, analyse des textes, etc.) avec deux autres volets scientifiques : les sciences de l'information et celles de la communication. Les enseignements dispensés permettent : - d'acquérir des connaissances théoriques sur les principaux concepts et modèles en sciences du langage et de la communication ; - d'acquérir les compétences méthodologiques et techniques spécifiques aux sciences du langage, de la communication et de la documentation : connaissances des mécanismes de la langue et du discours, analyse de discours (productions verbales et plurimodales), analyse sémiotique, analyse des langues en vue de leur traitement par les machines, analyse informatique des productions linguistique (textes littéraires, médiatiques et scientifiques), élaboration et traitement d'enquêtes et entretiens, - de développer les capacités personnelles d'analyse des modes d'expression dans leurs variétés sémiotiques et de réflexion critique sur les discours, pour ultérieurement conduire un projet d'études ou de recherches. Le parcours FLE/FLS qui commence en troisième année de Licence permet de sensibiliser et préparer les étudiants aux problématiques de l'enseignement/apprentissage du Français Langue Etrangère, ou du Français Langue Seconde dans des contextes variés (milieu francophone, non francophone, multilingue, etc.) et à la didactique des relations d'apprentissage.
+
+				<br/>
+Les étudiants sont amenés à réfléchir aux pratiques professionnelles à partir d'objets empiriques provenant de leurs observations de terrain. La formation vise à établir un va-et-vient constant entre l'université et le monde professionnel. L'investissement doit être régulier car certains travaux sont effectués en groupe, d'autres sont présentés oralement à la classe et d'autres encore se concrétisent par des mini-recherches ou enquêtes à effectuer au cours du semestre sur les thématiques au programme. En linguistique générale, il s'agit d'apprendre à raisonner les structures linguistiques tantôt à partir de leur forme, tantôt à partir de leur sens. L'enjeu de « dépasser » la grammaire est celui de découvrir les processus plus profonds du langage humain. On confrontera les structures de différentes langues : comprendre le fonctionnement de la langue de l'autre est un premier pas pour l'aider à dépasser ses erreurs. En didactique, la formation est large et progressive.
+
+				<br/>
+Au premier semestre il s'agit d'initier les étudiants à la didactique des langues et à la didactique du français (FLE/FLS/FLsco) dans ses aspects historiques, contextuels et méthodologiques en mettant l'accent sur l'impact des contacts de langues dans l'enseignement du français. Les étudiants pourront être initiés aux articulations entre les théories linguistiques et l'enseignement/apprentissage des langues étrangères. Il s'agit aussi de découvrir les différents contextes d'enseignement, notamment le contexte FLS (en France et hors de France). Un choix est offert aux étudiants entre la réflexion sur les politiques européennes en matière des langues et la question de l'enseignement du FLE en situation de contacts des langues.
+
+				<br/>
+Au second semestre, les étudiants sont confrontés aux problématiques de l'enseignement de l'oral et de l'écrit, aux techniques de remédiation phonétique. Le but est d'amener les étudiants à construire des outils théoriques, méthodologiques à partir de l'observation d'études de cas. Une UE est consacrée à la méthodologie de l'observation didactique et à la découverte des outils de la discipline. L'ensemble est orienté dans le choix et le guidage du stage d'observation dans l'un des contextes étudiés au premier semestre. Le stage prévu dans l'UE5 de professionnalisation est obligatoire et dure 18h. Il est encadré par un enseignant et permet aux étudiants d'entrer dans la réalité institutionnelle et didactique de l'enseignement du français. Les terrains de stage offrent la possibilité de découverte du contexte français langue étrangère (FLE) : le Centre de Linguistique Appliquée (CLA) de Besançon ouvre ses classes à tous les niveaux (Débutants, intermédiaires, avancés) ; du contexte français langue seconde (FLS) : l'Académie de Besançon ouvre dans le primaire et dans le secondaire ses classes d'accueil et d'adaptation dédiées aux enfants de migrants. Pour l'UE 4, le choix est offert aux étudiants entre le travail sur les variétés de français au regard de la norme et le travail sur les outils pour le FLE, le manuel et l'environnement numérique.Au semestre 5, comme au semestre 6, une unité transversale est offerte, elle vise à développer les compétences en langue vivante étrangère.
+
+				<br/>
+Ce parcours prépare parfaitement à l'entrée en master « Français Langue Etrangère », avec ses quatre parcours.
+
+				<br/>
+			</resultats-attendus>
+			<contenu-formation>
+				<p>
+La
+
+					<b>Licence de Sciences du Langage</b>
+est organisée de façon à offrir d'abord un socle de connaissances pluridisciplinaires, en Sciences du Langage et en Sciences de l'Information et de la Communication (L1), puis à permettre une
+
+					<b>spécialisation progressive</b>
+en Sciences du Langage, à la fois en approfondissant les connaissances en vue de s'introduire à la recherche, et à la fois en professionnalisant certains enseignements pour ouvrir la discipline à ses applications.
+
+				</p>
+				<p>
+En L1, les étudiant-e-s suivent autant d'UE en Sciences du Langage qu'en Sciences de l'Information et de la Communication. Puis, jusqu'à la fin de la L2, le jeu d'option permet de maintenir cette bi-disciplinarité ou bien au contraire de se spécialiser déjà en Sciences du Langage. Les étudiant-e-s peuvent ainsi
+
+					<b>se réorienter</b>
+en licence de Sciences de l'Information et de la Communication jusqu'à la fin de la L2.
+
+				</p>
+				<p>
+En L3, Les étudiant-e-s choisissent entre le
+
+					<b>Parcours Sciences du Langage</b>
+ou bien le
+
+					<b>Parcours Français Langue Etrangère</b>
+. Dans les deux parcours, la L3 contient un stage professionnel de 5 semaines.
+
+				</p>
+				<p/>
+			</contenu-formation>
+			<certifiante>1</certifiante>
+			<contact-formation>
+				<coordonnees>
+					<nom>Nadège CHAVEL</nom>
+					<telfixe>
+						<numtel>03 81 66 53 37</numtel>
+					</telfixe>
+					<courriel>nadege.chavel@univ-fcomte.fr</courriel>
+				</coordonnees>
+			</contact-formation>
+			<parcours-de-formation>3</parcours-de-formation>
+			<code-niveau-entree>0</code-niveau-entree>
+			<code-niveau-sortie>7</code-niveau-sortie>
+			<action>
+				<rythme-formation>Formation Initiale, Continue</rythme-formation>
+				<code-public-vise ref=""/>
+				<niveau-entree-obligatoire>0</niveau-entree-obligatoire>
+				<modalites-alternance/>
+				<modalites-enseignement>0</modalites-enseignement>
+				<conditions-specifiques>Pour rentrer en L1: Baccalauréat, ou DAEU, ou VA.</conditions-specifiques>
+				<prise-en-charge-frais-possible/>
+				<lieu-de-formation>
+					<coordonnees>
+						<nom>
+UFR Sciences du langage, de l'homme et de la société
+</nom>
+						<adresse>
+							<ligne>30 rue Mégevand</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+						<web>
+							<urlweb>http://slhs.univ-fcomte.fr</urlweb>
+						</web>
+					</coordonnees>
+				</lieu-de-formation>
+				<modalites-entrees-sorties>0</modalites-entrees-sorties>
+				<duree-indicative>920 heures</duree-indicative>
+				<session>
+					<periode>
+						<debut>00000000</debut>
+						<fin>00000000</fin>
+					</periode>
+					<adresse-inscription>
+						<adresse>
+							<ligne>30 rue Mégevand</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+					</adresse-inscription>
+					<modalites-inscription>
+Consultez la rubrique
+
+						<a href="https://go.univ-fcomte.fr/admission">
+							<b>Demande d'admission et d'inscription</b>
+						</a>
+sur le site de l'Université de Franche-Comté.
+
+					</modalites-inscription>
+				</session>
+			</action>
+			<organisme-formation-responsable>
+				<numero-activite>4325P000425</numero-activite>
+				<SIRET-organisme-formation>
+					<SIRET>19251215000363</SIRET>
+				</SIRET-organisme-formation>
+				<nom-organisme>Université de Franche-Comté</nom-organisme>
+				<raison-sociale>Université de Franche-Comté</raison-sociale>
+				<coordonnees-organisme>
+					<coordonnees>
+						<adresse>
+							<ligne>1 rue Claude Goudimel</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+					</coordonnees>
+				</coordonnees-organisme>
+				<contact-organisme/>
+			</organisme-formation-responsable>
+		</formation>
+		<formation>
+			<domaine-formation>
+				<code-ROME>E1102</code-ROME>
+				<code-ROME>E1103</code-ROME>
+				<code-ROME>E1105</code-ROME>
+				<code-ROME>E1106</code-ROME>
+				<code-ROME>E1305</code-ROME>
+				<code-ROME>K1205</code-ROME>
+				<code-ROME>K1601</code-ROME>
+				<code-ROME>K2101</code-ROME>
+				<code-ROME>K2102</code-ROME>
+				<code-ROME>K2106</code-ROME>
+				<code-ROME>K2108</code-ROME>
+				<code-ROME>K2111</code-ROME>
+				<code-ROME>K2401</code-ROME>
+				<code-ROME>M1805</code-ROME>
+			</domaine-formation>
+			<intitule-formation>
+Licence Sciences du langage parcours Sciences du langage
+</intitule-formation>
+			<objectif-formation>
+				<p>
+Les Sciences du Langage cherchent à comprendre et à décrire l'activité de langage à travers l'étude des langues dans leur diversité, et sous différents aspects : fonctionnement, structure, variation et évolution des langues. Elles s'intéressent également à l'acquisition du langage, à l'apprentissage et à l'enseignement des langues, aux usages sociaux des pratiques de communication, à la circulation des discours dans la vie sociale, ou encore aux différents types de signes culturels qui nous entourent...
+</p>
+				<p>
+Cette licence a ainsi pour objectif de préparer ses diplômé-e-s à des secteurs d'activités bien identifiés qui requièrent de telles connaissances, tels que les métiers de l'enseignement (enseignement primaire, formation professionnelle...), de l'édition (notamment numérique) et de la rédaction, de l'ingénierie linguistique, de la communication et enfin de la recherche en sciences sociales.
+</p>
+				<p/>
+				<p>
+Les trois années de la licence offrent une spécialisation progressive tout en embrassant un large champ de connaissances : sémiologie, phonologie, grammaire, langues du monde, histoire de la langue... En plus des cours de linguistique, des options de culture générale et des enseignements transversaux (langues vivantes, informatique...) complètent la formation.
+</p>
+				<p>
+La troisième année du parcours « Sciences du Langage » prépare également l'intégration dans le monde du travail, avec un stage en entreprise et des enseignements dispensés par des professionnels ainsi que la possibilité de faire un stage de cinq semaines.
+</p>
+				<p>
+La licence de Sciences du Langage est la porte d'entrée du Master Sciences du Langage de l'UFC, et permet l'accès à d'autres masters nationaux et internationaux en Sciences du Langage, ainsi qu'au Master MEEF. La licence fournit une base de connaissances et compétences solides pour ensuite préparer plus particulièrement son entrée en École d'orthophonie, en École de journalisme, ou des concours de la fonction publique (territoriale en particulier).
+</p>
+			</objectif-formation>
+			<resultats-attendus>
+				<p>
+La licence de Sciences du Langage dote ses diplômé-e-s de connaissances solides sur le langage, les langues et les pratiques langagières dans leurs différents aspects (fonctionnement, diversité, usages sociaux) ; des compétences conceptuelles et méthodologiques pour la description des langues et des discours ; et des compétences pratiques : conception et gestion de situations d'enseignement, analyse de discours, expertise rédactionnelle, expertise en politique linguistique...
+</p>
+				<p>
+					<b>Compétences disciplinaires</b>
+				</p>
+				<p>
+L'étudiant-e diplômé-e est doté-e d'une large culture en sciences du langage et de l'information-communication (diversité et histoire des langues ; discours, médias et société, langues et cultures...). Il-elle a une excellente maîtrise des outils de base de l'analyse linguistique (phonétique, phonologie, morphologie, lexicologie, syntaxe, sémantique, pragmatique) et de l'analyse sémiotique. Il-elle peut décrire des langues, des situations de communication, il-elle sait analyser les discours en relation avec leurs environnements matériels, historiques et sociaux.
+</p>
+				<p>
+Il-elle sait concevoir et expliciter une problématique linguistique et mettre en œuvre son traitement scientifique avec les méthodes adaptées, qualitatives (enquêtes) et quantitatives (outils informatiques et statistiques) ; il-elle est capable de recueillir des données linguistiques (orales et/ou écrites), les organiser et les structurer (selon les standards internationaux d'encodage XML-TEI).
+</p>
+				<p>
+					<b>Compétences préprofessionnelles</b>
+				</p>
+				<p>
+Á l'issue de leur licence, les étudiant-e-s de SL disposent d'une expertise rédactionnelle forte adossée à une capacité d'analyse pointue : ils-elles savent identifier les processus de production, de diffusion et de valorisation de l'information. Ils-elles sont en mesure de conduire un projet seul ou en équipe, de mener une recherche documentaire en usant des ressources spécialisées dûment identifiées et sélectionnées ; ils-elles peuvent analyser et rédiger des documents (rapports, recommandations...) à partir de problématiques contemporaines concrètes.
+</p>
+				<p>
+Les étudiant-e-s savent enfin utiliser les outils numériques de référence pour acquérir, traiter, produire et diffuser de l'information.
+</p>
+				<p>
+					<b>Compétences transversales</b>
+				</p>
+				<p>
+La licence permet de développer des capacités rédactionnelles et de veille informationnelle. L'étudiant-e sait analyser et synthétiser des données en vue de leur exploitation, en utilisant tous les outils informatiques nécessaires.
+</p>
+				<p>
+L'étudiant-e possède une aisance écrite et orale en langue française ; sa formation le rend capable d'identifier et de mettre en œuvre les différents registres d'expression écrite et orale, en développant une argumentation solide et circonstanciée.
+</p>
+				<p>
+La diversité des approches théoriques et la variété des situations étudiées lui permet de s'adapter à des langues et cultures particulières ainsi qu'à des contextes non « connus » (environnement plurilingues et pluriculturels).
+</p>
+				<p>
+Il-elle a développé son autonomie, est capable d'organiser, documenter et mener à bien une recherche individuelle ou collective.
+</p>
+			</resultats-attendus>
+			<contenu-formation>
+				<p>
+La
+
+					<b>Licence de Sciences du Langage</b>
+est organisée de façon à offrir d'abord un socle de connaissances pluridisciplinaires, en Sciences du Langage et en Sciences de l'Information et de la Communication (L1), puis à permettre une
+
+					<b>spécialisation progressive</b>
+en Sciences du Langage, à la fois en approfondissant les connaissances en vue de s'introduire à la recherche, et à la fois en professionnalisant certains enseignements pour ouvrir la discipline à ses applications.
+
+				</p>
+				<p>
+En L1, les étudiant-e-s suivent autant d'UE en Sciences du Langage qu'en Sciences de l'Information et de la Communication. Puis, jusqu'à la fin de la L2, le jeu d'option permet de maintenir cette bi-disciplinarité ou bien au contraire de se spécialiser déjà en Sciences du Langage. Les étudiant-e-s peuvent ainsi
+
+					<b>se réorienter</b>
+en licence de Sciences de l'Information et de la Communication jusqu'à la fin de la L2.
+
+				</p>
+				<p>
+En L3, Les étudiant-e-s choisissent entre le
+
+					<b>Parcours Sciences du Langage</b>
+ou bien le
+
+					<b>Parcours Français Langue Etrangère</b>
+. Dans les deux parcours, la L3 contient un stage professionnel de 5 semaines.
+
+				</p>
+				<p/>
+			</contenu-formation>
+			<certifiante>1</certifiante>
+			<contact-formation>
+				<coordonnees>
+					<nom>Nadège CHAVEL</nom>
+					<telfixe>
+						<numtel>03 81 66 53 37</numtel>
+					</telfixe>
+					<courriel>nadege.chavel@univ-fcomte.fr</courriel>
+				</coordonnees>
+			</contact-formation>
+			<parcours-de-formation>3</parcours-de-formation>
+			<code-niveau-entree>0</code-niveau-entree>
+			<code-niveau-sortie>7</code-niveau-sortie>
+			<action>
+				<rythme-formation>Formation Initiale, Continue</rythme-formation>
+				<code-public-vise ref=""/>
+				<niveau-entree-obligatoire>0</niveau-entree-obligatoire>
+				<modalites-alternance/>
+				<modalites-enseignement>0</modalites-enseignement>
+				<conditions-specifiques>
+Pour rentrer en L3 : Titulaires L2 mention Sciences du Langage ou Information-Communication à l'UFC, ou VA.
+</conditions-specifiques>
+				<prise-en-charge-frais-possible/>
+				<lieu-de-formation>
+					<coordonnees>
+						<nom>
+UFR Sciences du langage, de l'homme et de la société
+</nom>
+						<adresse>
+							<ligne>30 rue Mégevand</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+						<web>
+							<urlweb>http://slhs.univ-fcomte.fr</urlweb>
+						</web>
+					</coordonnees>
+				</lieu-de-formation>
+				<modalites-entrees-sorties>0</modalites-entrees-sorties>
+				<duree-indicative>1520 heures</duree-indicative>
+				<session>
+					<periode>
+						<debut>00000000</debut>
+						<fin>00000000</fin>
+					</periode>
+					<adresse-inscription>
+						<adresse>
+							<ligne>30 rue Mégevand</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+					</adresse-inscription>
+					<modalites-inscription>
+						<p>Consulter le site de l'université:</p>
+						<p>
+							<a href="http://www.univ-fcomte.fr/pages/fr/menu1/formations/inscription---s-inscrire-accueil-13976.html">
+http://www.univ-fcomte.fr/pages/fr/menu1/formations/inscription---s-inscrire-accueil-13976.html
+</a>
+						</p>
+					</modalites-inscription>
+				</session>
+			</action>
+			<organisme-formation-responsable>
+				<numero-activite>4325P000425</numero-activite>
+				<SIRET-organisme-formation>
+					<SIRET>19251215000363</SIRET>
+				</SIRET-organisme-formation>
+				<nom-organisme>Université de Franche-Comté</nom-organisme>
+				<raison-sociale>Université de Franche-Comté</raison-sociale>
+				<coordonnees-organisme>
+					<coordonnees>
+						<adresse>
+							<ligne>1 rue Claude Goudimel</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+					</coordonnees>
+				</coordonnees-organisme>
+				<contact-organisme/>
+			</organisme-formation-responsable>
+		</formation>
+		<formation>
+			<domaine-formation>
+				<code-ROME>E1106</code-ROME>
+				<code-ROME>E1108</code-ROME>
+				<code-ROME>G1102</code-ROME>
+				<code-ROME>K2108</code-ROME>
+			</domaine-formation>
+			<intitule-formation>
+Master Langues, littératures et civilisations étrangères et régionales parcours Allemand - Langues, Cultures, Traduction
+</intitule-formation>
+			<objectif-formation>
+				<p>
+Le Master LLCER est composé de cinq parcours: quatre parcours de langues (parcours Langues, Cultures et Traduction) et un parcours Traitement Automatique des Langues.
+</p>
+				<p>
+Les parcours Langues, Cultures et Traduction visent à approfondir les quatre sous-disciplines qui forment leur socle: la langue, la littérature, la civilisation, l'étude de l'image fixe et mobile dans le domaine de ce qui fait sa spécificité : « les Etudes culturelles » (les « cultural studies » nées en Grande-Bretagne dans les années soixante). Ce domaine est en cohérence avec les études de langues, car, « les études culturelles » sont transdisciplinaires, recoupant la civilisation, la littérature, l'étude de l'image, et la traduction.
+
+					<br/>
+				</p>
+				<p>
+A la fois un master de recherche et un master professionnalisant, cette proposition offre une formation culturelle étendue permettant aux étudiants d'acquérir une polyvalence à la fois dans leur regard critique et dans les compétences linguistique, rédactionnelles et de culture générale pouvant être mises en valeur.
+</p>
+Le tronc commun, enseigné en français, assure la diffusion des connaissances sur l'histoire et la conceptualisation des études culturelles, ainsi que la méthodologie de la recherche. Les enseignements dans la langue du parcours complètent cette formation.
+
+				<br/>
+De façon générale, le titulaire du diplôme fait carrière dans les domaines de la traduction et de l'interprétariat, du tourisme et, notamment à leur croisée avec l'international, dans ceux du journalisme, de la culture, de la communication, de l'humanitaire, ou encore du commerce et de l'industrie. Lui sont ouvertes aussi les portes de l'administration et de l'enseignement secondaire et supérieur et ceux de la recherche.
+
+			</objectif-formation>
+			<resultats-attendus>
+				<p>
+Ayant reçu une formation dans les humanités, le titulaire de ce master ayant suivi un parcours: langue, cultures, traduction aura une certaine polyvalence dont l'intérêt professionnel sera renforcé par sa double compétence dans la langue et dans la culture du pays dont il est spécialiste, la formation en langues ayant pour objectif de travailler à la fois la langue et le contenu culturel. Ce contenu culturel est appréhendé à travers les quatre sous-disciplines des langues qui sont la linguistique, la civilisation, la littérature et les arts visuels.
+</p>
+				<p>Il sera donc capable de:</p>
+				<p/>
+				<ul>
+					<li>
+s'exprimer à l'oral comme à l'écrit dans toutes les nuances de la langue étrangère cible de sa formation.
+
+						<br/>
+					</li>
+					<li>
+traduire et interpréter dans tous les domaines (littéraire, journalistique, professionnel, voire technique ou commercial) des textes depuis et vers la langue étrangère cible.
+
+						<br/>
+					</li>
+					<li>
+communiquer efficacement dans sa langue seconde (obligatoire dans les 3 UE transversales du parcours).
+
+						<br/>
+					</li>
+					<li>
+rédiger des textes (discours, présentations, comptes rendus, synthèses, articles, etc) grâce aux compétences rédactionnelles acquises lors des divers travaux écrits (commentaires de texte, dissertations, traductions) demandés dans sa formation en civilisation, littérature, arts visuels et études culturelles en général.
+
+						<br/>
+					</li>
+					<li>
+synthétiser un texte.
+
+						<br/>
+					</li>
+					<li>
+en faire une analyse critique.
+
+						<br/>
+					</li>
+					<li>
+déterminer une problématique; délimiter un champ de recherche, identifier et décrire des sources primaires et secondaires, organiser une problématique ; organiser et présenter une bibliographie, présenter et défendre oralement les résultats de la recherche et la méthode de travail suivie.
+
+						<br/>
+					</li>
+					<li>
+faire de la recherche documentaire.
+
+						<br/>
+					</li>
+					<li>
+mener à bien un travail de thèse et de recherche en général.
+
+						<br/>
+					</li>
+					<li>
+tenir compte, notamment grâce à sa formation en littérature, des situations d'énonciation et de l'implicite que véhiculent les discours, dimension essentielle dans toute situation de communication.
+
+						<br/>
+					</li>
+					<li>
+appréhender l'inter-culturalité : comprendre et communiquer avec des personnes (clients, collègues, partenaires divers dans l'industrie, le monde politique, les fondations ou associations internationales...) ayant une culture et des valeurs différentes.
+
+						<br/>
+					</li>
+					<li>
+utiliser la connaissance approfondie de l'histoire, des institutions et de la société du pays cible acquise dans les cours de civilisation (la comprendre et l'analyser, la faire comprendre aux autres, en tenir compte dans une situation professionnelle; mener une enquête de type sociologique ou politique, en faire un compte rendu).
+
+						<br/>
+					</li>
+					<li>
+exploiter dans le domaine de la culture, notamment là où il y a contact entre les cultures (services culturels en France ou à l'étranger, événements culturels, musées ...) les outils techniques tout comme les connaissances culturelles mobilisés dans les cours de cinéma et de peinture, dont l'originalité à l'UFC est qu'ils sont introduits dans les départements de langues, notamment en anglais, dès la première année.
+</li>
+				</ul>
+				<br/>
+			</resultats-attendus>
+			<contenu-formation>
+La formation est organisé en 4 semestres, de 5 UE chacun. Les 3 premiers semestres (S7, S8, S9) sont axés sur les apprentissages, mais aussi sur la méthodologie et l'ouverture sur le monde professionnel. Le dernier semestre (S10) est consacré à un stage et à la rédaction du rapport de stage, ou bien à la rédaction d'un mémoire de recherche.
+</contenu-formation>
+			<certifiante>1</certifiante>
+			<contact-formation>
+				<coordonnees>
+					<nom>Marie-Pascale BEHRA</nom>
+					<telfixe>
+						<numtel>03 81 66 53 41</numtel>
+					</telfixe>
+					<courriel>marie-pascale.behra@univ-fcomte.fr</courriel>
+				</coordonnees>
+			</contact-formation>
+			<parcours-de-formation>1</parcours-de-formation>
+			<code-niveau-entree>0</code-niveau-entree>
+			<code-niveau-sortie>8</code-niveau-sortie>
+			<action>
+				<rythme-formation>Formation Initiale</rythme-formation>
+				<code-public-vise ref=""/>
+				<niveau-entree-obligatoire>0</niveau-entree-obligatoire>
+				<modalites-alternance/>
+				<modalites-enseignement>0</modalites-enseignement>
+				<conditions-specifiques/>
+				<prise-en-charge-frais-possible/>
+				<lieu-de-formation>
+					<coordonnees>
+						<nom>
+UFR Sciences du langage, de l'homme et de la société
+</nom>
+						<adresse>
+							<ligne>30 rue Mégevand</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+						<web>
+							<urlweb>http://slhs.univ-fcomte.fr</urlweb>
+						</web>
+					</coordonnees>
+				</lieu-de-formation>
+				<modalites-entrees-sorties>0</modalites-entrees-sorties>
+				<session>
+					<periode>
+						<debut>00000000</debut>
+						<fin>00000000</fin>
+					</periode>
+					<adresse-inscription>
+						<adresse>
+							<ligne>30 rue Mégevand</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+					</adresse-inscription>
+					<modalites-inscription/>
+				</session>
+			</action>
+			<organisme-formation-responsable>
+				<numero-activite>4325P000425</numero-activite>
+				<SIRET-organisme-formation>
+					<SIRET>19251215000363</SIRET>
+				</SIRET-organisme-formation>
+				<nom-organisme>Université de Franche-Comté</nom-organisme>
+				<raison-sociale>Université de Franche-Comté</raison-sociale>
+				<coordonnees-organisme>
+					<coordonnees>
+						<adresse>
+							<ligne>1 rue Claude Goudimel</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+					</coordonnees>
+				</coordonnees-organisme>
+				<contact-organisme/>
+			</organisme-formation-responsable>
+		</formation>
+		<formation>
+			<domaine-formation>
+				<code-ROME>E1106</code-ROME>
+				<code-ROME>E1108</code-ROME>
+				<code-ROME>G1102</code-ROME>
+				<code-ROME>K2108</code-ROME>
+			</domaine-formation>
+			<intitule-formation>
+Master Langues, littératures et civilisations étrangères et régionales parcours Anglais - Langues, Cultures, Traduction
+</intitule-formation>
+			<objectif-formation>
+				<p>
+Le Master LLCER est composé de cinq parcours: quatre parcours de langues (parcours Langues, Cultures et Traduction) et un parcours Traitement Automatique des Langues.
+</p>
+				<p>
+Les parcours Langues, Cultures et Traduction visent à approfondir les quatre sous-disciplines qui forment leur socle: la langue, la littérature, la civilisation, l'étude de l'image fixe et mobile dans le domaine de ce qui fait sa spécificité : « les Etudes culturelles » (les « cultural studies » nées en Grande-Bretagne dans les années soixante). Ce domaine est en cohérence avec les études de langues, car, « les études culturelles » sont transdisciplinaires, recoupant la civilisation, la littérature, l'étude de l'image, et la traduction.
+
+					<br/>
+				</p>
+				<p>
+A la fois un master de recherche et un master professionnalisant, cette proposition offre une formation culturelle étendue permettant aux étudiants d'acquérir une polyvalence à la fois dans leur regard critique et dans les compétences linguistique, rédactionnelles et de culture générale pouvant être mises en valeur.
+</p>
+Le tronc commun, enseigné en français, assure la diffusion des connaissances sur l'histoire et la conceptualisation des études culturelles, ainsi que la méthodologie de la recherche. Les enseignements dans la langue du parcours complètent cette formation.
+
+				<br/>
+De façon générale, le titulaire du diplôme fait carrière dans les domaines de la traduction et de l'interprétariat, du tourisme et, notamment à leur croisée avec l'international, dans ceux du journalisme, de la culture, de la communication, de l'humanitaire, ou encore du commerce et de l'industrie. Lui sont ouvertes aussi les portes de l'administration et de l'enseignement secondaire et supérieur et ceux de la recherche.
+
+			</objectif-formation>
+			<resultats-attendus>
+				<p>
+Ayant reçu une formation dans les humanités, le titulaire de ce master ayant suivi un parcours: langue, cultures, traduction aura une certaine polyvalence dont l'intérêt professionnel sera renforcé par sa double compétence dans la langue et dans la culture du pays dont il est spécialiste, la formation en langues ayant pour objectif de travailler à la fois la langue et le contenu culturel. Ce contenu culturel est appréhendé à travers les quatre sous-disciplines des langues qui sont la linguistique, la civilisation, la littérature et les arts visuels.
+</p>
+				<p>Il sera donc capable de:</p>
+				<p/>
+				<ul>
+					<li>
+s'exprimer à l'oral comme à l'écrit dans toutes les nuances de la langue étrangère cible de sa formation.
+
+						<br/>
+					</li>
+					<li>
+traduire et interpréter dans tous les domaines (littéraire, journalistique, professionnel, voire technique ou commercial) des textes depuis et vers la langue étrangère cible.
+
+						<br/>
+					</li>
+					<li>
+communiquer efficacement dans sa langue seconde (obligatoire dans les 3 UE transversales du parcours).
+
+						<br/>
+					</li>
+					<li>
+rédiger des textes (discours, présentations, comptes rendus, synthèses, articles, etc) grâce aux compétences rédactionnelles acquises lors des divers travaux écrits (commentaires de texte, dissertations, traductions) demandés dans sa formation en civilisation, littérature, arts visuels et études culturelles en général.
+
+						<br/>
+					</li>
+					<li>
+synthétiser un texte.
+
+						<br/>
+					</li>
+					<li>
+en faire une analyse critique.
+
+						<br/>
+					</li>
+					<li>
+déterminer une problématique; délimiter un champ de recherche, identifier et décrire des sources primaires et secondaires, organiser une problématique ; organiser et présenter une bibliographie, présenter et défendre oralement les résultats de la recherche et la méthode de travail suivie.
+
+						<br/>
+					</li>
+					<li>
+faire de la recherche documentaire.
+
+						<br/>
+					</li>
+					<li>
+mener à bien un travail de thèse et de recherche en général.
+
+						<br/>
+					</li>
+					<li>
+tenir compte, notamment grâce à sa formation en littérature, des situations d'énonciation et de l'implicite que véhiculent les discours, dimension essentielle dans toute situation de communication.
+
+						<br/>
+					</li>
+					<li>
+appréhender l'inter-culturalité : comprendre et communiquer avec des personnes (clients, collègues, partenaires divers dans l'industrie, le monde politique, les fondations ou associations internationales...) ayant une culture et des valeurs différentes.
+
+						<br/>
+					</li>
+					<li>
+utiliser la connaissance approfondie de l'histoire, des institutions et de la société du pays cible acquise dans les cours de civilisation (la comprendre et l'analyser, la faire comprendre aux autres, en tenir compte dans une situation professionnelle; mener une enquête de type sociologique ou politique, en faire un compte rendu).
+
+						<br/>
+					</li>
+					<li>
+exploiter dans le domaine de la culture, notamment là où il y a contact entre les cultures (services culturels en France ou à l'étranger, événements culturels, musées ...) les outils techniques tout comme les connaissances culturelles mobilisés dans les cours de cinéma et de peinture, dont l'originalité à l'UFC est qu'ils sont introduits dans les départements de langues, notamment en anglais, dès la première année.
+</li>
+				</ul>
+				<br/>
+			</resultats-attendus>
+			<contenu-formation>
+La formation est organisé en 4 semestres, de 5 UE chacun. Les 3 premiers semestres (S7, S8, S9) sont axés sur les apprentissages, mais aussi sur la méthodologie et l'ouverture sur le monde professionnel. Le dernier semestre (S10) est consacré à un stage et à la rédaction du rapport de stage, ou bien à la rédaction d'un mémoire de recherche.
+</contenu-formation>
+			<certifiante>1</certifiante>
+			<contact-formation>
+				<coordonnees>
+					<nom>Marie-Pascale BEHRA</nom>
+					<telfixe>
+						<numtel>03 81 66 53 41</numtel>
+					</telfixe>
+					<courriel>marie-pascale.behra@univ-fcomte.fr</courriel>
+				</coordonnees>
+			</contact-formation>
+			<parcours-de-formation>1</parcours-de-formation>
+			<code-niveau-entree>0</code-niveau-entree>
+			<code-niveau-sortie>8</code-niveau-sortie>
+			<action>
+				<rythme-formation>Formation Initiale</rythme-formation>
+				<code-public-vise ref=""/>
+				<niveau-entree-obligatoire>0</niveau-entree-obligatoire>
+				<modalites-alternance/>
+				<modalites-enseignement>0</modalites-enseignement>
+				<conditions-specifiques/>
+				<prise-en-charge-frais-possible/>
+				<lieu-de-formation>
+					<coordonnees>
+						<nom>
+UFR Sciences du langage, de l'homme et de la société
+</nom>
+						<adresse>
+							<ligne>30 rue Mégevand</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+						<web>
+							<urlweb>http://slhs.univ-fcomte.fr</urlweb>
+						</web>
+					</coordonnees>
+				</lieu-de-formation>
+				<modalites-entrees-sorties>0</modalites-entrees-sorties>
+				<session>
+					<periode>
+						<debut>00000000</debut>
+						<fin>00000000</fin>
+					</periode>
+					<adresse-inscription>
+						<adresse>
+							<ligne>30 rue Mégevand</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+					</adresse-inscription>
+					<modalites-inscription/>
+				</session>
+			</action>
+			<organisme-formation-responsable>
+				<numero-activite>4325P000425</numero-activite>
+				<SIRET-organisme-formation>
+					<SIRET>19251215000363</SIRET>
+				</SIRET-organisme-formation>
+				<nom-organisme>Université de Franche-Comté</nom-organisme>
+				<raison-sociale>Université de Franche-Comté</raison-sociale>
+				<coordonnees-organisme>
+					<coordonnees>
+						<adresse>
+							<ligne>1 rue Claude Goudimel</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+					</coordonnees>
+				</coordonnees-organisme>
+				<contact-organisme/>
+			</organisme-formation-responsable>
+		</formation>
+		<formation>
+			<domaine-formation>
+				<code-ROME>E1106</code-ROME>
+				<code-ROME>E1108</code-ROME>
+				<code-ROME>G1102</code-ROME>
+				<code-ROME>K2108</code-ROME>
+			</domaine-formation>
+			<intitule-formation>
+Master Langues, littératures et civilisations étrangères et régionales parcours Espagnol - Langues, Cultures, Traduction
+</intitule-formation>
+			<objectif-formation>
+				<p>
+Le Master LLCER est composé de cinq parcours: quatre parcours de langues (parcours Langues, Cultures et Traduction) et un parcours Traitement Automatique des Langues.
+</p>
+				<p>
+Les parcours Langues, Cultures et Traduction visent à approfondir les quatre sous-disciplines qui forment leur socle: la langue, la littérature, la civilisation, l'étude de l'image fixe et mobile dans le domaine de ce qui fait sa spécificité : « les Etudes culturelles » (les « cultural studies » nées en Grande-Bretagne dans les années soixante). Ce domaine est en cohérence avec les études de langues, car, « les études culturelles » sont transdisciplinaires, recoupant la civilisation, la littérature, l'étude de l'image, et la traduction.
+
+					<br/>
+				</p>
+				<p>
+A la fois un master de recherche et un master professionnalisant, cette proposition offre une formation culturelle étendue permettant aux étudiants d'acquérir une polyvalence à la fois dans leur regard critique et dans les compétences linguistique, rédactionnelles et de culture générale pouvant être mises en valeur.
+</p>
+Le tronc commun, enseigné en français, assure la diffusion des connaissances sur l'histoire et la conceptualisation des études culturelles, ainsi que la méthodologie de la recherche. Les enseignements dans la langue du parcours complètent cette formation.
+
+				<br/>
+De façon générale, le titulaire du diplôme fait carrière dans les domaines de la traduction et de l'interprétariat, du tourisme et, notamment à leur croisée avec l'international, dans ceux du journalisme, de la culture, de la communication, de l'humanitaire, ou encore du commerce et de l'industrie. Lui sont ouvertes aussi les portes de l'administration et de l'enseignement secondaire et supérieur et ceux de la recherche.
+
+			</objectif-formation>
+			<resultats-attendus>
+				<p>
+Ayant reçu une formation dans les humanités, le titulaire de ce master ayant suivi un parcours: langue, cultures, traduction aura une certaine polyvalence dont l'intérêt professionnel sera renforcé par sa double compétence dans la langue et dans la culture du pays dont il est spécialiste, la formation en langues ayant pour objectif de travailler à la fois la langue et le contenu culturel. Ce contenu culturel est appréhendé à travers les quatre sous-disciplines des langues qui sont la linguistique, la civilisation, la littérature et les arts visuels.
+</p>
+				<p>Il sera donc capable de:</p>
+				<p/>
+				<ul>
+					<li>
+s'exprimer à l'oral comme à l'écrit dans toutes les nuances de la langue étrangère cible de sa formation.
+
+						<br/>
+					</li>
+					<li>
+traduire et interpréter dans tous les domaines (littéraire, journalistique, professionnel, voire technique ou commercial) des textes depuis et vers la langue étrangère cible.
+
+						<br/>
+					</li>
+					<li>
+communiquer efficacement dans sa langue seconde (obligatoire dans les 3 UE transversales du parcours).
+
+						<br/>
+					</li>
+					<li>
+rédiger des textes (discours, présentations, comptes rendus, synthèses, articles, etc) grâce aux compétences rédactionnelles acquises lors des divers travaux écrits (commentaires de texte, dissertations, traductions) demandés dans sa formation en civilisation, littérature, arts visuels et études culturelles en général.
+
+						<br/>
+					</li>
+					<li>
+synthétiser un texte.
+
+						<br/>
+					</li>
+					<li>
+en faire une analyse critique.
+
+						<br/>
+					</li>
+					<li>
+déterminer une problématique; délimiter un champ de recherche, identifier et décrire des sources primaires et secondaires, organiser une problématique ; organiser et présenter une bibliographie, présenter et défendre oralement les résultats de la recherche et la méthode de travail suivie.
+
+						<br/>
+					</li>
+					<li>
+faire de la recherche documentaire.
+
+						<br/>
+					</li>
+					<li>
+mener à bien un travail de thèse et de recherche en général.
+
+						<br/>
+					</li>
+					<li>
+tenir compte, notamment grâce à sa formation en littérature, des situations d'énonciation et de l'implicite que véhiculent les discours, dimension essentielle dans toute situation de communication.
+
+						<br/>
+					</li>
+					<li>
+appréhender l'inter-culturalité : comprendre et communiquer avec des personnes (clients, collègues, partenaires divers dans l'industrie, le monde politique, les fondations ou associations internationales...) ayant une culture et des valeurs différentes.
+
+						<br/>
+					</li>
+					<li>
+utiliser la connaissance approfondie de l'histoire, des institutions et de la société du pays cible acquise dans les cours de civilisation (la comprendre et l'analyser, la faire comprendre aux autres, en tenir compte dans une situation professionnelle; mener une enquête de type sociologique ou politique, en faire un compte rendu).
+
+						<br/>
+					</li>
+					<li>
+exploiter dans le domaine de la culture, notamment là où il y a contact entre les cultures (services culturels en France ou à l'étranger, événements culturels, musées ...) les outils techniques tout comme les connaissances culturelles mobilisés dans les cours de cinéma et de peinture, dont l'originalité à l'UFC est qu'ils sont introduits dans les départements de langues, notamment en anglais, dès la première année.
+</li>
+				</ul>
+				<br/>
+			</resultats-attendus>
+			<contenu-formation>
+La formation est organisé en 4 semestres, de 5 UE chacun. Les 3 premiers semestres (S7, S8, S9) sont axés sur les apprentissages, mais aussi sur la méthodologie et l'ouverture sur le monde professionnel. Le dernier semestre (S10) est consacré à un stage et à la rédaction du rapport de stage, ou bien à la rédaction d'un mémoire de recherche.
+</contenu-formation>
+			<certifiante>1</certifiante>
+			<contact-formation>
+				<coordonnees>
+					<nom>Marie-Pascale BEHRA</nom>
+					<telfixe>
+						<numtel>03 81 66 53 41</numtel>
+					</telfixe>
+					<courriel>marie-pascale.behra@univ-fcomte.fr</courriel>
+				</coordonnees>
+			</contact-formation>
+			<parcours-de-formation>1</parcours-de-formation>
+			<code-niveau-entree>0</code-niveau-entree>
+			<code-niveau-sortie>8</code-niveau-sortie>
+			<action>
+				<rythme-formation>Formation Initiale</rythme-formation>
+				<code-public-vise ref=""/>
+				<niveau-entree-obligatoire>0</niveau-entree-obligatoire>
+				<modalites-alternance/>
+				<modalites-enseignement>0</modalites-enseignement>
+				<conditions-specifiques/>
+				<prise-en-charge-frais-possible/>
+				<lieu-de-formation>
+					<coordonnees>
+						<nom>
+UFR Sciences du langage, de l'homme et de la société
+</nom>
+						<adresse>
+							<ligne>30 rue Mégevand</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+						<web>
+							<urlweb>http://slhs.univ-fcomte.fr</urlweb>
+						</web>
+					</coordonnees>
+				</lieu-de-formation>
+				<modalites-entrees-sorties>0</modalites-entrees-sorties>
+				<session>
+					<periode>
+						<debut>00000000</debut>
+						<fin>00000000</fin>
+					</periode>
+					<adresse-inscription>
+						<adresse>
+							<ligne>30 rue Mégevand</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+					</adresse-inscription>
+					<modalites-inscription/>
+				</session>
+			</action>
+			<organisme-formation-responsable>
+				<numero-activite>4325P000425</numero-activite>
+				<SIRET-organisme-formation>
+					<SIRET>19251215000363</SIRET>
+				</SIRET-organisme-formation>
+				<nom-organisme>Université de Franche-Comté</nom-organisme>
+				<raison-sociale>Université de Franche-Comté</raison-sociale>
+				<coordonnees-organisme>
+					<coordonnees>
+						<adresse>
+							<ligne>1 rue Claude Goudimel</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+					</coordonnees>
+				</coordonnees-organisme>
+				<contact-organisme/>
+			</organisme-formation-responsable>
+		</formation>
+		<formation>
+			<domaine-formation>
+				<code-ROME>E1106</code-ROME>
+				<code-ROME>E1108</code-ROME>
+				<code-ROME>G1102</code-ROME>
+				<code-ROME>K2108</code-ROME>
+			</domaine-formation>
+			<intitule-formation>
+Master Langues, littératures et civilisations étrangères et régionales parcours Italien - Langues, Cultures, Traduction
+</intitule-formation>
+			<objectif-formation>
+				<p>
+Le Master LLCER est composé de cinq parcours: quatre parcours de langues (parcours Langues, Cultures et Traduction) et un parcours Traitement Automatique des Langues.
+</p>
+				<p>
+Les parcours Langues, Cultures et Traduction visent à approfondir les quatre sous-disciplines qui forment leur socle: la langue, la littérature, la civilisation, l'étude de l'image fixe et mobile dans le domaine de ce qui fait sa spécificité : « les Etudes culturelles » (les « cultural studies » nées en Grande-Bretagne dans les années soixante). Ce domaine est en cohérence avec les études de langues, car, « les études culturelles » sont transdisciplinaires, recoupant la civilisation, la littérature, l'étude de l'image, et la traduction.
+
+					<br/>
+				</p>
+				<p>
+A la fois un master de recherche et un master professionnalisant, cette proposition offre une formation culturelle étendue permettant aux étudiants d'acquérir une polyvalence à la fois dans leur regard critique et dans les compétences linguistique, rédactionnelles et de culture générale pouvant être mises en valeur.
+</p>
+Le tronc commun, enseigné en français, assure la diffusion des connaissances sur l'histoire et la conceptualisation des études culturelles, ainsi que la méthodologie de la recherche. Les enseignements dans la langue du parcours complètent cette formation.
+
+				<br/>
+De façon générale, le titulaire du diplôme fait carrière dans les domaines de la traduction et de l'interprétariat, du tourisme et, notamment à leur croisée avec l'international, dans ceux du journalisme, de la culture, de la communication, de l'humanitaire, ou encore du commerce et de l'industrie. Lui sont ouvertes aussi les portes de l'administration et de l'enseignement secondaire et supérieur et ceux de la recherche.
+
+			</objectif-formation>
+			<resultats-attendus>
+				<p>
+Ayant reçu une formation dans les humanités, le titulaire de ce master ayant suivi un parcours: langue, cultures, traduction aura une certaine polyvalence dont l'intérêt professionnel sera renforcé par sa double compétence dans la langue et dans la culture du pays dont il est spécialiste, la formation en langues ayant pour objectif de travailler à la fois la langue et le contenu culturel. Ce contenu culturel est appréhendé à travers les quatre sous-disciplines des langues qui sont la linguistique, la civilisation, la littérature et les arts visuels.
+</p>
+				<p>Il sera donc capable de:</p>
+				<p/>
+				<ul>
+					<li>
+s'exprimer à l'oral comme à l'écrit dans toutes les nuances de la langue étrangère cible de sa formation.
+
+						<br/>
+					</li>
+					<li>
+traduire et interpréter dans tous les domaines (littéraire, journalistique, professionnel, voire technique ou commercial) des textes depuis et vers la langue étrangère cible.
+
+						<br/>
+					</li>
+					<li>
+communiquer efficacement dans sa langue seconde (obligatoire dans les 3 UE transversales du parcours).
+
+						<br/>
+					</li>
+					<li>
+rédiger des textes (discours, présentations, comptes rendus, synthèses, articles, etc) grâce aux compétences rédactionnelles acquises lors des divers travaux écrits (commentaires de texte, dissertations, traductions) demandés dans sa formation en civilisation, littérature, arts visuels et études culturelles en général.
+
+						<br/>
+					</li>
+					<li>
+synthétiser un texte.
+
+						<br/>
+					</li>
+					<li>
+en faire une analyse critique.
+
+						<br/>
+					</li>
+					<li>
+déterminer une problématique; délimiter un champ de recherche, identifier et décrire des sources primaires et secondaires, organiser une problématique ; organiser et présenter une bibliographie, présenter et défendre oralement les résultats de la recherche et la méthode de travail suivie.
+
+						<br/>
+					</li>
+					<li>
+faire de la recherche documentaire.
+
+						<br/>
+					</li>
+					<li>
+mener à bien un travail de thèse et de recherche en général.
+
+						<br/>
+					</li>
+					<li>
+tenir compte, notamment grâce à sa formation en littérature, des situations d'énonciation et de l'implicite que véhiculent les discours, dimension essentielle dans toute situation de communication.
+
+						<br/>
+					</li>
+					<li>
+appréhender l'inter-culturalité : comprendre et communiquer avec des personnes (clients, collègues, partenaires divers dans l'industrie, le monde politique, les fondations ou associations internationales...) ayant une culture et des valeurs différentes.
+
+						<br/>
+					</li>
+					<li>
+utiliser la connaissance approfondie de l'histoire, des institutions et de la société du pays cible acquise dans les cours de civilisation (la comprendre et l'analyser, la faire comprendre aux autres, en tenir compte dans une situation professionnelle; mener une enquête de type sociologique ou politique, en faire un compte rendu).
+
+						<br/>
+					</li>
+					<li>
+exploiter dans le domaine de la culture, notamment là où il y a contact entre les cultures (services culturels en France ou à l'étranger, événements culturels, musées ...) les outils techniques tout comme les connaissances culturelles mobilisés dans les cours de cinéma et de peinture, dont l'originalité à l'UFC est qu'ils sont introduits dans les départements de langues, notamment en anglais, dès la première année.
+</li>
+				</ul>
+				<br/>
+			</resultats-attendus>
+			<contenu-formation>
+La formation est organisé en 4 semestres, de 5 UE chacun. Les 3 premiers semestres (S7, S8, S9) sont axés sur les apprentissages, mais aussi sur la méthodologie et l'ouverture sur le monde professionnel. Le dernier semestre (S10) est consacré à un stage et à la rédaction du rapport de stage, ou bien à la rédaction d'un mémoire de recherche.
+</contenu-formation>
+			<certifiante>1</certifiante>
+			<contact-formation>
+				<coordonnees>
+					<nom>Marie-Pascale BEHRA</nom>
+					<telfixe>
+						<numtel>03 81 66 53 41</numtel>
+					</telfixe>
+					<courriel>marie-pascale.behra@univ-fcomte.fr</courriel>
+				</coordonnees>
+			</contact-formation>
+			<parcours-de-formation>1</parcours-de-formation>
+			<code-niveau-entree>0</code-niveau-entree>
+			<code-niveau-sortie>8</code-niveau-sortie>
+			<action>
+				<rythme-formation>Formation Initiale</rythme-formation>
+				<code-public-vise ref=""/>
+				<niveau-entree-obligatoire>0</niveau-entree-obligatoire>
+				<modalites-alternance/>
+				<modalites-enseignement>0</modalites-enseignement>
+				<conditions-specifiques/>
+				<prise-en-charge-frais-possible/>
+				<lieu-de-formation>
+					<coordonnees>
+						<nom>
+UFR Sciences du langage, de l'homme et de la société
+</nom>
+						<adresse>
+							<ligne>30 rue Mégevand</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+						<web>
+							<urlweb>http://slhs.univ-fcomte.fr</urlweb>
+						</web>
+					</coordonnees>
+				</lieu-de-formation>
+				<modalites-entrees-sorties>0</modalites-entrees-sorties>
+				<session>
+					<periode>
+						<debut>00000000</debut>
+						<fin>00000000</fin>
+					</periode>
+					<adresse-inscription>
+						<adresse>
+							<ligne>30 rue Mégevand</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+					</adresse-inscription>
+					<modalites-inscription/>
+				</session>
+			</action>
+			<organisme-formation-responsable>
+				<numero-activite>4325P000425</numero-activite>
+				<SIRET-organisme-formation>
+					<SIRET>19251215000363</SIRET>
+				</SIRET-organisme-formation>
+				<nom-organisme>Université de Franche-Comté</nom-organisme>
+				<raison-sociale>Université de Franche-Comté</raison-sociale>
+				<coordonnees-organisme>
+					<coordonnees>
+						<adresse>
+							<ligne>1 rue Claude Goudimel</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+					</coordonnees>
+				</coordonnees-organisme>
+				<contact-organisme/>
+			</organisme-formation-responsable>
+		</formation>
+		<formation>
+			<domaine-formation>
+				<code-ROME>E1106</code-ROME>
+				<code-ROME>E1108</code-ROME>
+				<code-ROME>G1102</code-ROME>
+				<code-ROME>K2108</code-ROME>
+			</domaine-formation>
+			<intitule-formation>
+Master Langues, littératures et civilisations étrangères et régionales parcours Traitement Automatique des Langues
+</intitule-formation>
+			<objectif-formation>
+				<p>
+Le Master LLCER est composé de cinq parcours: quatre parcours de langues (parcours Langues, Cultures et Traduction) et un parcours Traitement Automatique des Langues.
+</p>
+				<p>
+Les parcours Langues, Cultures et Traduction visent à approfondir les quatre sous-disciplines qui forment leur socle: la langue, la littérature, la civilisation, l'étude de l'image fixe et mobile dans le domaine de ce qui fait sa spécificité : « les Etudes culturelles » (les « cultural studies » nées en Grande-Bretagne dans les années soixante). Ce domaine est en cohérence avec les études de langues, car, « les études culturelles » sont transdisciplinaires, recoupant la civilisation, la littérature, l'étude de l'image, et la traduction.
+
+					<br/>
+				</p>
+				<p>
+A la fois un master de recherche et un master professionnalisant, cette proposition offre une formation culturelle étendue permettant aux étudiants d'acquérir une polyvalence à la fois dans leur regard critique et dans les compétences linguistique, rédactionnelles et de culture générale pouvant être mises en valeur.
+</p>
+Le tronc commun, enseigné en français, assure la diffusion des connaissances sur l'histoire et la conceptualisation des études culturelles, ainsi que la méthodologie de la recherche. Les enseignements dans la langue du parcours complètent cette formation.
+
+				<br/>
+De façon générale, le titulaire du diplôme fait carrière dans les domaines de la traduction et de l'interprétariat, du tourisme et, notamment à leur croisée avec l'international, dans ceux du journalisme, de la culture, de la communication, de l'humanitaire, ou encore du commerce et de l'industrie. Lui sont ouvertes aussi les portes de l'administration et de l'enseignement secondaire et supérieur et ceux de la recherche.
+
+			</objectif-formation>
+			<resultats-attendus>
+				<p>
+Ayant reçu une formation dans les humanités, le titulaire de ce master ayant suivi un parcours: langue, cultures, traduction aura une certaine polyvalence dont l'intérêt professionnel sera renforcé par sa double compétence dans la langue et dans la culture du pays dont il est spécialiste, la formation en langues ayant pour objectif de travailler à la fois la langue et le contenu culturel. Ce contenu culturel est appréhendé à travers les quatre sous-disciplines des langues qui sont la linguistique, la civilisation, la littérature et les arts visuels.
+</p>
+				<p>Il sera donc capable de:</p>
+				<p/>
+				<ul>
+					<li>
+s'exprimer à l'oral comme à l'écrit dans toutes les nuances de la langue étrangère cible de sa formation.
+
+						<br/>
+					</li>
+					<li>
+traduire et interpréter dans tous les domaines (littéraire, journalistique, professionnel, voire technique ou commercial) des textes depuis et vers la langue étrangère cible.
+
+						<br/>
+					</li>
+					<li>
+communiquer efficacement dans sa langue seconde (obligatoire dans les 3 UE transversales du parcours).
+
+						<br/>
+					</li>
+					<li>
+rédiger des textes (discours, présentations, comptes rendus, synthèses, articles, etc) grâce aux compétences rédactionnelles acquises lors des divers travaux écrits (commentaires de texte, dissertations, traductions) demandés dans sa formation en civilisation, littérature, arts visuels et études culturelles en général.
+
+						<br/>
+					</li>
+					<li>
+synthétiser un texte.
+
+						<br/>
+					</li>
+					<li>
+en faire une analyse critique.
+
+						<br/>
+					</li>
+					<li>
+déterminer une problématique; délimiter un champ de recherche, identifier et décrire des sources primaires et secondaires, organiser une problématique ; organiser et présenter une bibliographie, présenter et défendre oralement les résultats de la recherche et la méthode de travail suivie.
+
+						<br/>
+					</li>
+					<li>
+faire de la recherche documentaire.
+
+						<br/>
+					</li>
+					<li>
+mener à bien un travail de thèse et de recherche en général.
+
+						<br/>
+					</li>
+					<li>
+tenir compte, notamment grâce à sa formation en littérature, des situations d'énonciation et de l'implicite que véhiculent les discours, dimension essentielle dans toute situation de communication.
+
+						<br/>
+					</li>
+					<li>
+appréhender l'inter-culturalité : comprendre et communiquer avec des personnes (clients, collègues, partenaires divers dans l'industrie, le monde politique, les fondations ou associations internationales...) ayant une culture et des valeurs différentes.
+
+						<br/>
+					</li>
+					<li>
+utiliser la connaissance approfondie de l'histoire, des institutions et de la société du pays cible acquise dans les cours de civilisation (la comprendre et l'analyser, la faire comprendre aux autres, en tenir compte dans une situation professionnelle; mener une enquête de type sociologique ou politique, en faire un compte rendu).
+
+						<br/>
+					</li>
+					<li>
+exploiter dans le domaine de la culture, notamment là où il y a contact entre les cultures (services culturels en France ou à l'étranger, événements culturels, musées ...) les outils techniques tout comme les connaissances culturelles mobilisés dans les cours de cinéma et de peinture, dont l'originalité à l'UFC est qu'ils sont introduits dans les départements de langues, notamment en anglais, dès la première année.
+</li>
+				</ul>
+				<br/>
+			</resultats-attendus>
+			<contenu-formation>
+La formation est organisé en 4 semestres, de 5 UE chacun. Les 3 premiers semestres (S7, S8, S9) sont axés sur les apprentissages, mais aussi sur la méthodologie et l'ouverture sur le monde professionnel. Le dernier semestre (S10) est consacré à un stage et à la rédaction du rapport de stage, ou bien à la rédaction d'un mémoire de recherche.
+</contenu-formation>
+			<certifiante>1</certifiante>
+			<contact-formation>
+				<coordonnees>
+					<nom>Nadège CHAVEL</nom>
+					<telfixe>
+						<numtel>03 81 66 53 41</numtel>
+					</telfixe>
+					<courriel>nadege.chavel@univ-fcomte.fr</courriel>
+				</coordonnees>
+			</contact-formation>
+			<parcours-de-formation>1</parcours-de-formation>
+			<code-niveau-entree>0</code-niveau-entree>
+			<code-niveau-sortie>8</code-niveau-sortie>
+			<action>
+				<rythme-formation>Formation Initiale</rythme-formation>
+				<code-public-vise ref=""/>
+				<niveau-entree-obligatoire>0</niveau-entree-obligatoire>
+				<modalites-alternance/>
+				<modalites-enseignement>0</modalites-enseignement>
+				<conditions-specifiques/>
+				<prise-en-charge-frais-possible/>
+				<lieu-de-formation>
+					<coordonnees>
+						<nom>
+UFR Sciences du langage, de l'homme et de la société
+</nom>
+						<adresse>
+							<ligne>30 rue Mégevand</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+						<web>
+							<urlweb>http://slhs.univ-fcomte.fr</urlweb>
+						</web>
+					</coordonnees>
+				</lieu-de-formation>
+				<modalites-entrees-sorties>0</modalites-entrees-sorties>
+				<session>
+					<periode>
+						<debut>00000000</debut>
+						<fin>00000000</fin>
+					</periode>
+					<adresse-inscription>
+						<adresse>
+							<ligne>30 rue Mégevand</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+					</adresse-inscription>
+					<modalites-inscription/>
+				</session>
+			</action>
+			<organisme-formation-responsable>
+				<numero-activite>4325P000425</numero-activite>
+				<SIRET-organisme-formation>
+					<SIRET>19251215000363</SIRET>
+				</SIRET-organisme-formation>
+				<nom-organisme>Université de Franche-Comté</nom-organisme>
+				<raison-sociale>Université de Franche-Comté</raison-sociale>
+				<coordonnees-organisme>
+					<coordonnees>
+						<adresse>
+							<ligne>1 rue Claude Goudimel</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+					</coordonnees>
+				</coordonnees-organisme>
+				<contact-organisme/>
+			</organisme-formation-responsable>
+		</formation>
+		<formation>
+			<domaine-formation>
+				<code-ROME>E1103</code-ROME>
+				<code-ROME>E1106</code-ROME>
+				<code-ROME>M1704</code-ROME>
+				<code-ROME>M1705</code-ROME>
+				<code-ROME>M1707</code-ROME>
+			</domaine-formation>
+			<intitule-formation>
+Master Langues étrangères appliquées parcours Langues et commerce électronique
+</intitule-formation>
+			<objectif-formation>
+				<p>
+Il s'agit d'un cursus polyvalent qui s'articule autour de trois axes : les langues (40%), l'e-marketing (30%) et le développement Web (30%). Ce parcours propose une option bilingue (Français et Anglais) et trois options trilingues (Français, Anglais + Allemand ou Espagnol ou Italien). Les enseignements ont lieu en petits groupes (maximum une vingtaine d'étudiants) et sont assurés des enseignants français ou de langue maternelle (niveau C1-C2 du CERL à la fin du M2). 40% des enseignements sont dispensés en mode projet individuel ou en groupe (projet tuteuré) : les étudiants apprennent à utiliser toutes leurs compétences simultanément et à travailler avec d'autres, comme ils auront à le faire dans le milieu professionnel. La professionnalisation de la formation est accentuée par deux stages longs en Master 1 et en Master 2. Le stage de Master 1 dure trois mois minimum (maximum 6 mois) et la langue de travail doit obligatoirement être différente de la langue maternelle (stages à l'étranger dans la plupart des cas). Le stage de Master 2, quant à lui, dure 6 mois et doit être effectué en cohérence avec le projet professionnel défini au préalable avec l'équipe enseignante. Les étudiants acquièrent ainsi tout au long des deux ans les outils et les compétences pour construire des projets professionnels « sur mesure ».
+</p>
+			</objectif-formation>
+			<resultats-attendus>
+				<p>Le(La) diplômé(e) est capable de</p>
+				<p>
+- traduire des documents très spécialisés dans les domaines du commerce international, de la gestion d'entreprise, de la communication d'entreprise ou du marketing international, de l'animation commerciale pour les sites de vente par correspondance en ligne.
+</p>
+				<p>
+- mobiliser les mécanismes juridiques (subventions, code du travail, types de sociétés) pour créer une entreprise dans les différentes zones linguistiques étudiées.
+</p>
+				<p>
+- Rédiger pour une publication sur la toile des textes traduits et d'optimiser des contenus pour optimiser le référencement du site sur les moteurs de recherche, suivi des statistiques Analytics pour des entreprises d'édition sur le web. Analyse sémantique et choix de requêtes stratégiques. Réalisation de prestations de référencement naturel et payant : audit technique (indexation, crawl, freins au référencement), audit sémantique, analyses backlinks, rapports de positionnement, recommandations ROI (return on investment), analyse de statistiques de mesure d'audience (ROI).
+</p>
+				<p>
+- utiliser les outils de la publication en ligne (HTML, Java), iOS, Android et Mobile Web applications pour e-marchands.
+</p>
+				<p>
+- utiliser les logiciels de traitement de l'image, les filtres, les scripts, sait optimiser un contenu visuel.
+</p>
+				<p>
+- créer des sites dynamiques avec XML en utilisant des logiciels d'animation vectorielle d'images (Flash), la programmation en ActionScript3 : programmation orientée objet.
+</p>
+				<p>
+- mettre en œuvre les techniques de l'infographie : plans de communication d'entreprises, supports et charte graphique, création de logos
+</p>
+				<p>
+- encadrer la vente en ligne et gère la relation client, l'achat et la vente en ligne, le marketing direct, le ciblage, la fidélisation, l'optimisation du référencement sur les moteurs de recherche.
+</p>
+				<p>
+- mettre en place des stratégies d'analyse de performance des sites web marchands (benchmarking) en multilingue, veille stratégique référencement, analyse sémantique, stratégies de maillage externe et interne.
+</p>
+				<p>
+- maîtriser le droit des TIC : droit d'auteur, contrats, protection des données, protection des mineurs, signature électronique
+</p>
+				<p>
+- gèrer les systèmes de paiement sécurisé en ligne, de mettre en place une stratégie de veille en ligne, maîtrise les principes de l'intelligence économique.
+</p>
+				<p>
+- coordonner un projet au sein d'une équipe, manage l'équipe, sait étudier le cycle de vie d'un produit, planifier par l'étude des indicateurs d'avancement, gérer les risques et les opportunités. Analyse fonctionnelle du site web : segmentation, filtrage.
+</p>
+				<p></p>
+			</resultats-attendus>
+			<contenu-formation/>
+			<certifiante>1</certifiante>
+			<contact-formation>
+				<coordonnees>
+					<nom>Scolarité LEA - STGI Montbéliard</nom>
+					<telfixe>
+						<numtel>03.81.99.46.31</numtel>
+					</telfixe>
+					<courriel>scolaritelea.stgi@univ-fcomte.fr</courriel>
+				</coordonnees>
+			</contact-formation>
+			<parcours-de-formation>1</parcours-de-formation>
+			<code-niveau-entree>0</code-niveau-entree>
+			<code-niveau-sortie>8</code-niveau-sortie>
+			<action>
+				<rythme-formation>Formation Initiale, Continue</rythme-formation>
+				<code-public-vise ref=""/>
+				<niveau-entree-obligatoire>0</niveau-entree-obligatoire>
+				<modalites-alternance/>
+				<modalites-enseignement>0</modalites-enseignement>
+				<conditions-specifiques>
+De par son double enseignement linguistique et technique, le master 2LCE accueille aussi bien des étudiants des filières LEA ou LLCE que des étudiants à formation technique en informatique, conception, etc. Dans notre politique de recrutement, nous apprécions les profils atypiques qui sont sélectionnés sur dossier : étudiants étrangers, professionnels, étudiants en réorientation, etc. Pour nous, la motivation compte autant que les titres.En première année, seul un bon niveau en langue est exigé.
+
+					<br/>
+En deuxième année, les candidats sont recrutés sur leurs connaissances en langue ainsi que sur leur maîtrise des techniques multimédia et de publication en ligne (Photoshop, HTML, CSS, Java)
+
+				</conditions-specifiques>
+				<prise-en-charge-frais-possible/>
+				<lieu-de-formation>
+					<coordonnees>
+						<nom>
+UFR Sciences, techniques, et gestion de l'industrie
+</nom>
+						<adresse>
+							<ligne>4 Place Tharradin</ligne>
+							<ligne>BP 71427</ligne>
+							<ville>MONTBELIARD Cedex</ville>
+							<codepostal>25211</codepostal>
+						</adresse>
+						<web>
+							<urlweb>http://stgi.univ-fcomte.fr</urlweb>
+						</web>
+					</coordonnees>
+				</lieu-de-formation>
+				<modalites-entrees-sorties>0</modalites-entrees-sorties>
+				<duree-indicative>738 heures</duree-indicative>
+				<session>
+					<periode>
+						<debut>00000000</debut>
+						<fin>00000000</fin>
+					</periode>
+					<adresse-inscription>
+						<adresse>
+							<ligne>4 Place Tharradin</ligne>
+							<ligne>BP 71427</ligne>
+							<ville>MONTBELIARD Cedex</ville>
+							<codepostal>25211</codepostal>
+						</adresse>
+					</adresse-inscription>
+					<modalites-inscription>
+Les inscriptions sont ouvertes à partir de mi-mars et sont closes à la mi-octobre. Lorsque la capacité d'accueil est atteinte, une liste complémentaire est établie (dossiers disponibles sur le site de l'UFR STGI).
+</modalites-inscription>
+				</session>
+			</action>
+			<organisme-formation-responsable>
+				<numero-activite>4325P000425</numero-activite>
+				<SIRET-organisme-formation>
+					<SIRET>19251215000363</SIRET>
+				</SIRET-organisme-formation>
+				<nom-organisme>Université de Franche-Comté</nom-organisme>
+				<raison-sociale>Université de Franche-Comté</raison-sociale>
+				<coordonnees-organisme>
+					<coordonnees>
+						<adresse>
+							<ligne>1 rue Claude Goudimel</ligne>
+							<ville>Besançon cedex</ville>
+							<codepostal>25030</codepostal>
+						</adresse>
+					</coordonnees>
+				</coordonnees-organisme>
+				<contact-organisme/>
+			</organisme-formation-responsable>
+		</formation>
+		<formation>
+				<domaine-formation>
+					<code-ROME>A1204</code-ROME>
+					<code-ROME>A1303</code-ROME>
+					<code-ROME>H1206</code-ROME>
+					<code-ROME>H1302</code-ROME>
+					<code-ROME>K2301</code-ROME>
+				</domaine-formation>
+				<intitule-formation>
+Master Sciences de l'eau parcours Sciences de l'Eau - Qualité des eaux, des sols et traitements
+</intitule-formation>
+				<objectif-formation>
+Le master mention Sciences de l'Eau (Qualité des Eaux, des Sols et Traitements) vise à former des professionnels exerçant des activités de diagnostic et d'ingénierie écologique, de conception et de mise en oeuvre de procédés de traitement et de dépollution des eaux, effluents, sols et sédiments et de restauration de sites contaminés.
+
+					<br/>
+					<br/>
+Les domaines de compétence sont l'ingénierie et la gestion des eaux continentales et de leurs bassins versants, la protection des sols et de la ressource en eau, l'assainissement et la dépollution, le conseil et les services aux collectivités, la fourniture d'outils d'aide à la décision aux autorités.
+
+					<br/>
+					<br/>
+Les métiers visés sont exercés aussi bien dans les secteurs public (services décentralisés de l'état, acteurs institutionnels de l'eau et de l'environnement, collectivités...) et associatif (fédérations de pêche, de chasse, protection de l'environnement...) que privé (bureaux d'études, cabinets d'ingénierie, PME, grandes entreprises de services environnementaux...).
+
+					<br/>
+					<br/>
+				</objectif-formation>
+				<resultats-attendus>
+Compétences scientifiques et techniques
+
+					<br/>
+Le diplômé a acquis des compétences scientifiques et techniques précises liées à sa spécialisation dans l'un des domaines suivants :
+
+					<br/>
+- ingénierie des systèmes aquatiques et des bassins versants,
+
+					<br/>
+- procédés de traitement et de dépollution.
+
+					<br/>
+					<br/>
+En tant que spécialiste des systèmes aquatiques, le diplômé établit des diagnostics de qualité, identifie les éventuels dysfonctionnements et leurs causes, propose des scenarii de gestion et collabore à leur mise en pratique.
+
+					<br/>
+					<br/>
+En tant que spécialiste de la dépollution, le diplômé contribue à élaborer, à choisir et à mettre en oeuvre les procédés adaptés aux effluents et sols contaminés qu'il a en charge de traiter. Symétriquement, il maîtrise également le langage et les concepts du domaine connexe à sa spécialité.
+
+					<br/>
+					<br/>
+Il est capable de formuler une problématique scientifique et technique dans un contexte de recherche et développement ou d'études
+
+					<i>in natura.</i>
+Il est apte à mettre en oeuvre les outils d'analyse correspondants, et à les articuler dans un contexte pluri-disciplinaire.
+
+					<br/>
+					<br/>
+Le diplômé est capable d'apporter des réponses à des problèmes environnementaux complexes et d'identifier et de proposer des solutions techniques en matière de gestion de la ressource en eau et des milieux aquatiques.
+
+					<br/>
+					<br/>
+Ce professionnel de l'environnement est apte à proposer des solutions en matière de protection, préservation de la ressource en eau et des milieux aquatiques en utilisant :
+
+					<br/>
+- ses connaissances scientifiques liées à l'ingénierie de l'eau et des milieux connexes,
+
+					<br/>
+- sa compréhension du milieu institutionnel, réglementaire et humain de ces domaines d'activité,
+
+					<br/>
+- sa pratique des réalités économiques, juridiques et sociologiques des techniques mises en oeuvre et des solutions proposées,
+
+					<br/>
+- sa maîtrise des principes fondamentaux du droit de l'environnement et de l'urbanisme.
+
+					<br/>
+					<br/>
+Il est apte à évaluer les coûts des solutions proposées et s'appuie pour cela sur sa connaissance du fonctionnement des services publics, des mécanismes de la commande publique et des grandes orientations des politiques de l'eau et de l'environnement.
+
+					<br/>
+					<br/>
+Compétences transverses
+
+					<br/>
+					<br/>
+Le titulaire du diplôme possède des compétences transverses.
+
+					<br/>
+- Il est capable de mettre en place et de réaliser un protocole d'études et d'être innovant dans cette pratique.
+
+					<br/>
+- Il pratique le travail en commun et est capable d'organiser et de gérer la répartition des tâches au sein d'une équipe projet.
+
+					<br/>
+- Il maîtrise la gestion de projets et est apte à une évaluation réaliste des moyens humains, matériels et du temps nécessaire à la réalisation d'un projet.
+
+					<br/>
+- Il sait communiquer ses résultats sous une forme scientifiquement et linguistiquement correcte, tant à l'oral qu'à l'écrit.
+
+					<br/>
+- Il lit et écrit l'anglais scientifique et est capable de communiquer oralement dans cette langue de manière basique.
+
+					<br/>
+					<br/>
+				</resultats-attendus>
+				<contenu-formation>
+La formation est organisée sur la base de 4 semestres de 5 unités d'enseignement chacun. L'ensemble des unités d'enseignement du M2 (à l'exception du stage professionnel) est ouvert au public en formation continue.
+
+					<br/>
+Pour ce faire, les enseignements sont dispensés sous forme de blocs / modules répartis sur des périodes courtes de l'ordre de 15 jours.
+
+					<br/>
+				</contenu-formation>
+				<certifiante>1</certifiante>
+				<contact-formation>
+					<coordonnees>
+						<telfixe>
+							<numtel>03-81-66-66-50</numtel>
+						</telfixe>
+						<courriel>scolarite.master.ufr-st@univ-fcomte.fr</courriel>
+					</coordonnees>
+				</contact-formation>
+				<parcours-de-formation>1</parcours-de-formation>
+				<code-niveau-entree>0</code-niveau-entree>
+				<code-niveau-sortie>8</code-niveau-sortie>
+				<action>
+					<rythme-formation>Formation Initiale, Continue</rythme-formation>
+					<code-public-vise ref=""/>
+					<niveau-entree-obligatoire>0</niveau-entree-obligatoire>
+					<modalites-alternance/>
+					<modalites-enseignement>0</modalites-enseignement>
+					<conditions-specifiques>
+Les pré-requis correspondent aux connaissances et compétences acquises par les titulaires d'une licence de Sciences de la vie, biologie, écologie.
+
+						<br/>
+Des candidatures issues de formations voisines ou touchant à des domaines connexes (chimie environnementale, géosciences, génie des procédés...) sont régulièrement évaluées favorablement. Dans de tels cas, les futurs étudiants sont alertés sur les efforts de remise à niveau qu'ils auront à effectuer notamment dans les disciplines biologiques. En début d'année universitaire, l'équipe pédagogique assure un suivi spécifique pour permettre aux étudiants concernés d'accéder aux ressources et outils adéquats.
+
+					</conditions-specifiques>
+					<prise-en-charge-frais-possible/>
+					<lieu-de-formation>
+						<coordonnees>
+							<nom>UFR Sciences et techniques</nom>
+							<adresse>
+								<ligne>16, route de Gray</ligne>
+								<ville>Besançon cedex CS 11809</ville>
+								<codepostal>25030</codepostal>
+							</adresse>
+							<web>
+								<urlweb>http://sciences.univ-fcomte.fr</urlweb>
+							</web>
+						</coordonnees>
+					</lieu-de-formation>
+					<modalites-entrees-sorties>0</modalites-entrees-sorties>
+					<duree-indicative>850 heures</duree-indicative>
+					<session>
+						<periode>
+							<debut>00000000</debut>
+							<fin>00000000</fin>
+						</periode>
+						<adresse-inscription>
+							<adresse>
+								<ligne>16, route de Gray</ligne>
+								<ville>Besançon cedex CS 11809</ville>
+								<codepostal>25030</codepostal>
+							</adresse>
+						</adresse-inscription>
+						<modalites-inscription>
+Les dossiers d'inscription sont disponibles en ligne sur le site de l'UFR ST plusieurs mois avant la clôture des inscriptions.
+
+							<br/>
+Une adresse mail générique (master.quest@univ-fcomte.fr) est disponible : elle permet aux candidats de contacter le responsable du master : des réponses personnalisées (plusieurs centaines par an) sont apportées à chaque sollicitation par les différents responsables en fonction de la nature des demandes.
+
+						</modalites-inscription>
+					</session>
+				</action>
+				<organisme-formation-responsable>
+					<numero-activite>4325P000425</numero-activite>
+					<SIRET-organisme-formation>
+						<SIRET>19251215000363</SIRET>
+					</SIRET-organisme-formation>
+					<nom-organisme>Université de Franche-Comté</nom-organisme>
+					<raison-sociale>Université de Franche-Comté</raison-sociale>
+					<coordonnees-organisme>
+						<coordonnees>
+							<adresse>
+								<ligne>1 rue Claude Goudimel</ligne>
+								<ville>Besançon cedex</ville>
+								<codepostal>25030</codepostal>
+							</adresse>
+						</coordonnees>
+					</coordonnees-organisme>
+					<contact-organisme/>
+				</organisme-formation-responsable>
+			</formation>
+			<formation>
+				<domaine-formation>
+					<code-ROME>A1303</code-ROME>
+					<code-ROME>K2402</code-ROME>
+				</domaine-formation>
+				<intitule-formation>
+Master Biodiversité, écologie et évolution parcours Ecologie, Diagnostic et Gestion des Ecosystèmes (Ecology, Monitoring and Management of Ecosystems)
+</intitule-formation>
+				<objectif-formation>
+Les titulaires du Master EDGE sont spécialisés dans l'écologie, le diagnostic et la gestion des écosystèmes. Ils sont capables d'évaluer l'état écologique d'un écosystème, sa structure (compartiments abiotiques, communautés de microorganismes, d'animaux et de végétaux, et relations entre eux) et son fonctionnement. Ils sont également capables d'appréhender les dysfonctionnements, l'impact des perturbations naturelles et anthropiques, et de proposer des solutions d'aménagement ou de réhabilitation. Ils peuvent mobiliser des concepts pluridisciplinaires, aborder différentes échelles spatiales et temporelles, y compris sur du temps long (paléoécologie), et différents niveaux d'organisation biologique (de l'individu aux écosystèmes). Ces compétences peuvent être déclinées dans des métiers de niveau bac+5 mais confèrent également aux titulaires la capacité à effectuer avec succès une thèse de doctorat. Des choix d'options et la nature des stages de M1 et de M2 effectués permettent d'effectuer ces différentes orientations.
+</objectif-formation>
+				<resultats-attendus>
+Le titulaire du diplôme est capable de :
+
+					<br/>
+- Appréhender une problématique environnementale complexe et pluridisciplinaire, dans un contexte de recherche ou d'application,
+
+					<br/>
+- Proposer des protocoles, sur le terrain comme au laboratoire, permettant d'aborder ces problématiques, de trouver les ressources humaines, techniques, bibliographiques adéquates,
+
+					<br/>
+- Mettre en œuvre les techniques de mesure et/ou d'analyses adéquates (ou d'établir les collaborations pluridisciplinaires nécessaires), d'analyser et d'interpréter les données obtenues pour proposer des solutions de gestion,
+
+					<br/>
+- Maîtriser la gestion de projets : évaluer de manière réaliste les moyens financiers, logistiques, humains nécessaires, respecter un calendrier d'exécution, gérer le projet de manière à atteindre les objectifs définis,
+
+					<br/>
+- Travailler en autonomie et/ou en équipe, organiser et gérer la répartition des tâches au sein d'une équipe,
+
+					<br/>
+- Communiquer oralement ou par écrit, en français ou en anglais.
+
+				</resultats-attendus>
+				<contenu-formation>
+Les enseignements de la mention Biologie de la Conservation auront lieu à Besançon (site principal pour le parcours EDGE) et Dijon (site principal pour le parcours ECGF). La grande majorité des enseignements du parcours EDGE auront lieu à Besançon.
+
+					<br/>
+				</contenu-formation>
+				<certifiante>1</certifiante>
+				<contact-formation>
+					<coordonnees>
+						<nom>Scolarité UFR ST</nom>
+						<telfixe>
+							<numtel>03-81-66-66-50</numtel>
+						</telfixe>
+						<courriel>scolarite.master.ufr-st@univ-fcomte.fr</courriel>
+					</coordonnees>
+				</contact-formation>
+				<parcours-de-formation>3</parcours-de-formation>
+				<code-niveau-entree>0</code-niveau-entree>
+				<code-niveau-sortie>8</code-niveau-sortie>
+				<action>
+					<rythme-formation>
+Formation Initiale, Continue, En alternance (Contrat pro)
+</rythme-formation>
+					<code-public-vise ref=""/>
+					<niveau-entree-obligatoire>0</niveau-entree-obligatoire>
+					<modalites-alternance/>
+					<modalites-enseignement>0</modalites-enseignement>
+					<conditions-specifiques>
+Niveau Licence en Biologie / Ecologie ou équivalence.
+
+						<br/>
+					</conditions-specifiques>
+					<prise-en-charge-frais-possible/>
+					<lieu-de-formation>
+						<coordonnees>
+							<nom>UFR Sciences et techniques</nom>
+							<adresse>
+								<ligne>16, route de Gray</ligne>
+								<ville>Besançon cedex CS 11809</ville>
+								<codepostal>25030</codepostal>
+							</adresse>
+							<web>
+								<urlweb>http://sciences.univ-fcomte.fr</urlweb>
+							</web>
+						</coordonnees>
+					</lieu-de-formation>
+					<modalites-entrees-sorties>0</modalites-entrees-sorties>
+					<duree-indicative>720 heures</duree-indicative>
+					<session>
+						<periode>
+							<debut>00000000</debut>
+							<fin>00000000</fin>
+						</periode>
+						<adresse-inscription>
+							<adresse>
+								<ligne>16, route de Gray</ligne>
+								<ville>Besançon cedex CS 11809</ville>
+								<codepostal>25030</codepostal>
+							</adresse>
+						</adresse-inscription>
+						<modalites-inscription>
+Consultez la rubrique
+
+							<a href="https://go.univ-fcomte.fr/admission">
+								<b>Demande d'admission et d'inscription</b>
+							</a>
+sur le site de l'Université de Franche-Comté
+
+						</modalites-inscription>
+					</session>
+				</action>
+				<organisme-formation-responsable>
+					<numero-activite>4325P000425</numero-activite>
+					<SIRET-organisme-formation>
+						<SIRET>19251215000363</SIRET>
+					</SIRET-organisme-formation>
+					<nom-organisme>Université de Franche-Comté</nom-organisme>
+					<raison-sociale>Université de Franche-Comté</raison-sociale>
+					<coordonnees-organisme>
+						<coordonnees>
+							<adresse>
+								<ligne>1 rue Claude Goudimel</ligne>
+								<ville>Besançon cedex</ville>
+								<codepostal>25030</codepostal>
+							</adresse>
+						</coordonnees>
+					</coordonnees-organisme>
+					<contact-organisme/>
+				</organisme-formation-responsable>
+			</formation>
+			
+		</offres>
+	</lheo>
