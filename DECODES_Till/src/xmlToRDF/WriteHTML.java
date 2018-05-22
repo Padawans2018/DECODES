@@ -17,10 +17,7 @@ import org.apache.jena.util.FileManager;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 
-/* Steps : 
- *  Initialize writes <!DOCTYPE html>, <html> and head
- *  Open tags, write in them, close them
- */
+
 
 public class WriteHTML {
 	//Singleton pattern

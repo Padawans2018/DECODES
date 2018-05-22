@@ -35,15 +35,30 @@ public class Mapping {
 		  
 		  HashMap<String, List<String>> linkTypeProp = Mapping.linkTypeAndProperties(); 
 		  
+		  HashMap<String, ArrayList<Resource>> allResources = new HashMap<String, ArrayList<Resource>>() ; 
+		  allResources.put("formation", new ArrayList<Resource>());
+		  allResources.put("location", new ArrayList<Resource>());
+		  allResources.put("domain", new ArrayList<Resource>());
+		  allResources.put("respo", new ArrayList<Resource>());
+		  allResources.put("sector", new ArrayList<Resource>());
+		  allResources.put("job", new ArrayList<Resource>());
+		  allResources.put("label", new ArrayList<Resource>());
+		  allResources.put("contact", new ArrayList<Resource>());
+		  allResources.put("company", new ArrayList<Resource>());
+		  allResources.put("authority", new ArrayList<Resource>());
+		  
 		  //initialize model
 		  Model model = MyModel.initiliazeModel(); 
 		  
 		  NodeList allPrograms = doc.getElementsByTagName(tagFormation);
 		  
+		 	  
 		  for (int i = 0 ; i<allPrograms.getLength() ; i++) {
 			  Element formationNode = (Element) allPrograms.item(i);
 			  
-			  HashMap<String, Resource> linkTypeRes = new HashMap<String, Resource>();
+			  HashMap<String, Resource> typeResInit = new HashMap<String, Resource>();
+			  HashMap<String, Resource> typeResFinal = new HashMap<String, Resource>();
+			  
 			  
 			  Resource formationResource = model.createResource(MyModel.uriRes+"formation" + "_" + institutionName + "_" +i);
 			  Resource locationResource = model.createResource(MyModel.uriRes+"location" + "_" + institutionName + "_" +i);
@@ -55,33 +70,25 @@ public class Mapping {
 			  Resource contactResource = model.createResource(MyModel.uriRes+"contact" + "_" + institutionName + "_" +i);
 			  Resource companyResource = model.createResource(MyModel.uriRes+"company" + "_" + institutionName + "_" +i);
 			  Resource authorityResource = model.createResource(MyModel.uriRes+"authority" + "_" + institutionName + "_" +i);
-			  
-			  formationResource.addProperty(model.getProperty(MyModel.uriProp,"takesPlaceIn"), locationResource);
-			  formationResource.addProperty(model.getProperty(MyModel.uriProp,"isPartOf"), domainResource);
-			  formationResource.addProperty(model.getProperty(MyModel.uriProp,"isSubmittedBy"), respoResource);
-			  formationResource.addProperty(model.getProperty(MyModel.uriProp,"givesOpportunitiesIn"), sectorResource);
-			  formationResource.addProperty(model.getProperty(MyModel.uriProp,"givesOpportunitiesIn"), jobResource);
-			  formationResource.addProperty(model.getProperty(MyModel.uriProp,"has"), labelResource);
-			  formationResource.addProperty(model.getProperty(MyModel.uriProp,"isManagedBy"), contactResource);
-			  formationResource.addProperty(model.getProperty(MyModel.uriProp,"isWelcomedBy"), companyResource);
-			  formationResource.addProperty(model.getProperty(MyModel.uriProp,"isCertifiedBy"), authorityResource);
-			  
-			  linkTypeRes.put("formation", formationResource);	  
-			  linkTypeRes.put("location", locationResource);
-			  linkTypeRes.put("domain", domainResource);
-			  linkTypeRes.put("respo", respoResource);
-			  linkTypeRes.put("sector", sectorResource);
-			  linkTypeRes.put("job", jobResource);
-			  linkTypeRes.put("label", labelResource);
-			  linkTypeRes.put("contact", contactResource);
-			  linkTypeRes.put("company", companyResource);
-			  linkTypeRes.put("authority", authorityResource);
-
-			  
+			  		  
+			  typeResInit.put("formation", formationResource);	  
+			  typeResInit.put("location", locationResource);
+			  typeResInit.put("domain", domainResource);
+			  typeResInit.put("respo", respoResource);
+			  typeResInit.put("sector", sectorResource);
+			  typeResInit.put("job", jobResource);
+			  typeResInit.put("label", labelResource);
+			  typeResInit.put("contact", contactResource);
+			  typeResInit.put("company", companyResource);
+			  typeResInit.put("authority", authorityResource);
+			    
+			 			  
 			  for (String type : linkTypeProp.keySet()) {
+				  
+				  Resource res = typeResInit.get(type.toLowerCase());
+				  
 				  for (String prop : linkTypeProp.get(type)) {
 					  
-					  Resource res = linkTypeRes.get(type.toLowerCase()); 
 					  String tag = keysHM.get(type.toLowerCase()).get(prop);
 				
 					  //System.out.println("Type: "+type+"; Tag: "+ tag+"; Prop: "+prop);
@@ -90,11 +97,31 @@ public class Mapping {
 					  }
 					  
 				  }
-			  }
+				  
+				  Resource resIdentical = Mapping.findIdenticalResourceIfExists(model, res, allResources.get(type), type);
+				  if (resIdentical==null) {
+					  allResources.get(type).add(res) ;
+					  typeResFinal.put(type, res) ;
+				  }
+				  else {
+					  typeResFinal.put(type, resIdentical) ; 
+				  }
+			  }			  
+			  
+			  formationResource.addProperty(model.getProperty(MyModel.uriProp,"takesPlaceIn"), typeResFinal.get("location"));
+			  formationResource.addProperty(model.getProperty(MyModel.uriProp,"isPartOf"), typeResFinal.get("domain"));
+			  formationResource.addProperty(model.getProperty(MyModel.uriProp,"isSubmittedBy"), typeResFinal.get("respo"));
+			  formationResource.addProperty(model.getProperty(MyModel.uriProp,"givesOpportunitiesIn"), typeResFinal.get("sector"));
+			  formationResource.addProperty(model.getProperty(MyModel.uriProp,"givesOpportunitiesIn"), typeResFinal.get("job"));
+			  formationResource.addProperty(model.getProperty(MyModel.uriProp,"has"), typeResFinal.get("label"));
+			  formationResource.addProperty(model.getProperty(MyModel.uriProp,"isManagedBy"), typeResFinal.get("contact"));
+			  formationResource.addProperty(model.getProperty(MyModel.uriProp,"isWelcomedBy"), typeResFinal.get("company"));
+			  formationResource.addProperty(model.getProperty(MyModel.uriProp,"isCertifiedBy"), typeResFinal.get("authority"));
+			  
 		  }	  
 		  
 		  
-		  model.write(System.out);
+		  //model.write(System.out);
 		  printModel(model, institutionName + "Output");
 	}
  
@@ -105,7 +132,7 @@ public class Mapping {
  */
 public static void printModel(Model model, String fileName)
 {
-	File file = new File("bin/output/" + fileName + ".rdf");
+	File file = new File("fichiers/output/" + fileName + ".rdf");
 	  try {
 		file.createNewFile();
 		OutputStream stream = new DataOutputStream(new FileOutputStream(file));
@@ -232,6 +259,48 @@ public static Node getElementsByTagList(Element node, ArrayList<String> tagsList
 		finally{}
 		return typeProperty ; 
 	}
+  
+  
+  public static Resource findIdenticalResourceIfExists(Model model, Resource resInitial, ArrayList<Resource> resourceList, String resourceType){
+	
+	  for (Resource res : resourceList) {
+		  if (Mapping.resourcesAreIdentical(resInitial, res, resourceType, model)) {
+			  return res;
+		  }
+	  }
+	  
+	  return null ; 
+	  
+  }
+  
+  public static boolean resourcesAreIdentical (Resource resA, Resource resB, String resourceType, Model model) {
+	  boolean isIdentical = true ;
+	  HashMap<String, List<String>> typeProperty = Mapping.linkTypeAndProperties();
+	  
+	  for (String propS : typeProperty.get(resourceType)) {
+		  Property prop = model.getProperty(MyModel.uriProp + propS);
+			 
+		  String objA = "";
+		  String objB = "" ;
+			 
+		  if (resA.hasProperty(prop)) {
+			  objA = resA.getProperty(prop).getString(); 
+		  }
+		  if (resB.hasProperty(prop)) {
+			  objB = resB.getProperty(prop).getString(); 
+		  }
+			 
+		  if (!objA.equalsIgnoreCase(objB)) {
+			  isIdentical = false ; 
+		  }	 	
+	  }
+	  
+	  return isIdentical ; 
+	  
+	  
+  }
+  
+
 
   
   
