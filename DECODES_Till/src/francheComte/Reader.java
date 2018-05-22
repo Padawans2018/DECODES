@@ -10,12 +10,14 @@ import java.io.OutputStreamWriter;
 import org.apache.commons.io.FileUtils;
 
 import xmlToRDF.Mapping;
+import xmlToRDF.WriteHTML;
 
 public class Reader {
 	public static void main(String[] args) {
 		String nameDirectory = "fichiers/francheComte";
 		Reader.normalizeXML(nameDirectory+"/frcomte.xml");
 		Mapping.mapping(nameDirectory+"/frcomte_normalized.xml", nameDirectory+"/frcomte_keys.txt", "formation", "FrancheComte");
+		WriteHTML.writeHTML(nameDirectory+"/frcomte_normalized.xml", "fichiers/output/FrancheComteOutput.rdf", "FrancheComte", "formation");
 	}
 	
 	public static void normalizeXML(String pathToXML)
