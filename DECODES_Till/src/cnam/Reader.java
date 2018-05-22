@@ -26,10 +26,8 @@ public class Reader {
 		
 		try{
 			reader = new BufferedReader(new FileReader(xmlFile));
-			System.out.println("Start reading.");
 			String newContent = "";
 			oldContent = FileUtils.readFileToString(xmlFile, "UTF-8");
-			System.out.println("Done reading.");
 			newContent = oldContent.replace("&", "&amp;");
 			
 			FileOutputStream fileStream = new FileOutputStream(new File(pathToXML.replace(".xml","_normalized.xml")));

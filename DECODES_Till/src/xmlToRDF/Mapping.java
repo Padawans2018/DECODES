@@ -183,16 +183,16 @@ public static Node getElementsByTagList(Element node, ArrayList<String> tagsList
 		 mainNode = (Element) nodeL.item(0);
 		 
 		 if (nodeL.getLength()!=1) {
-			 if (nodeL.getLength()==0) {System.out.println("There was no \"" + tagsList.get(0) + "\" tag.");}
-			 else {System.out.println("There was more than one \"" + tagsList.get(0) + "\" tag.");}
+		/*	 if (nodeL.getLength()==0) {System.out.println("There was no \"" + tagsList.get(0) + "\" tag.");}
+			 else {System.out.println("There was more than one \"" + tagsList.get(0) + "\" tag.");}*/
 		 }
 	 
 		 for (int i = 1; i < tagsList.size() ; i++) {
 			 nodeL = mainNode.getElementsByTagName(tagsList.get(i)); 
 			 mainNode = (Element) nodeL.item(0);
 			 if (nodeL.getLength()!=1) {
-				 if (nodeL.getLength()==0) {System.out.println("There was no \"" + tagsList.get(i) + "\" tag.");}
-				 else {System.out.println("There was more than one \"" + tagsList.get(i) + "\" tag.");}
+				 /*if (nodeL.getLength()==0) {System.out.println("There was no \"" + tagsList.get(i) + "\" tag.");}
+				 else {System.out.println("There was more than one \"" + tagsList.get(i) + "\" tag.");}*/
 				 break; 
 		 	 }
 		 }

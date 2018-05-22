@@ -2,9 +2,13 @@ package xmlToRDF;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -43,9 +47,9 @@ public class WriteHTML {
 	public static void writeFormationHTML(String pathRDF, String institutionName, int indexFormation) {
 		
 		try {
-			  FileReader f = new FileReader("docs/formationTemplate.html");
-			  BufferedReader br = new BufferedReader(f);
-			  
+			  InputStreamReader in = new InputStreamReader(new FileInputStream("docs/formationTemplate.html"), "utf-8");
+			  BufferedReader br = new BufferedReader(in);
+			 			  
 			  HashMap<String, String> propsAndObj = WriteHTML.readFormationRDF(pathRDF, institutionName, indexFormation);
 			  String content = "" ; 
 			  String line = "" ;
@@ -68,9 +72,10 @@ public class WriteHTML {
 			  //System.out.println(content);
 
 			  try {
-				  BufferedWriter bw = new BufferedWriter(new FileWriter("docs/"+institutionName+"/"+institutionName+"_"+indexFormation+".html"));
-				  bw.write(content);
-				  bw.close();
+				  //BufferedWriter bw = new BufferedWriter(new FileWriter("docs/"+institutionName+"/"+institutionName+"_"+indexFormation+".html"));
+				  OutputStreamWriter out = new OutputStreamWriter(new FileOutputStream("docs/"+institutionName+"/"+institutionName+"_"+indexFormation+".html"),"UTF-8");
+				  out.write(content);
+				  out.close();
 			  }
 		
 			  catch (Exception e) {
