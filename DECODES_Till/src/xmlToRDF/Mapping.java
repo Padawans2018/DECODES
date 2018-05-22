@@ -261,6 +261,14 @@ public static Node getElementsByTagList(Element node, ArrayList<String> tagsList
 	}
   
   
+  /**
+   * This function looks for a identical Resource in a list, returns null element if not found.
+   * @param model The model where the properties and resources are defined
+   * @param resInitial The resource that we compare all the rest to.
+   * @param resourceList The list of resource that may contain a resource identical to resInitial
+   * @param resourceType The type ("formation, "contact", "location", etc) of the resource
+   * @return The identical resource if it is found, null otherwise.
+   */
   public static Resource findIdenticalResourceIfExists(Model model, Resource resInitial, ArrayList<Resource> resourceList, String resourceType){
 	
 	  for (Resource res : resourceList) {
@@ -273,6 +281,14 @@ public static Node getElementsByTagList(Element node, ArrayList<String> tagsList
 	  
   }
   
+  /**
+   * This function compares all the properties and objects of two resources and returns true if they are all identical
+   * @param resA The first resource
+   * @param resB The second resource
+   * @param resourceType The type ("formation, "contact", "location", etc) of the resources 
+   * @param model The model where the properties and resources are defined
+   * @return True if the two resources are in identical statements, false otherwise. 
+   */
   public static boolean resourcesAreIdentical (Resource resA, Resource resB, String resourceType, Model model) {
 	  boolean isIdentical = true ;
 	  HashMap<String, List<String>> typeProperty = Mapping.linkTypeAndProperties();
@@ -305,7 +321,9 @@ public static Node getElementsByTagList(Element node, ArrayList<String> tagsList
   
   
   
-  /*public static void main(String[] args) {
+  	/*
+   	public static void main(String[] args) {
 	Mapping.mapping("bin/FrComte.xml", "bin/FrComte_key.txt", "formation", "FrancheComte"); 
-}*/
+	}
+	*/
 }
