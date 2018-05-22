@@ -1,0 +1,54 @@
+formation/Name cdmfr:ProgramName
+formation/RNCP ametys-cdm:ujm-validation
+formation/CPF
+formation/DCP
+formation/General 
+formation/Typology 
+formation/Audience targetGroup
+formation/Requirements formalPrerequisites
+formation/Goals learningObjectives 
+formation/SkillsLearned 
+formation/LearningMethods
+formation/TimeOrganisation ametys-cdm:ujm-calendrier
+formation/GradingMethods ametys-cdm:ujm-validation
+formation/DistanceLearning
+formation/Apprenticeship
+formation/ProfessionalisationContract
+formation/EAV
+formation/Accessibility
+formation/TotalDuration duree-indicative 
+formation/IncludingCompanyDuration
+formation/Schedule ametys-cdm:ujm-calendrier
+formation/Price ametys-cdm:ujm-specific-rights
+formation/Notes
+formation/ID
+formation/RomeCode 
+Location/Address teachingPlace
+Location/Institution teachingPlace
+Domain/Name ametys-cdm:ujm-domains-etude_multiple
+Domain/NSFCode
+Authority/Name 
+Authority/ID
+Contact/Name 
+Contact/PhoneNumber 
+Contact/EmailAddress 
+Contact/Name
+Contact/ID
+Contact/PhoneNumber
+Contact/EmailAddress
+Respo/ID
+Respo/Name
+Respo/Job
+Respo/Specialty
+Sector/Name
+Sector/NAF
+Job/Name
+Job/RomeCode
+Label/QualityLogo
+Company/Name
+Company/Address
+Company/Duration
+
+
+
+ 

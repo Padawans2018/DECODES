@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:ametys-cdm="http://www.ametys.org/cdm/1.0" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM http://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="fr"><cdmfr:habilitation><cdmfr:habiliId>FRUAI0421095MPR5-05-07-0012-FR</cdmfr:habiliId><cdmfr:cohabilitation><cdmfr:exists>true</cdmfr:exists><cdmfr:listOfOrgUnit><cdmfr:habOrgUnit><cdmfr:refOrgUnit>0421095M</cdmfr:refOrgUnit><cdmfr:domainName><cdmfr:fixedDomain>Droit, Economie, Gestion</cdmfr:fixedDomain></cdmfr:domainName></cdmfr:habOrgUnit></cdmfr:listOfOrgUnit></cdmfr:cohabilitation><cdmfr:cohabilitation><cdmfr:exists>true</cdmfr:exists><cdmfr:listOfOrgUnit cohabilitationRole="cohabilité"/></cdmfr:cohabilitation><cdmfr:field><cdmfr:fieldName><cdmfr:controlled fieldNameCode="XB_24"><cdmfr:registeredName>Management</cdmfr:registeredName></cdmfr:controlled></cdmfr:fieldName></cdmfr:field><cdmfr:partnership><cdmfr:training/></cdmfr:partnership></cdmfr:habilitation><properties><datasource>Ametys v3</datasource><datetime date="2018-04-11"/></properties><program id="FRUAI0421095MPR5-05-07-0012-FR" language="fr"><programID>FRUAI0421095MPR5-05-07-0012-FR</programID><cdmfr:programName><cdmfr:text>Master Management de Projet</cdmfr:text></cdmfr:programName><cdmfr:programCode codeSet="userDefined">5-05-07-0012-FR</cdmfr:programCode><cdmfr:programCode codeSet="sectDGESIP"/><cdmfr:programCode codeSet="ERASMUS"/><cdmfr:programCode codeSet="cite97"/><cdmfr:programCode codeSet="FAP"/><cdmfr:programCode codeSet="sectDiscipSISE"/><cdmfr:webLink><href/><cdmfr:linkName/></cdmfr:webLink><cdmfr:programDescription><infoBlock><p xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper"><bold>Ce Master en alternance</bold> est délivré au sein de l'IAE de Saint-Etienne par le département IUP Management<bold>. Ce diplôme d'État </bold>de niveau<bold> bac +4 et bac +5</bold>, valide une compétence disciplinaire et professionnelle acquise au long d'un cursus sélectif.  </p><p xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper"> <picture><weblink><href>https://cms.univ-st-etienne.fr/_odf/_contents-images/ametys%253Aodf/ametys%253Acontents/program-master-management-de-projet/_metadata/presentation/_data/bandeau%2520management.jpg_137x602</href></weblink><extension><ametys-cdm:width>602px</ametys-cdm:width><ametys-cdm:height>137px</ametys-cdm:height></extension></picture></p></infoBlock></cdmfr:programDescription><qualification><qualificationName><text/></qualificationName><cdmfr:qualificationDescription><infoBlock/><cdmfr:statistics/></cdmfr:qualificationDescription><cdmfr:credits ECTScredits="120"><infoBlock/></cdmfr:credits><cdmfr:degree degree="master"/><cdmfr:profession><infoBlock><p xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper">Des <bold>postes à responsabilités</bold> et des débouchés professionnels dans<bold> tous les domaines de gestion</bold>:<br/><br/></p><list xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper" listType="bulleted"><listItem>Direction opérationnelle: responsable qualité, responsable logistique, directeur des achats, directeur commercial...</listItem><listItem>Conseil: en indépendant, en cabinet d'audit, consultant interne...</listItem><listItem>Chef de projet</listItem><listItem>Contrôleur de gestion, analyste financier...</listItem><listItem>Gestion des ressources humaines: Responsable Ressources Humaines, responsable formation, chargé de recrutement, responsable communication</listItem><listItem>Chef de Produit, responsable export, ingénieur d'affaires, chargé de clientèle... </listItem></list></infoBlock><cdmfr:romeData romeCode=""/></cdmfr:profession><cdmfr:studyQualification><infoBlock/><cdmfr:competenceDesc/><cdmfr:competenceValidity limited="false"/></cdmfr:studyQualification></qualification><levelCode codeSet="5"/><learningObjectives><p xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper"><bold>Former à et par la gestion de projet</bold> donnant accès aux métiers de chef de projet, assistant chef de projets<br/> <br/> <bold>Former plus généralement aux métiers de l'encadrement</bold> qui intègrent de plus en plus une dimension projets :  marketing,  GRH, qualité, SI, production, logistique...<br/> <br/> <bold>Appréhender et mener des projets de changements organisationnels</bold> (structure, processus, méthodes de travail...) </p></learningObjectives><admissionInfo><cdmfr:admissionDescription><p xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper">L'entrée en M1 ou M2 s'opère sur la base d'un concours comprenant :</p><list xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper" listType="bulleted"><listItem>le score<webLink><href>http://www.iae-message.fr/</href><linkName> IAE-MESSAGE</linkName></webLink>,</listItem><listItem>l'évaluation des acquis en gestion effectuée sur le contenu du dossier de candidature,</listItem><listItem>un entretien</listItem></list><p xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper">Le Score IAE-MESSAGE et l'évaluation du dossier de candidature permettent de définir la liste des candidats admissibles.<br/> Les candidats déclarés admissibles pourront être convoqués pour un entretien individuel d'une durée de 20 minutes.<br/> Le classement final est obtenu en tenant compte du score IAE-MESSAGE, de l'évaluation du dossier et de l'entretien. </p><p xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper">Possibilité de percevoir une<bold><bold> bourse d'excellence IAE. </bold></bold>Ces bourses concernent les étudiants souhaitant suivre un Master 2 sur critères d'excellence scientifique et sous condition d'un projet professionnel clairement orienté vers la recherche.<webLink><href>https://iae.univ-st-etienne.fr/fr/recherche/lien-formation-recherche.html</href><linkName><bold>Plus d'infos</bold></linkName></webLink></p><list xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper" listType="bulleted"><listItem><webLink><href>https://www.univ-st-etienne.fr/fr/formation/inscriptions-admissions/preparer-sa-candidature-en-master.html</href><linkName>Préparer sa candidature en Master</linkName></webLink></listItem></list><subBlock xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper"><header>COMMENT CANDIDATER ?</header><p>Candidatez dès le mois de mars sur l'application <webLink><href>https://candidatures2.univ-st-etienne.fr</href><linkName>eCandidat</linkName></webLink></p><list listType="bulleted"><listItem><bold>1ère session</bold> : du 12/03/2018 au 21/04/2018</listItem><listItem><bold>2ème session</bold> : 16/05/2018 au 12/06/2018</listItem></list></subBlock></cdmfr:admissionDescription><cdmfr:studentStatus/><cdmfr:ectsRequired/></admissionInfo><formalPrerequisites/><teachingPlace><cdmfr:refOrgUnit/><adr><pcode>42000</pcode></adr></teachingPlace><targetGroup><list xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper" listType="bulleted"><listItem>Etre détenteur d'un diplôme dans le domaine de la gestion (marketing, GRH, SI,  qualité, production, etc.) de niveau immédiatement inférieur au niveau d'entrée demandé (par exemple: Bac+4 minimum en gestion pour une entrée en M2)</listItem></list><list xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper" listType="bulleted"><listItem>Etre détenteur d'un diplôme de niveau inférieur hors gestion (sciences de l'ingénieur, Lettres, etc.) sous réserve d'acquis en gestion suffisants (via l'expérience professionnelle et/ou un suivi minimal d'enseignements de gestion dans le parcours initial)</listItem></list><list xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper" listType="bulleted"><listItem>Justifier - pour une personne en reprise d'études - d'une expérience en management suffisante validée par une procédure VAPP.</listItem><listItem>Formation continue, VAE, contactez le responsable pédagogique et le service de <webLink><href>https://www.univ-st-etienne.fr/fr/formation/formation-continue.html</href><linkName>Formation Continue</linkName></webLink></listItem></list></targetGroup><formOfTeaching org="formCont"/><formOfTeaching org="formAppr"/><formOfTeaching org="formInit"/><formOfTeaching org="formPro"/><cdmfr:programStructure><infoBlock><subBlock xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper"><subBlock><header>Master 1</header><p> </p><xhtml:table class="orange"><xhtml:tbody><xhtml:tr class="odd"><xhtml:th>
+<p> </p>
+</xhtml:th><xhtml:th colspan="2">
+<p>Master 1 Management de Projet</p>
+</xhtml:th><xhtml:th>
+<p>Heures</p>
+</xhtml:th><xhtml:th>
+<p> Crédits </p>
+</xhtml:th></xhtml:tr><xhtml:tr class="even first"><xhtml:th rowspan="10">
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p><bold> </bold></p>
+</xhtml:th><xhtml:td>
+<p><bold>UE 1 : Outils et langages<br/></bold></p>
+</xhtml:td><xhtml:td>
+<p><italic>Anglais<br/>LV2<br/>Communication<br/></italic></p>
+</xhtml:td><xhtml:td>
+<p>58</p>
+</xhtml:td><xhtml:td>
+<p>4</p>
+</xhtml:td></xhtml:tr><xhtml:tr class="odd"><xhtml:td>
+<p><bold>UE 2 : Marketing appliqué </bold></p>
+</xhtml:td><xhtml:td>
+<p><italic>Comportement du consommateur<br/>Marketing industriel<br/>Marketing des services<br/><br/></italic></p>
+</xhtml:td><xhtml:td>
+<p> 48</p>
+</xhtml:td><xhtml:td>
+<p> 5</p>
+</xhtml:td></xhtml:tr><xhtml:tr class="even"><xhtml:td>
+<p><bold> UE 3 : Management et acteurs<br/></bold></p>
+</xhtml:td><xhtml:td>
+<p><italic>Management d'équipe<br/>Gestion des compétences<br/></italic></p>
+</xhtml:td><xhtml:td>
+<p> 32</p>
+</xhtml:td><xhtml:td>
+<p> 3</p>
+</xhtml:td></xhtml:tr><xhtml:tr class="odd"><xhtml:td>
+<p><bold>UE 4 : Management des opérations<br/></bold></p>
+</xhtml:td><xhtml:td>
+<p><italic>Achats<br/>Outils logistiques<br/>Processus qualité<br/></italic></p>
+</xhtml:td><xhtml:td>
+<p>48</p>
+</xhtml:td><xhtml:td>
+<p>5</p>
+</xhtml:td></xhtml:tr><xhtml:tr class="even"><xhtml:td>
+<p><bold><bold>UE 5 : Management de projet<br/></bold></bold></p>
+</xhtml:td><xhtml:td>
+<p><italic>Gestion de projet<br/>outils de gestion de projet</italic></p>
+</xhtml:td><xhtml:td>
+<p>32</p>
+</xhtml:td><xhtml:td>
+<p>3</p>
+</xhtml:td></xhtml:tr><xhtml:tr class="odd"><xhtml:td>
+<p><bold><bold><bold>UE 6 : Management financier<br/></bold></bold></bold></p>
+</xhtml:td><xhtml:td>
+<p><italic>Contrôle de gestion<br/>Finance d'entreprise<br/>Jeu d'entreprise</italic></p>
+</xhtml:td><xhtml:td>
+<p>48</p>
+</xhtml:td><xhtml:td>
+<p>5</p>
+</xhtml:td></xhtml:tr><xhtml:tr class="even"><xhtml:td>
+<p><bold><bold><bold><bold>UE 7 : Stratégie et systèmes<br/>d'information</bold></bold></bold></bold></p>
+</xhtml:td><xhtml:td>
+<p><italic>Analyse stratégique<br/>Web Management<br/>Conduite d'un projet de système<br/>d'information</italic></p>
+</xhtml:td><xhtml:td>
+<p>48</p>
+</xhtml:td><xhtml:td>
+<p>5</p>
+</xhtml:td></xhtml:tr><xhtml:tr class="odd"><xhtml:td>
+<p><bold><bold><bold><bold><bold>UE 8 : Outils et langages</bold></bold></bold></bold></bold></p>
+</xhtml:td><xhtml:td>
+<p>Anglais<br/>LV2 (espagnol, allemand, italien)</p>
+</xhtml:td><xhtml:td>
+<p> 30</p>
+</xhtml:td><xhtml:td>
+<p>4</p>
+</xhtml:td></xhtml:tr><xhtml:tr class="even"><xhtml:td>
+<p><bold><bold><bold><bold><bold><bold>UE 9 : Conception d'un projet<br/></bold></bold></bold></bold></bold></bold></p>
+</xhtml:td><xhtml:td>
+<p>Analyse de la pratique<br/>Expérience professionnelle<br/>(18 semaines de stage ou <br/>28 semaines en contrat pro)</p>
+</xhtml:td><xhtml:td>
+<p> 38</p>
+</xhtml:td><xhtml:td>
+<p>24</p>
+</xhtml:td></xhtml:tr><xhtml:tr class="odd last"><xhtml:td>
+<p><bold>Crédits libres</bold></p>
+</xhtml:td><xhtml:td>
+<p> </p>
+</xhtml:td><xhtml:td>
+<p>32</p>
+</xhtml:td><xhtml:td>
+<p>2</p>
+</xhtml:td></xhtml:tr></xhtml:tbody></xhtml:table></subBlock><subBlock><header>Master 2</header><p> </p><xhtml:table class="header-orange"><xhtml:tbody><xhtml:tr class="odd"><xhtml:th>
+<p> </p>
+</xhtml:th><xhtml:th colspan="2">
+<p>Master 2 Management de Projet</p>
+</xhtml:th><xhtml:th>
+<p>Heures</p>
+</xhtml:th><xhtml:th>
+<p> Crédits </p>
+</xhtml:th></xhtml:tr><xhtml:tr class="even first"><xhtml:th rowspan="6">
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p><bold> </bold></p>
+<p><bold>Semestre 1</bold></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+</xhtml:th><xhtml:td>
+<p><bold>UE 10 : Langues<br/></bold></p>
+</xhtml:td><xhtml:td>
+<p><italic>Anglais<br/>English practice ou Allemand <br/>ou Espagnol ou Italien<br/></italic></p>
+</xhtml:td><xhtml:td>
+<p>30</p>
+</xhtml:td><xhtml:td>
+<p>3</p>
+</xhtml:td></xhtml:tr><xhtml:tr class="odd"><xhtml:td>
+<p><bold>UE 11 : Processus de gestion<br/></bold></p>
+</xhtml:td><xhtml:td>
+<p><italic>Évaluation d'entreprise<br/>Développement durable<br/>Pilotage des systèmes d'information<br/><br/></italic></p>
+</xhtml:td><xhtml:td>
+<p> 56</p>
+</xhtml:td><xhtml:td>
+<p> 5</p>
+</xhtml:td></xhtml:tr><xhtml:tr class="even"><xhtml:td>
+<p><bold> UE 12 : Processus stratégiques<br/></bold></p>
+</xhtml:td><xhtml:td>
+<p><italic>Management de la relation client<br/>Management des connaissance<br/>Pilotage stratégique<br/>Management et qualité de vie au travail<br/></italic></p>
+</xhtml:td><xhtml:td>
+<p> 64</p>
+</xhtml:td><xhtml:td>
+<p> 6</p>
+</xhtml:td></xhtml:tr><xhtml:tr class="odd"><xhtml:td>
+<p><bold>UE 13 : Audit des opérations<br/></bold></p>
+</xhtml:td><xhtml:td>
+<p><italic>Supply chain<br/>Réingénierie<br/>Audit d'un projet<br/></italic></p>
+</xhtml:td><xhtml:td>
+<p>44</p>
+</xhtml:td><xhtml:td>
+<p>5</p>
+</xhtml:td></xhtml:tr><xhtml:tr class="even"><xhtml:td>
+<p><bold><bold>UE 14 : Entrepreneuriat<br/></bold></bold></p>
+</xhtml:td><xhtml:td>
+<p><italic>Marketing de l'innovation<br/>Projet de création d'entreorise<br/>Droit de la propriété industrielle<br/></italic></p>
+</xhtml:td><xhtml:td>
+<p>43</p>
+</xhtml:td><xhtml:td>
+<p>3</p>
+</xhtml:td></xhtml:tr><xhtml:tr class="odd"><xhtml:td>
+<p><bold><bold><bold>UE 15 : Ressources humaines<br/>et Systèmes d'information<br/></bold></bold></bold></p>
+</xhtml:td><xhtml:td>
+<p><italic>Audit social<br/>Management interculturel<br/>SI et conduite du changement<br/></italic></p>
+</xhtml:td><xhtml:td>
+<p>56</p>
+</xhtml:td><xhtml:td>
+<p>6</p>
+</xhtml:td></xhtml:tr><xhtml:tr class="even"><xhtml:th rowspan="3">
+<p><bold><bold><bold><bold>Semestre 2</bold></bold></bold></bold></p>
+<p> </p>
+<p> </p>
+</xhtml:th><xhtml:td>
+<p><bold><bold><bold><bold>UE 16 : <bold><bold><bold><bold><bold>Outils et langages</bold></bold></bold></bold></bold></bold></bold></bold></bold></p>
+</xhtml:td><xhtml:td>
+<p><italic>Anglais<br/>English practice ou <br/>allemand, espagnol<br/>iIalien<br/></italic></p>
+</xhtml:td><xhtml:td>
+<p>54</p>
+</xhtml:td><xhtml:td>
+<p>4</p>
+</xhtml:td></xhtml:tr><xhtml:tr class="odd"><xhtml:td>
+<p><bold><bold><bold><bold><bold>UE 17 : Management de projet<br/></bold></bold></bold></bold></bold></p>
+</xhtml:td><xhtml:td>
+<p>Intro aux sciences de gestion<br/>Appropriation des outils SI et logistiques<br/>Appropriation des outils de GRH<br/>Appropriation marketing<br/>Atelier de rédaction d'un article de recherche<br/>Analyse de la pratique<br/>Expérience professionnelle (19 semaines en stage<br/>ou 29 semaines en contrat de pro ou d'apprentissage)</p>
+</xhtml:td><xhtml:td>
+<p> 50</p>
+</xhtml:td><xhtml:td>
+<p>24</p>
+</xhtml:td></xhtml:tr><xhtml:tr class="even last"><xhtml:td>
+<p><bold>Crédits libres</bold></p>
+</xhtml:td><xhtml:td>
+<p> </p>
+</xhtml:td><xhtml:td>
+<p>32</p>
+</xhtml:td><xhtml:td>
+<p>2</p>
+</xhtml:td></xhtml:tr></xhtml:tbody></xhtml:table></subBlock></subBlock></infoBlock></cdmfr:programStructure><regulations/><contacts><refOrgUnit idRef="FRUAI0421095MOUII5P6HLD"/></contacts><infoBlock userDefined="ametys-extension"><extension><ametys-cdm:catalog value="initial">Initial</ametys-cdm:catalog><ametys-cdm:training><ametys-cdm:trainingInfo/><ametys-cdm:trainingDuration/><ametys-cdm:trainingAbroadInfo/><ametys-cdm:trainingAbroadDuration/></ametys-cdm:training><ametys-cdm:partnerSchools/><ametys-cdm:partnerLaboratories/><ametys-cdm:attachments><ametys-cdm:attachment><ametys-cdm:text>Plaquette</ametys-cdm:text><ametys-cdm:href>https://cms.univ-st-etienne.fr/_odf/_contents/ametys%3Aodf/ametys%3Acontents/program-master-management-de-projet/_metadata/attachments/1/attachment/Plaquette_Master_Projet.pdf?objectId=programContent://3bd55808-5846-4e6f-9956-16aad16ec8de</ametys-cdm:href></ametys-cdm:attachment><ametys-cdm:attachment><ametys-cdm:text>Livret d'études Master 1</ametys-cdm:text><ametys-cdm:href>https://cms.univ-st-etienne.fr/_odf/_contents/ametys%3Aodf/ametys%3Acontents/program-master-management-de-projet/_metadata/attachments/3/attachment/Livret%20M1%20MP%20Roanne%20et%20Saint%20%C3%89tienne%20alt%202017%202018.pdf?objectId=programContent://3bd55808-5846-4e6f-9956-16aad16ec8de</ametys-cdm:href></ametys-cdm:attachment><ametys-cdm:attachment><ametys-cdm:text>Livret d'études Master  2</ametys-cdm:text><ametys-cdm:href>https://cms.univ-st-etienne.fr/_odf/_contents/ametys%3Aodf/ametys%3Acontents/program-master-management-de-projet/_metadata/attachments/4/attachment/Livret%20M2%20MP%20Roanne%20et%20Saint%20%C3%89tienne%20alt%202017%202018.pdf?objectId=programContent://3bd55808-5846-4e6f-9956-16aad16ec8de</ametys-cdm:href></ametys-cdm:attachment></ametys-cdm:attachments><ametys-cdm:rncpLevel/><ametys-cdm:ujm-code-apogee/><ametys-cdm:document-subtitle value="En Alternance et en Classique"/><ametys-cdm:ujm-diplome value="Master"/><ametys-cdm:ujm-domains-etude_multiple><ametys-cdm:ujm-domains-etude value="DEG">Droit, Economie, Gestion</ametys-cdm:ujm-domains-etude></ametys-cdm:ujm-domains-etude_multiple><ametys-cdm:ujm-parcours value="Management de Projet"/><ametys-cdm:ujm-option/><ametys-cdm:ujm-expenses value="MAS"/><ametys-cdm:ujm-specific-rights/><ametys-cdm:ujm-temoignages_repeater><ametys-cdm:ujm-temoignages><ametys-cdm:ujm-temoignage-text/></ametys-cdm:ujm-temoignages></ametys-cdm:ujm-temoignages_repeater><ametys-cdm:ujm-responsables_repeater><ametys-cdm:ujm-responsables/></ametys-cdm:ujm-responsables_repeater><ametys-cdm:ujm-methode-pedagogique/><ametys-cdm:ujm-equipe-pedagogique/><ametys-cdm:ujm-calendrier/><ametys-cdm:ujm-validation/><ametys-cdm:ujm-en-savoir-plus><p xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper"><bold>CONTACTS</bold></p><list xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper" listType="bulleted"><listItem><bold>Master 1, Master 2 &amp; recrutement</bold></listItem></list><p xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper">Karine TROTTA</p><p xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper"><picture><weblink><href>https://cms.univ-st-etienne.fr/_odf/_contents-images/ametys%253Aodf/ametys%253Acontents/program-master-management-de-projet/_metadata/ujm-en-savoir-plus/_data/picto-phone-2.png_23x20</href></weblink><extension><ametys-cdm:width>20px</ametys-cdm:width><ametys-cdm:height>23px</ametys-cdm:height></extension></picture> 04 77 42 13 33<br/><webLink><href>https://cms.univ-st-etienne.fr/_odfmailto:karine.trotta@univ-st-etienne.fr</href><linkName>karine.trotta@univ-st-etienne.fr</linkName></webLink></p></ametys-cdm:ujm-en-savoir-plus><ametys-cdm:ujm-competences_repeater><ametys-cdm:ujm-competences><ametys-cdm:ujm-competences-referentiel/><ametys-cdm:ujm-competences-text/></ametys-cdm:ujm-competences></ametys-cdm:ujm-competences_repeater><ametys-cdm:ujm-connaissance-associees/><ametys-cdm:ujm-methodologie-demarches/><ametys-cdm:ujm-domaine-application/><ametys-cdm:ujm-metier-par-domaine/><ametys-cdm:ujm-internship_repeater><ametys-cdm:ujm-internship><ametys-cdm:ujm-internshipDurationPeriod/><ujm-internshipMonthsPeriod_multiple><ametys-cdm:ujm-internshipMonthsPeriod value=""/></ujm-internshipMonthsPeriod_multiple><ametys-cdm:ujm-internshipStartMonthQuinzaine/><ametys-cdm:ujm-internshipEndMonthQuinzaine/></ametys-cdm:ujm-internship></ametys-cdm:ujm-internship_repeater><ametys-cdm:ujm-internshipMissions/><ametys-cdm:ujm-internshipSecteurActivite/><ametys-cdm:ujm-internshipIndemnisation/></extension></infoBlock><searchword/></program><orgUnit id="FRUAI0421095MOUII5P6HLD"><orgUnitID>FRUAI0421095MOUII5P6HLD</orgUnitID><orgUnitName><text>IAE Saint-Etienne</text></orgUnitName><orgUnitAcronym>IAE</orgUnitAcronym><orgUnitCode codeSet="codeUAI">II5P6HLD</orgUnitCode><orgUnitKind/><cdmfr:webLink><href>http://iae.univ-st-etienne.fr</href><cdmfr:linkName>iae.univ-st-etienne.fr</cdmfr:linkName></cdmfr:webLink><admissionInfo/><contacts/><infoBlock userDefined="ametys-extension"><extension/></infoBlock></orgUnit><orgUnit id="FRUAI0421095MOU0421095M"><orgUnitID>FRUAI0421095MOU0421095M</orgUnitID><orgUnitName><text>Etablissement</text></orgUnitName><orgUnitAcronym/><orgUnitCode codeSet="codeUAI">0421095M</orgUnitCode><orgUnitKind/><cdmfr:webLink><href/><cdmfr:linkName/></cdmfr:webLink><admissionInfo/><contacts/><infoBlock userDefined="ametys-extension"><extension/></infoBlock></orgUnit></CDM>
