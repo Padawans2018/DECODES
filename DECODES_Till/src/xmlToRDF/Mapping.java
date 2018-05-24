@@ -27,6 +27,13 @@ import org.apache.jena.vocabulary.*;
 
 public class Mapping {
 	
+	/**
+	 * This function reads an .xml document, and creates the corresponding .rdf model
+	 * @param pathXML Where the .xml is stored
+	 * @param pathKeyDoc Where the key document (.txt linking properties and tags) is stored
+	 * @param tagFormation Tag name defining each formation in the .xml
+	 * @param institutionName Name designating the institution offering the formation (will be found in uris and output documents' names)
+	 */
 	public static void mapping(String pathXML, String pathKeyDoc, String tagFormation, String institutionName){
 		  Document doc = readXML(pathXML);
 		  
@@ -145,20 +152,20 @@ public static void printModel(Model model, String fileName)
 }
  
  /**
-  * This function allows us to get the text in a tag in an xml doc. Calls the function getElementsByTagList, therefore returns null element if the String tags is null or empty. 
+  * This function allows us to add a statement to the model, from reading a tag in the XML document et matching it with the relevant property 
   * @param node The node in which we search for tags
   * @param formation The resource we want to modify with what we find in the xml document
   * @param model The model to which the resource is linked
   * @param tags The tree structure of tags, separated by "/", allowing us to get to the tag containing useful information.
   * @param propertyName The property matching the tag. 
   */
-public static void findAndAddValueToProperty(Element node, Resource formation, Model model, String propertyName, String tags) {
+public static void findAndAddValueToProperty(Element node, Resource res, Model model, String propertyName, String tags) {
 	 ArrayList<String> tagsList = new ArrayList<String>(Arrays.asList(tags.split("/"))); 
 	 Node mainNode = Mapping.getElementsByTagList(node, tagsList);
 	 if (mainNode!=null) {
 		 String text = mainNode.getTextContent();
 		 text = text.replace("\t", ""); //Suppress uselesstabs
-		 formation.addProperty(model.getProperty(MyModel.uriProp,propertyName), text);
+		 res.addProperty(model.getProperty(MyModel.uriProp,propertyName), text);
 	 }
 }
 

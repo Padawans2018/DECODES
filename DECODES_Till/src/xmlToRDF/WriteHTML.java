@@ -27,6 +27,13 @@ public class WriteHTML {
 		return INSTANCE;
 	}
 	
+	/**
+	 * This function iterates over all the formation in a rdf document to write all the html files
+	 * @param pathXML Where the xml file describing the formations is stored (used to know how many formations there are)
+	 * @param pathRDF Where the rdf file is stored
+	 * @param institutionName Name of the institution offering these formations (used to write the right uris and the names of the output .html)
+	 * @param tagFormation Tag name defining each formation in the .xml file 
+	 */
 	public static void writeHTML(String pathXML, String pathRDF, String institutionName, String tagFormation) {
 		Document doc = Mapping.readXML(pathXML);
 		  
@@ -40,6 +47,12 @@ public class WriteHTML {
 		 }
 	}
 	
+	/** 
+	 * This function writes a .html document displaying one formation's information from a .rdf file
+	 * @param pathRDF Where the .rdf file is stored
+	 * @param institutionName Name of the institution offering this formation (used to write the right uris and the name of the output .html)
+	 * @param indexFormation Index of the formation in the rdf document (used to write the right uris and the name of the output .html)
+	 */
 	public static void writeFormationHTML(String pathRDF, String institutionName, int indexFormation) {
 		
 		try {
@@ -87,6 +100,13 @@ public class WriteHTML {
 		
 	}
 	
+	/** 
+	 * This function reads the rdf description of one formation to get all the useful information
+	 * @param pathRDF Place where the .rdf document is stored
+	 * @param institutionName Name of the institution offering this formation (used to write the right uris)
+	 * @param indexFormation Index of the formation in the rdf document (used to write the right uris)
+	 * @return A HashMap, linking properties (written as resource/property) and their object
+	 */
 	public static HashMap<String, String> readFormationRDF(String pathRDF, String institutionName, int indexFormation) {
 		 Model model = ModelFactory.createDefaultModel();
 		 ArrayList<String> allProps = WriteHTML.getAllProperties();
@@ -132,6 +152,10 @@ public class WriteHTML {
 		return propsAndObj ; 
 	}
 	
+	/**
+	 * Reads a .txt document to link type of resources and properties
+	 * @return An ArrayList, displaying all properties with the adequate resource beforehand (written like : resource/property)
+	 */
 	public static ArrayList<String> getAllProperties(){
 		HashMap<String, List<String>> linkTypeProp = Mapping.linkTypeAndProperties();
 		
