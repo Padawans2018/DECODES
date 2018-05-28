@@ -9,6 +9,7 @@ import java.io.OutputStreamWriter;
 import org.apache.commons.io.FileUtils;
 
 import xmlToRDF.Mapping;
+import xmlToRDF.WriteHTML;
 
 public class Reader {
 	public static void main(String[] args) {
@@ -21,10 +22,15 @@ public class Reader {
 				if(child.getName().charAt(0)<58){
 					String nameDirectory = "fichiers/stEtienne";
 					//Reader.normalizeXML(nameDirectory+"/cnam.xml");
-					Mapping.mapping(nameDirectory+"/stEtienne.xml", 
+					System.out.println(child.getName());
+					Mapping.mapping(nameDirectory+"/"+child.getName(), 
 							nameDirectory+"/stEtienne_keys.txt", 
 							"formation", 
-							"StEtienne_"+i+"_");
+							"StEtienne");
+					WriteHTML.writeOneHTML(nameDirectory+"/"+child.getName(), 
+							"fichiers/output/StEtienne_"+i+"_Output.rdf", 
+							"StEtienne", "formation",i);
+
 				}
 				i++;
 			}

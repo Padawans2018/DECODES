@@ -16,6 +16,7 @@ import java.util.List;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Resource;
+import org.apache.jena.riot.RiotException;
 import org.apache.jena.rdf.model.Property;
 import org.apache.jena.util.FileManager;
 import org.w3c.dom.Document;
@@ -40,8 +41,19 @@ public class WriteHTML {
 		 int numberFormations = allPrograms.getLength();
 		 
 		 for (int i = 0 ; i<numberFormations ; i++) {
-			 WriteHTML.writeFormationHTML(pathRDF, institutionName, i);
+			 try{
+				 WriteHTML.writeFormationHTML(pathRDF, institutionName, i);
+			 }
+			 catch(RiotException e){System.out.println(e.getMessage() + "### Formation No: "+ i);}
 		 }
+	}
+	
+	public static void writeOneHTML(String pathXML, String pathRDF, String institutionName, String tagFormation, int numberOfFormation) {
+		System.out.println(numberOfFormation);
+		 try{
+				 WriteHTML.writeFormationHTML(pathRDF, institutionName, numberOfFormation);
+			 }
+			 catch(RiotException e){System.out.println(e.getMessage() + "### Formation No: "+ numberOfFormation);}
 	}
 	
 	public static void writeFormationHTML(String pathRDF, String institutionName, int indexFormation) {
@@ -69,7 +81,7 @@ public class WriteHTML {
 				  }
 			  }
 			  
-			  //System.out.println(content);
+			  System.out.println(content);
 
 			  try {
 				  //BufferedWriter bw = new BufferedWriter(new FileWriter("docs/"+institutionName+"/"+institutionName+"_"+indexFormation+".html"));

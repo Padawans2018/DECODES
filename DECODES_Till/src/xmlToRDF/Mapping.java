@@ -121,7 +121,7 @@ public class Mapping {
 		  }	  
 		  
 		  
-		  //model.write(System.out);
+		  model.write(System.out);
 		  printModel(model, institutionName + "Output");
 	}
  

@@ -9,12 +9,14 @@ import java.io.OutputStreamWriter;
 import org.apache.commons.io.FileUtils;
 
 import xmlToRDF.Mapping;
+import xmlToRDF.WriteHTML;
 
 public class Reader {
 	public static void main(String[] args) {
 		String nameDirectory = "fichiers/cnam";
 		Reader.normalizeXML(nameDirectory+"/cnam.xml");
 		Mapping.mapping(nameDirectory+"/cnam_normalized.xml", nameDirectory+"/cnam_keys.txt", "formation", "CNAM");
+		WriteHTML.writeHTML(nameDirectory+"/cnam_normalized.xml", "fichiers/output/CNAMOutput.rdf", "CNAM", "formation");
 	}
 	
 	public static void normalizeXML(String pathToXML)

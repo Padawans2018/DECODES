@@ -1,1 +1,312 @@
-<?xml version="1.0" encoding="UTF-8"?><CDM xmlns="http://cdm-fr.fr/2013/CDM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:ametys-cdm="http://www.ametys.org/cdm/1.0" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM http://cdm-fr.fr/2013/schemas/CDMFR.xsd" profile="CDM-fr" language="fr"><cdmfr:habilitation><cdmfr:habiliId>FRUAI0421095MPR1-19-25-0021-FR</cdmfr:habiliId><cdmfr:cohabilitation><cdmfr:exists>false</cdmfr:exists><cdmfr:listOfOrgUnit><cdmfr:habOrgUnit><cdmfr:refOrgUnit>0421095M</cdmfr:refOrgUnit><cdmfr:domainName><cdmfr:openDomain>Hors domaine de formation</cdmfr:openDomain></cdmfr:domainName></cdmfr:habOrgUnit></cdmfr:listOfOrgUnit></cdmfr:cohabilitation><cdmfr:cohabilitation><cdmfr:exists>true</cdmfr:exists><cdmfr:listOfOrgUnit cohabilitationRole="cohabilité"/></cdmfr:cohabilitation><cdmfr:otherDiploma><cdmfr:refProgram>FRUAI0421095MPR1-19-25-0021-FR</cdmfr:refProgram></cdmfr:otherDiploma><cdmfr:partnership><cdmfr:training/></cdmfr:partnership></cdmfr:habilitation><properties><datasource>Ametys v3</datasource><datetime date="2018-04-03"/></properties><program id="FRUAI0421095MPR1-19-25-0021-FR" language="fr"><programID>FRUAI0421095MPR1-19-25-0021-FR</programID><cdmfr:programName><cdmfr:text>Programme de formation management d'équipe et de projet</cdmfr:text></cdmfr:programName><cdmfr:programCode codeSet="userDefined">1-19-25-0021-FR</cdmfr:programCode><cdmfr:programCode codeSet="sectDGESIP"/><cdmfr:programCode codeSet="ERASMUS"/><cdmfr:programCode codeSet="cite97"/><cdmfr:programCode codeSet="FAP"/><cdmfr:programCode codeSet="sectDiscipSISE"/><cdmfr:webLink><href/><cdmfr:linkName/></cdmfr:webLink><cdmfr:programDescription/><qualification><qualificationName><text/></qualificationName><cdmfr:qualificationDescription><infoBlock/><cdmfr:statistics/></cdmfr:qualificationDescription><cdmfr:credits><infoBlock/></cdmfr:credits><cdmfr:degree degreeNotLMD="ZO"/><cdmfr:profession><infoBlock/><cdmfr:romeData romeCode=""/></cdmfr:profession><cdmfr:studyQualification><infoBlock/><cdmfr:competenceDesc/><cdmfr:competenceValidity limited="false"/></cdmfr:studyQualification></qualification><levelCode/><learningObjectives><list xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper" listType="bulleted"><listItem>donner les concepts et les outils du management d’équipe et de projet,</listItem><listItem>conforter leurs apprentissages sur le terrain,</listItem><listItem>développer de nouvelles perspectives professionnelles,</listItem><listItem>mettre en avant les échanges d’expériences comme méthode d’apprentissage.</listItem></list></learningObjectives><admissionInfo><cdmfr:studentStatus/><cdmfr:ectsRequired/></admissionInfo><formalPrerequisites/><teachingPlace><cdmfr:refOrgUnit/><adr><pcode>42000</pcode></adr></teachingPlace><targetGroup><list xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper" listType="bulleted"><listItem>Salariés et demandeurs d’emploi sans diplôme de management mais ayant une expérience professionnelle en rapport avec le management d’équipe et/ou de projet, et souhaitant par cette formation valider leur expérience,</listItem><listItem>Personnes envisageant un poste de management après un parcours technique.</listItem></list></targetGroup><formOfTeaching org="formContNonDip"/><cdmfr:programStructure><infoBlock><subBlock xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper"><subBlock><subBlock><header>Management de projet (18 heures) :</header><p><bold>Objectifs :</bold></p><p>S’approprier les étapes et les outils du management de projet<br/>Savoir se positionner dans un groupe projet<br/>Savoir communiquer en situation transversale au sein d’un groupe projet, dans une hiérarchie modifiée, et savoir communiquer autour du projet</p><p><bold>Contenus :</bold></p><list listType="bulleted"><listItem>Le projet et ses enjeux dans l’entreprise</listItem><listItem>Formulation des objectifs de résultat</listItem><listItem>Anticipation des risques</listItem><listItem>Impliquer les acteurs</listItem><listItem>Utiliser des outils de gestion</listItem><listItem>Préparation du rapport professionnel</listItem></list></subBlock><subBlock><header> Management d’équipe (31 heures) :</header><p><bold>Objectifs :</bold></p><p>Cette formation vise d’une part, à comprendre les caractéristiques et les dynamiques de la vie des équipes dans les organisations ; et d’autre part, à cerner le rôle du manager dans la vie d’une équipe, ses marges de manœuvre, ses contraintes et les zones d’incertitude qui entourent ses décisions. </p><p><bold>Contenus : </bold></p><list listType="bulleted"><listItem>Les groupes et la dynamique de groupe</listItem><listItem>La prise de décision en groupe</listItem><listItem>Les styles de management (Autorité, pouvoir et leadership)</listItem><listItem>Conception et déroulement d’une réunion</listItem><listItem>La motivation au travail</listItem><listItem>La délégation et l’autonomie</listItem><listItem>La dynamique d’escalade conflictuelle et ses formes d’intervention</listItem></list></subBlock><subBlock><header> Initiation au management d’entreprise (14 heures) :</header><list listType="bulleted"><listItem>Cerner les principes de gestion de l’entreprise,</listItem><listItem>Mesurer l’impact de ses décisions sur les états comptables et financiers,</listItem><listItem>Mieux dialoguer avec les membres de la direction financière.</listItem></list></subBlock><subBlock><header> Rapport professionnel et soutenance finale (21 heures) :</header><p>Ce module vise à permettre aux participants une prise de recul sur une activité professionnelle vécue ou observée et, en s’appuyant sur des séances d’analyses de pratiques, de s’en servir pour en tirer des enseignements, de lier la théorie à la pratique et de le formaliser sur un écrit professionnel.</p></subBlock></subBlock></subBlock></infoBlock></cdmfr:programStructure><regulations/><contacts><refOrgUnit idRef="FRUAI0421095MOUII5R05FJ"/></contacts><infoBlock><p xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper"><bold>Renseignements et inscriptions<br/></bold>Mathilde Leduc<br/><picture><weblink><href>https://cms.univ-st-etienne.fr/_odf/_contents-images/ametys%253Aodf/ametys%253Acontents/program-le-management-de-projet/_metadata/additionalInformations/_data/picto-phone-2.png_23x20</href></weblink><extension><ametys-cdm:width>20px</ametys-cdm:width><ametys-cdm:height>23px</ametys-cdm:height></extension></picture> 04 77 43 79 39<br/><webLink><href>mailto:mathilde.leduc@univ-st-etienne.fr</href><linkName>mathilde.leduc@univ-st-etienne.fr</linkName></webLink></p></infoBlock><infoBlock userDefined="ametys-extension"><extension><ametys-cdm:catalog value="initial">Initial</ametys-cdm:catalog><ametys-cdm:training><ametys-cdm:trainingInfo/><ametys-cdm:trainingDuration/><ametys-cdm:trainingAbroadInfo/><ametys-cdm:trainingAbroadDuration/></ametys-cdm:training><ametys-cdm:partnerSchools/><ametys-cdm:partnerLaboratories/><ametys-cdm:attachments/><ametys-cdm:rncpLevel/><ametys-cdm:ujm-code-apogee/><ametys-cdm:document-subtitle/><ametys-cdm:ujm-diplome/><ametys-cdm:ujm-domains-etude_multiple><ametys-cdm:ujm-domains-etude value="HD">Hors domaine de formation</ametys-cdm:ujm-domains-etude></ametys-cdm:ujm-domains-etude_multiple><ametys-cdm:ujm-parcours/><ametys-cdm:ujm-option/><ametys-cdm:ujm-expenses/><ametys-cdm:ujm-specific-rights><p xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper">&gt; 1950 €<br/>&gt; Tarif dérogatoire (si absence de prise en charge employeur) : 900 €</p></ametys-cdm:ujm-specific-rights><ametys-cdm:ujm-temoignages_repeater><ametys-cdm:ujm-temoignages><ametys-cdm:ujm-temoignage-text/></ametys-cdm:ujm-temoignages></ametys-cdm:ujm-temoignages_repeater><ametys-cdm:ujm-responsables_repeater><ametys-cdm:ujm-responsables/></ametys-cdm:ujm-responsables_repeater><ametys-cdm:ujm-methode-pedagogique/><ametys-cdm:ujm-equipe-pedagogique><p xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper">Enseignants chercheurs de l’Université Jean Monnet, issus pour la majorité des milieux professionnels des domaines du management et de la gestion.</p></ametys-cdm:ujm-equipe-pedagogique><ametys-cdm:ujm-calendrier><list xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper" listType="bulleted"><listItem><bold>Programme intensif de 2 x 1 semaine de formation en mai et juin 2016</bold></listItem><listItem>Jury en septembre 2016</listItem><listItem><bold>Dossiers de candidature à remettre avant le 9 mai 2016</bold></listItem></list></ametys-cdm:ujm-calendrier><ametys-cdm:ujm-validation><p xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper"><bold>La réussite aux examens de cette formation vient valider 3 Unités d’enseignements du master 1ère année de management de projet de l’Université Jean Monnet (</bold><webLink><href>http://www.rncp.cncp.gouv.fr/grand-public/visualisationFiche?format=fr&amp;fiche=9483</href><linkName><bold>RNCP fiche 9483</bold></linkName></webLink><bold>).</bold></p><p xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper">La validation totale du master 1 pourra être étudiée individuellement par complément en validation d’acquis de l’expérience et si besoin poursuite de formation sur les compétences manquantes.</p><p xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper"><italic>Notre master management de projet est inscrit sur certaines listes éligibles au financement CPF, vérifiez la possibilité de prise en charge avec votre OPCA, via les services RH de votre entreprise.</italic></p></ametys-cdm:ujm-validation><ametys-cdm:ujm-en-savoir-plus/><ametys-cdm:ujm-competences_repeater><ametys-cdm:ujm-competences><ametys-cdm:ujm-competences-referentiel/><ametys-cdm:ujm-competences-text/></ametys-cdm:ujm-competences></ametys-cdm:ujm-competences_repeater><ametys-cdm:ujm-connaissance-associees/><ametys-cdm:ujm-methodologie-demarches/><ametys-cdm:ujm-domaine-application/><ametys-cdm:ujm-metier-par-domaine/><ametys-cdm:ujm-internship_repeater><ametys-cdm:ujm-internship><ametys-cdm:ujm-internshipDurationPeriod/><ujm-internshipMonthsPeriod_multiple><ametys-cdm:ujm-internshipMonthsPeriod value=""/></ujm-internshipMonthsPeriod_multiple><ametys-cdm:ujm-internshipStartMonthQuinzaine/><ametys-cdm:ujm-internshipEndMonthQuinzaine/></ametys-cdm:ujm-internship></ametys-cdm:ujm-internship_repeater><ametys-cdm:ujm-internshipMissions/><ametys-cdm:ujm-internshipSecteurActivite/><ametys-cdm:ujm-internshipIndemnisation/></extension></infoBlock><searchword/></program><orgUnit id="FRUAI0421095MOUII5R05FJ"><orgUnitID>FRUAI0421095MOUII5R05FJ</orgUnitID><orgUnitName><text>Formation Continue</text></orgUnitName><orgUnitAcronym/><orgUnitCode codeSet="codeUAI">II5R05FJ</orgUnitCode><orgUnitKind/><cdmfr:webLink><href>http://sufc.univ-st-etienne.fr</href><cdmfr:linkName>sufc.univ-st-etienne.fr</cdmfr:linkName></cdmfr:webLink><admissionInfo/><contacts/><infoBlock userDefined="ametys-extension"><extension/></infoBlock></orgUnit><orgUnit id="FRUAI0421095MOU0421095M"><orgUnitID>FRUAI0421095MOU0421095M</orgUnitID><orgUnitName><text>Etablissement</text></orgUnitName><orgUnitAcronym/><orgUnitCode codeSet="codeUAI">0421095M</orgUnitCode><orgUnitKind/><cdmfr:webLink><href/><cdmfr:linkName/></cdmfr:webLink><admissionInfo/><contacts/><infoBlock userDefined="ametys-extension"><extension/></infoBlock></orgUnit></CDM>
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM language="fr" profile="CDM-fr" xmlns="http://cdm-fr.fr/2013/CDM" xmlns:ametys-cdm="http://www.ametys.org/cdm/1.0" xmlns:cdmfr="http://cdm-fr.fr/2013/CDM-frSchema" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cdm-fr.fr/2013/CDM http://cdm-fr.fr/2013/schemas/CDMFR.xsd">
+	<formation>
+	<cdmfr:habilitation>
+		<cdmfr:habiliId>FRUAI0421095MPR1-19-25-0021-FR</cdmfr:habiliId>
+		<cdmfr:cohabilitation>
+			<cdmfr:exists>false</cdmfr:exists>
+			<cdmfr:listOfOrgUnit>
+				<cdmfr:habOrgUnit>
+					<cdmfr:refOrgUnit>0421095M</cdmfr:refOrgUnit>
+					<cdmfr:domainName>
+						<cdmfr:openDomain>Hors domaine de formation</cdmfr:openDomain>
+					</cdmfr:domainName>
+				</cdmfr:habOrgUnit>
+			</cdmfr:listOfOrgUnit>
+		</cdmfr:cohabilitation>
+		<cdmfr:cohabilitation>
+			<cdmfr:exists>true</cdmfr:exists>
+			<cdmfr:listOfOrgUnit cohabilitationRole="cohabilité"/>
+		</cdmfr:cohabilitation>
+		<cdmfr:otherDiploma>
+			<cdmfr:refProgram>FRUAI0421095MPR1-19-25-0021-FR</cdmfr:refProgram>
+		</cdmfr:otherDiploma>
+		<cdmfr:partnership>
+			<cdmfr:training/>
+		</cdmfr:partnership>
+	</cdmfr:habilitation>
+	<properties>
+		<datasource>Ametys v3</datasource>
+		<datetime date="2018-04-03"/>
+	</properties>
+	<program id="FRUAI0421095MPR1-19-25-0021-FR" language="fr">
+		<programID>FRUAI0421095MPR1-19-25-0021-FR</programID>
+		<cdmfr:programName>
+			<cdmfr:text>Programme de formation management d'équipe et de projet</cdmfr:text>
+		</cdmfr:programName>
+		<cdmfr:programCode codeSet="userDefined">1-19-25-0021-FR</cdmfr:programCode>
+		<cdmfr:programCode codeSet="sectDGESIP"/>
+		<cdmfr:programCode codeSet="ERASMUS"/>
+		<cdmfr:programCode codeSet="cite97"/>
+		<cdmfr:programCode codeSet="FAP"/>
+		<cdmfr:programCode codeSet="sectDiscipSISE"/>
+		<cdmfr:webLink>
+			<href/>
+			<cdmfr:linkName/>
+		</cdmfr:webLink>
+		<cdmfr:programDescription/>
+		<qualification>
+			<qualificationName>
+				<text/>
+			</qualificationName>
+			<cdmfr:qualificationDescription>
+				<infoBlock/>
+				<cdmfr:statistics/>
+			</cdmfr:qualificationDescription>
+			<cdmfr:credits>
+				<infoBlock/>
+			</cdmfr:credits>
+			<cdmfr:degree degreeNotLMD="ZO"/>
+			<cdmfr:profession>
+				<infoBlock/>
+				<cdmfr:romeData romeCode=""/>
+			</cdmfr:profession>
+			<cdmfr:studyQualification>
+				<infoBlock/>
+				<cdmfr:competenceDesc/>
+				<cdmfr:competenceValidity limited="false"/>
+			</cdmfr:studyQualification>
+		</qualification>
+		<levelCode/>
+		<learningObjectives>
+			<list listType="bulleted" xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper">
+				<listItem>donner les concepts et les outils du management d’équipe et de projet,</listItem>
+				<listItem>conforter leurs apprentissages sur le terrain,</listItem>
+				<listItem>développer de nouvelles perspectives professionnelles,</listItem>
+				<listItem>mettre en avant les échanges d’expériences comme méthode d’apprentissage.</listItem>
+			</list>
+		</learningObjectives>
+		<admissionInfo>
+			<cdmfr:studentStatus/>
+			<cdmfr:ectsRequired/>
+		</admissionInfo>
+		<formalPrerequisites/>
+		<teachingPlace>
+			<cdmfr:refOrgUnit/>
+			<adr>
+				<pcode>42000</pcode>
+			</adr>
+		</teachingPlace>
+		<targetGroup>
+			<list listType="bulleted" xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper">
+				<listItem>Salariés et demandeurs d’emploi sans diplôme de management mais ayant une expérience professionnelle en rapport avec le management d’équipe et/ou de projet, et souhaitant par cette formation valider leur expérience,</listItem>
+				<listItem>Personnes envisageant un poste de management après un parcours technique.</listItem>
+			</list>
+		</targetGroup>
+		<formOfTeaching org="formContNonDip"/>
+		<cdmfr:programStructure>
+			<infoBlock>
+				<subBlock xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper">
+					<subBlock>
+						<subBlock>
+							<header>Management de projet (18 heures) :</header>
+							<p>
+								<bold>Objectifs :</bold>
+							</p>
+							<p>S’approprier les étapes et les outils du management de projet
+								<br/>
+								Savoir se positionner dans un groupe projet
+								<br/>
+								Savoir communiquer en situation transversale au sein d’un groupe projet, dans une hiérarchie modifiée, et savoir communiquer autour du projet</p>
+							<p>
+								<bold>Contenus :</bold>
+							</p>
+							<list listType="bulleted">
+								<listItem>Le projet et ses enjeux dans l’entreprise</listItem>
+								<listItem>Formulation des objectifs de résultat</listItem>
+								<listItem>Anticipation des risques</listItem>
+								<listItem>Impliquer les acteurs</listItem>
+								<listItem>Utiliser des outils de gestion</listItem>
+								<listItem>Préparation du rapport professionnel</listItem>
+							</list>
+						</subBlock>
+						<subBlock>
+							<header> Management d’équipe (31 heures) :</header>
+							<p>
+								<bold>Objectifs :</bold>
+							</p>
+							<p>Cette formation vise d’une part, à comprendre les caractéristiques et les dynamiques de la vie des équipes dans les organisations ; et d’autre part, à cerner le rôle du manager dans la vie d’une équipe, ses marges de manœuvre, ses contraintes et les zones d’incertitude qui entourent ses décisions. </p>
+							<p>
+								<bold>Contenus : </bold>
+							</p>
+							<list listType="bulleted">
+								<listItem>Les groupes et la dynamique de groupe</listItem>
+								<listItem>La prise de décision en groupe</listItem>
+								<listItem>Les styles de management (Autorité, pouvoir et leadership)</listItem>
+								<listItem>Conception et déroulement d’une réunion</listItem>
+								<listItem>La motivation au travail</listItem>
+								<listItem>La délégation et l’autonomie</listItem>
+								<listItem>La dynamique d’escalade conflictuelle et ses formes d’intervention</listItem>
+							</list>
+						</subBlock>
+						<subBlock>
+							<header> Initiation au management d’entreprise (14 heures) :</header>
+							<list listType="bulleted">
+								<listItem>Cerner les principes de gestion de l’entreprise,</listItem>
+								<listItem>Mesurer l’impact de ses décisions sur les états comptables et financiers,</listItem>
+								<listItem>Mieux dialoguer avec les membres de la direction financière.</listItem>
+							</list>
+						</subBlock>
+						<subBlock>
+							<header> Rapport professionnel et soutenance finale (21 heures) :</header>
+							<p>Ce module vise à permettre aux participants une prise de recul sur une activité professionnelle vécue ou observée et, en s’appuyant sur des séances d’analyses de pratiques, de s’en servir pour en tirer des enseignements, de lier la théorie à la pratique et de le formaliser sur un écrit professionnel.</p>
+						</subBlock>
+					</subBlock>
+				</subBlock>
+			</infoBlock>
+		</cdmfr:programStructure>
+		<regulations/>
+		<contacts>
+			<refOrgUnit idRef="FRUAI0421095MOUII5R05FJ"/>
+		</contacts>
+		<infoBlock>
+			<p xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper">
+				<bold>Renseignements et inscriptions
+					<br/></bold>Mathilde Leduc
+				<br/>
+				<picture>
+					<weblink>
+						<href>https://cms.univ-st-etienne.fr/_odf/_contents-images/ametys%253Aodf/ametys%253Acontents/program-le-management-de-projet/_metadata/additionalInformations/_data/picto-phone-2.png_23x20</href></weblink>
+					<extension>
+						<ametys-cdm:width>20px</ametys-cdm:width>
+						<ametys-cdm:height>23px</ametys-cdm:height>
+					</extension>
+				</picture>04 77 43 79 39
+				<br/>
+				<webLink>
+					<href>mailto:mathilde.leduc@univ-st-etienne.fr</href>
+					<linkName>mathilde.leduc@univ-st-etienne.fr</linkName></webLink>
+			</p>
+		</infoBlock>
+		<infoBlock userDefined="ametys-extension">
+			<extension>
+				<ametys-cdm:catalog value="initial">Initial</ametys-cdm:catalog>
+				<ametys-cdm:training>
+					<ametys-cdm:trainingInfo/>
+					<ametys-cdm:trainingDuration/>
+					<ametys-cdm:trainingAbroadInfo/>
+					<ametys-cdm:trainingAbroadDuration/>
+				</ametys-cdm:training>
+				<ametys-cdm:partnerSchools/>
+				<ametys-cdm:partnerLaboratories/>
+				<ametys-cdm:attachments/>
+				<ametys-cdm:rncpLevel/>
+				<ametys-cdm:ujm-code-apogee/>
+				<ametys-cdm:document-subtitle/>
+				<ametys-cdm:ujm-diplome/>
+				<ametys-cdm:ujm-domains-etude_multiple>
+					<ametys-cdm:ujm-domains-etude value="HD">Hors domaine de formation</ametys-cdm:ujm-domains-etude>
+				</ametys-cdm:ujm-domains-etude_multiple>
+				<ametys-cdm:ujm-parcours/>
+				<ametys-cdm:ujm-option/>
+				<ametys-cdm:ujm-expenses/>
+				<ametys-cdm:ujm-specific-rights>
+					<p xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper">&gt; 1950 €
+						<br/>
+						&gt; Tarif dérogatoire (si absence de prise en charge employeur) : 900 €</p>
+				</ametys-cdm:ujm-specific-rights>
+				<ametys-cdm:ujm-temoignages_repeater>
+					<ametys-cdm:ujm-temoignages>
+						<ametys-cdm:ujm-temoignage-text/>
+					</ametys-cdm:ujm-temoignages>
+				</ametys-cdm:ujm-temoignages_repeater>
+				<ametys-cdm:ujm-responsables_repeater>
+					<ametys-cdm:ujm-responsables/>
+				</ametys-cdm:ujm-responsables_repeater>
+				<ametys-cdm:ujm-methode-pedagogique/>
+				<ametys-cdm:ujm-equipe-pedagogique>
+					<p xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper">Enseignants chercheurs de l’Université Jean Monnet, issus pour la majorité des milieux professionnels des domaines du management et de la gestion.</p>
+				</ametys-cdm:ujm-equipe-pedagogique>
+				<ametys-cdm:ujm-calendrier>
+					<list listType="bulleted" xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper">
+						<listItem>
+							<bold>Programme intensif de 2 x 1 semaine de formation en mai et juin 2016</bold>
+						</listItem>
+						<listItem>Jury en septembre 2016</listItem>
+						<listItem>
+							<bold>Dossiers de candidature à remettre avant le 9 mai 2016</bold>
+						</listItem>
+					</list>
+				</ametys-cdm:ujm-calendrier>
+				<ametys-cdm:ujm-validation>
+					<p xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper">
+						<bold>La réussite aux examens de cette formation vient valider 3 Unités d’enseignements du master 1ère année de management de projet de l’Université Jean Monnet (</bold>
+						<webLink>
+							<href>http://www.rncp.cncp.gouv.fr/grand-public/visualisationFiche?format=fr&amp;fiche=9483</href>
+							<linkName>
+								<bold>RNCP fiche 9483</bold>
+							</linkName>
+						</webLink>
+						<bold>).</bold>
+					</p>
+					<p xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper">La validation totale du master 1 pourra être étudiée individuellement par complément en validation d’acquis de l’expérience et si besoin poursuite de formation sur les compétences manquantes.</p>
+					<p xmlns:cdmresolver="org.ametys.odf.xslt.CDMFrXSLTHelper">
+						<italic>Notre master management de projet est inscrit sur certaines listes éligibles au financement CPF, vérifiez la possibilité de prise en charge avec votre OPCA, via les services RH de votre entreprise.</italic>
+					</p>
+				</ametys-cdm:ujm-validation>
+				<ametys-cdm:ujm-en-savoir-plus/>
+				<ametys-cdm:ujm-competences_repeater>
+					<ametys-cdm:ujm-competences>
+						<ametys-cdm:ujm-competences-referentiel/>
+						<ametys-cdm:ujm-competences-text/>
+					</ametys-cdm:ujm-competences>
+				</ametys-cdm:ujm-competences_repeater>
+				<ametys-cdm:ujm-connaissance-associees/>
+				<ametys-cdm:ujm-methodologie-demarches/>
+				<ametys-cdm:ujm-domaine-application/>
+				<ametys-cdm:ujm-metier-par-domaine/>
+				<ametys-cdm:ujm-internship_repeater>
+					<ametys-cdm:ujm-internship>
+						<ametys-cdm:ujm-internshipDurationPeriod/>
+						<ujm-internshipMonthsPeriod_multiple>
+							<ametys-cdm:ujm-internshipMonthsPeriod value=""/>
+						</ujm-internshipMonthsPeriod_multiple>
+						<ametys-cdm:ujm-internshipStartMonthQuinzaine/>
+						<ametys-cdm:ujm-internshipEndMonthQuinzaine/>
+					</ametys-cdm:ujm-internship>
+				</ametys-cdm:ujm-internship_repeater>
+				<ametys-cdm:ujm-internshipMissions/>
+				<ametys-cdm:ujm-internshipSecteurActivite/>
+				<ametys-cdm:ujm-internshipIndemnisation/>
+			</extension>
+		</infoBlock>
+		<searchword/>
+	</program>
+	<orgUnit id="FRUAI0421095MOUII5R05FJ">
+		<orgUnitID>FRUAI0421095MOUII5R05FJ</orgUnitID>
+		<orgUnitName>
+			<text>Formation Continue</text>
+		</orgUnitName>
+		<orgUnitAcronym/>
+		<orgUnitCode codeSet="codeUAI">II5R05FJ</orgUnitCode>
+		<orgUnitKind/>
+		<cdmfr:webLink>
+			<href>http://sufc.univ-st-etienne.fr</href>
+			<cdmfr:linkName>sufc.univ-st-etienne.fr</cdmfr:linkName>
+		</cdmfr:webLink>
+		<admissionInfo/>
+		<contacts/>
+		<infoBlock userDefined="ametys-extension">
+			<extension/>
+		</infoBlock>
+	</orgUnit>
+	<orgUnit id="FRUAI0421095MOU0421095M">
+		<orgUnitID>FRUAI0421095MOU0421095M</orgUnitID>
+		<orgUnitName>
+			<text>Etablissement</text>
+		</orgUnitName>
+		<orgUnitAcronym/>
+		<orgUnitCode codeSet="codeUAI">0421095M</orgUnitCode>
+		<orgUnitKind/>
+		<cdmfr:webLink>
+			<href/>
+			<cdmfr:linkName/>
+		</cdmfr:webLink>
+		<admissionInfo/>
+		<contacts/>
+		<infoBlock userDefined="ametys-extension">
+			<extension/>
+		</infoBlock>
+	</orgUnit>
+</formation>
+</CDM>
