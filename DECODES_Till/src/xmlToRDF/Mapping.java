@@ -242,7 +242,7 @@ public static Node getElementsByTagList(Element node, ArrayList<String> tagsList
 	  HashMap<String, List<String>> typeProperty = new HashMap<String, List<String>>(); 
 		
 		try{
-			String fileName = "bin/xmlToRDF/linkTypeProperty.txt";
+			String fileName = "fichiers/xmlToRDF/linkTypeProperty.txt";
 			file = new FileReader(fileName);
 			
 			reader = new BufferedReader(file);
