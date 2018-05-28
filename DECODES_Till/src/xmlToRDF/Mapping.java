@@ -27,6 +27,13 @@ import org.apache.jena.vocabulary.*;
 
 public class Mapping {
 	
+	/**
+	 * This function reads an .xml document, and creates the corresponding .rdf model
+	 * @param pathXML Where the .xml is stored
+	 * @param pathKeyDoc Where the key document (.txt linking properties and tags) is stored
+	 * @param tagFormation Tag name defining each formation in the .xml
+	 * @param institutionName Name designating the institution offering the formation (will be found in uris and output documents' names)
+	 */
 	public static void mapping(String pathXML, String pathKeyDoc, String tagFormation, String institutionName){
 		  Document doc = readXML(pathXML);
 		  
@@ -145,20 +152,20 @@ public static void printModel(Model model, String fileName)
 }
  
  /**
-  * This function allows us to get the text in a tag in an xml doc. Calls the function getElementsByTagList, therefore returns null element if the String tags is null or empty. 
+  * This function allows us to add a statement to the model, from reading a tag in the XML document et matching it with the relevant property 
   * @param node The node in which we search for tags
   * @param formation The resource we want to modify with what we find in the xml document
   * @param model The model to which the resource is linked
   * @param tags The tree structure of tags, separated by "/", allowing us to get to the tag containing useful information.
   * @param propertyName The property matching the tag. 
   */
-public static void findAndAddValueToProperty(Element node, Resource formation, Model model, String propertyName, String tags) {
+public static void findAndAddValueToProperty(Element node, Resource res, Model model, String propertyName, String tags) {
 	 ArrayList<String> tagsList = new ArrayList<String>(Arrays.asList(tags.split("/"))); 
 	 Node mainNode = Mapping.getElementsByTagList(node, tagsList);
 	 if (mainNode!=null) {
 		 String text = mainNode.getTextContent();
 		 text = text.replace("\t", ""); //Suppress uselesstabs
-		 formation.addProperty(model.getProperty(MyModel.uriProp,propertyName), text);
+		 res.addProperty(model.getProperty(MyModel.uriProp,propertyName), text);
 	 }
 }
 
@@ -261,6 +268,14 @@ public static Node getElementsByTagList(Element node, ArrayList<String> tagsList
 	}
   
   
+  /**
+   * This function looks for a identical Resource in a list, returns null element if not found.
+   * @param model The model where the properties and resources are defined
+   * @param resInitial The resource that we compare all the rest to.
+   * @param resourceList The list of resource that may contain a resource identical to resInitial
+   * @param resourceType The type ("formation, "contact", "location", etc) of the resource
+   * @return The identical resource if it is found, null otherwise.
+   */
   public static Resource findIdenticalResourceIfExists(Model model, Resource resInitial, ArrayList<Resource> resourceList, String resourceType){
 	
 	  for (Resource res : resourceList) {
@@ -273,6 +288,14 @@ public static Node getElementsByTagList(Element node, ArrayList<String> tagsList
 	  
   }
   
+  /**
+   * This function compares all the properties and objects of two resources and returns true if they are all identical
+   * @param resA The first resource
+   * @param resB The second resource
+   * @param resourceType The type ("formation, "contact", "location", etc) of the resources 
+   * @param model The model where the properties and resources are defined
+   * @return True if the two resources are in identical statements, false otherwise. 
+   */
   public static boolean resourcesAreIdentical (Resource resA, Resource resB, String resourceType, Model model) {
 	  boolean isIdentical = true ;
 	  HashMap<String, List<String>> typeProperty = Mapping.linkTypeAndProperties();
@@ -305,7 +328,9 @@ public static Node getElementsByTagList(Element node, ArrayList<String> tagsList
   
   
   
-  /*public static void main(String[] args) {
+  	/*
+   	public static void main(String[] args) {
 	Mapping.mapping("bin/FrComte.xml", "bin/FrComte_key.txt", "formation", "FrancheComte"); 
-}*/
+	}
+	*/
 }

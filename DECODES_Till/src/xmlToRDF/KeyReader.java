@@ -10,7 +10,7 @@ public class KeyReader {
 	/**
 	 * This function reads the key document written by the user, to understand which property matches with which tag in the xml doc.
 	 * @param path The path to the key document 
-	 * @return An array list containing hashMaps, each hashMap corresponding to one resource and linking all the properties corresponding to this resource with the rigth tag.
+	 * @return An array list containing hashMaps, each hashMap corresponding to one resource and linking all the properties corresponding to this resource with the right tag.
 	 */
 	public static HashMap<String,HashMap<String,String>> readKeys(String path)
 	{

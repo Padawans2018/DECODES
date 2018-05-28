@@ -9,6 +9,10 @@ public class MyModel {
 	public static String uriProp = "http://decodes/properties/";
 	public static String uriRes = "http://decodes/resources/";
 	
+	/**
+	 * This function initializes the model that will be used to represent formations, by creating all the relevant properties
+	 * @return The initialized model
+	 */
       public static Model initiliazeModel() {
     	// some definitions
     		String uriProperties = MyModel.uriProp;
