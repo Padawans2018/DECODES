@@ -1,3 +1,344 @@
 <rdf:RDF
-    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://decodes/properties/">
+  <rdf:Description rdf:about="http://decodes/resources/location_stEtienne_1">
+    <j.0:Address>
+42000
+</j.0:Address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/formation_stEtienne_0">
+    <j.0:RNCP>
+RNCP fiche 9483
+</j.0:RNCP>
+    <j.0:GradingMethods>
+
+La réussite aux examens de cette formation vient valider 3 Unités d’enseignements du master 1ère année de management de projet de l’Université Jean Monnet (
+
+http://www.rncp.cncp.gouv.fr/grand-public/visualisationFiche?format=fr&amp;fiche=9483
+
+RNCP fiche 9483
+
+
+).
+
+La validation totale du master 1 pourra être étudiée individuellement par complément en validation d’acquis de l’expérience et si besoin poursuite de formation sur les compétences manquantes.
+
+Notre master management de projet est inscrit sur certaines listes éligibles au financement CPF, vérifiez la possibilité de prise en charge avec votre OPCA, via les services RH de votre entreprise.
+
+</j.0:GradingMethods>
+    <j.0:isCertifiedBy rdf:resource="http://decodes/resources/authority_stEtienne_0"/>
+    <j.0:isWelcomedBy rdf:resource="http://decodes/resources/company_stEtienne_0"/>
+    <j.0:Price>
+&gt; 1950 €
+
+&gt; Tarif dérogatoire (si absence de prise en charge employeur) : 900 €
+</j.0:Price>
+    <j.0:Audience>
+
+Salariés et demandeurs d’emploi sans diplôme de management mais ayant une expérience professionnelle en rapport avec le management d’équipe et/ou de projet, et souhaitant par cette formation valider leur expérience,
+Personnes envisageant un poste de management après un parcours technique.
+
+</j.0:Audience>
+    <j.0:Requirements></j.0:Requirements>
+    <j.0:isSubmittedBy rdf:resource="http://decodes/resources/respo_stEtienne_0"/>
+    <j.0:Goals>
+
+donner les concepts et les outils du management d’équipe et de projet,
+conforter leurs apprentissages sur le terrain,
+développer de nouvelles perspectives professionnelles,
+mettre en avant les échanges d’expériences comme méthode d’apprentissage.
+
+</j.0:Goals>
+    <j.0:takesPlaceIn>
+      <rdf:Description rdf:about="http://decodes/resources/location_stEtienne_0">
+        <j.0:Address>
+42000
+</j.0:Address>
+      </rdf:Description>
+    </j.0:takesPlaceIn>
+    <j.0:Schedule>
+
+
+Programme intensif de 2 x 1 semaine de formation en mai et juin 2016
+
+Jury en septembre 2016
+
+Dossiers de candidature à remettre avant le 9 mai 2016
+
+
+</j.0:Schedule>
+    <j.0:Name>
+Programme de formation management d'équipe et de projet
+</j.0:Name>
+    <j.0:isManagedBy rdf:resource="http://decodes/resources/contact_stEtienne_0"/>
+    <j.0:isPartOf>
+      <rdf:Description rdf:about="http://decodes/resources/domain_stEtienne_0">
+        <j.0:Name>
+Hors domaine de formation
+</j.0:Name>
+      </rdf:Description>
+    </j.0:isPartOf>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/job_stEtienne_0"/>
+    <j.0:TimeOrganisation>
+
+
+Programme intensif de 2 x 1 semaine de formation en mai et juin 2016
+
+Jury en septembre 2016
+
+Dossiers de candidature à remettre avant le 9 mai 2016
+
+
+</j.0:TimeOrganisation>
+    <j.0:has rdf:resource="http://decodes/resources/label_stEtienne_0"/>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/sector_stEtienne_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/formation_stEtienne_2">
+    <j.0:isCertifiedBy rdf:resource="http://decodes/resources/authority_stEtienne_0"/>
+    <j.0:Requirements></j.0:Requirements>
+    <j.0:isSubmittedBy rdf:resource="http://decodes/resources/respo_stEtienne_0"/>
+    <j.0:isWelcomedBy rdf:resource="http://decodes/resources/company_stEtienne_0"/>
+    <j.0:GradingMethods></j.0:GradingMethods>
+    <j.0:RNCP></j.0:RNCP>
+    <j.0:Price></j.0:Price>
+    <j.0:Schedule></j.0:Schedule>
+    <j.0:TimeOrganisation></j.0:TimeOrganisation>
+    <j.0:isManagedBy rdf:resource="http://decodes/resources/contact_stEtienne_0"/>
+    <j.0:has rdf:resource="http://decodes/resources/label_stEtienne_0"/>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/sector_stEtienne_0"/>
+    <j.0:Name>Licence professionnelle Intervention sociale : accompagnement social Parcours Coordinateur(trice) de projets de développement d'économie sociale et solidaire</j.0:Name>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/job_stEtienne_0"/>
+    <j.0:isPartOf>
+      <rdf:Description rdf:about="http://decodes/resources/domain_stEtienne_2">
+        <j.0:Name>Sciences Humaines et Sociales</j.0:Name>
+      </rdf:Description>
+    </j.0:isPartOf>
+    <j.0:Goals>L’objectif de la licence professionnelle est de former des Coordonnateurs de développement de projets dans le domaine associatif, coopératif, mutualiste, au sein des collectivités locales et territoriales dans le cadre d’une démarche de développement durable. Ces professionnels devront être capables de participer à un réseau d’acteurs, de le gérer et de le développer en s’appuyant sur une double expertise :la prise en compte et la dynamisation de réseaux urbains ou ruraux dans leurs dimensions historique, économique et sociale ;la conduite de projets adaptés au contexte dans une dynamique de développement des territoires.La spécificité principale du coordonnateur de projet est d’être capable de fédérer et de mobiliser dans l’action l’ensemble des partenaires, internes et externes. Il se situe dans une logique transversale vis à vis des intervenants des champs professionnels concernés.</j.0:Goals>
+    <j.0:takesPlaceIn>
+      <rdf:Description rdf:about="http://decodes/resources/location_stEtienne_2">
+        <j.0:Address>42000</j.0:Address>
+      </rdf:Description>
+    </j.0:takesPlaceIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/location_stEtienne_7">
+    <j.0:Address>42000</j.0:Address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/formation_stEtienne_4">
+    <j.0:isWelcomedBy rdf:resource="http://decodes/resources/company_stEtienne_0"/>
+    <j.0:isManagedBy rdf:resource="http://decodes/resources/contact_stEtienne_0"/>
+    <j.0:Requirements></j.0:Requirements>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/sector_stEtienne_0"/>
+    <j.0:Name>Licence professionnelle Métiers de l'industrie : conception de produits industriels</j.0:Name>
+    <j.0:Schedule></j.0:Schedule>
+    <j.0:isSubmittedBy rdf:resource="http://decodes/resources/respo_stEtienne_0"/>
+    <j.0:isPartOf>
+      <rdf:Description rdf:about="http://decodes/resources/domain_stEtienne_4">
+        <j.0:Name>Sciences, Technologies, Santé</j.0:Name>
+      </rdf:Description>
+    </j.0:isPartOf>
+    <j.0:TimeOrganisation></j.0:TimeOrganisation>
+    <j.0:Price></j.0:Price>
+    <j.0:RNCP></j.0:RNCP>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/job_stEtienne_0"/>
+    <j.0:has rdf:resource="http://decodes/resources/label_stEtienne_0"/>
+    <j.0:takesPlaceIn rdf:resource="http://decodes/resources/location_stEtienne_2"/>
+    <j.0:GradingMethods></j.0:GradingMethods>
+    <j.0:isCertifiedBy rdf:resource="http://decodes/resources/authority_stEtienne_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/formation_stEtienne_6">
+    <j.0:TimeOrganisation></j.0:TimeOrganisation>
+    <j.0:isWelcomedBy rdf:resource="http://decodes/resources/company_stEtienne_0"/>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/job_stEtienne_0"/>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/sector_stEtienne_0"/>
+    <j.0:has rdf:resource="http://decodes/resources/label_stEtienne_0"/>
+    <j.0:Price></j.0:Price>
+    <j.0:Name>Master Intervention et développement social</j.0:Name>
+    <j.0:RNCP></j.0:RNCP>
+    <j.0:Goals>L'intervention sociale recouvre un ensemble d'activités professionnelles :celles de l’adaptation des politiques publiques territorialisées et personnalisées ;celles de l’expérimentation et de l’innovation ajustées aux changements des contextes socio-économiques, des organisations institutionnelles ou encore des modes de vie.L'organisation, la gestion et l'amélioration des relations sociales, au sens large, via la résolution des tensions et des conflits que suscitent les formes d'inégalités et de discriminations forment également le cœur de ces activités.Les parcours de la mention ont pour objectif de développer des compétences croisées d’animation, de formation, de communication ou de médiation. Les emplois visés s’exercent dans des secteurs publics ou privés ou du tiers secteur ; les activités professionnelles s'effectuent au sein d'équipes le plus souvent pluridisciplinaires et nécessitent d'impliquer étroitement un réseau partenarial, les élus, les représentants de l’Etat, les associations, les entreprises, les citoyens.La mention IDS forme à l’analyse des pratiques de l’intervention sociale, du développement social et de la médiation et à leur encadrement. </j.0:Goals>
+    <j.0:Schedule></j.0:Schedule>
+    <j.0:isCertifiedBy rdf:resource="http://decodes/resources/authority_stEtienne_0"/>
+    <j.0:GradingMethods></j.0:GradingMethods>
+    <j.0:isPartOf rdf:resource="http://decodes/resources/domain_stEtienne_2"/>
+    <j.0:isManagedBy rdf:resource="http://decodes/resources/contact_stEtienne_0"/>
+    <j.0:takesPlaceIn rdf:resource="http://decodes/resources/location_stEtienne_2"/>
+    <j.0:isSubmittedBy rdf:resource="http://decodes/resources/respo_stEtienne_0"/>
+    <j.0:Requirements></j.0:Requirements>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/location_stEtienne_9">
+    <j.0:Address>42000</j.0:Address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/location_stEtienne_3">
+    <j.0:Address>42000</j.0:Address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/formation_stEtienne_8">
+    <j.0:RNCP>Assiduité aux enseignements théoriques, Rédaction et soutenance de mémoire.</j.0:RNCP>
+    <j.0:isManagedBy rdf:resource="http://decodes/resources/contact_stEtienne_0"/>
+    <j.0:Price>&gt; 1 500 euros TTC(L’université n’est pas assujettie à la TVA)</j.0:Price>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/job_stEtienne_0"/>
+    <j.0:Goals>La formation vise à :Appréhender les notions d'espérance de vie avec ou sans incapacité.Connaître la place de la prévention, de l'éducation et des comportements, pour favoriser le vieillissement réussi, connaître l'organisation des soins gérontologiques et les filières.Maîtriser les méthodes d'évaluation de la perte d'autonomie, de la douleur, des capacités de marche et d'équilibre, et de cognition.Proposer des techniques de prévention ou de compensations adaptées au sujet âgé en fonction de son état fonctionnel ("fit, frailty or sick").Connaître les limites du soin dans les situations chroniques complexes.Apprendre à éduquer les patients et leur famille autour des principales problématiques de santé quand cela est possible (chute, sarcopénie, équilibre, douleur, médicaments...).</j.0:Goals>
+    <j.0:takesPlaceIn rdf:resource="http://decodes/resources/location_stEtienne_8"/>
+    <j.0:has rdf:resource="http://decodes/resources/label_stEtienne_0"/>
+    <j.0:isCertifiedBy rdf:resource="http://decodes/resources/authority_stEtienne_0"/>
+    <j.0:Schedule>Date limite des candidatures : 15 septembre 2018Dates* des séminaires : Saint-Etienne : Octobre 2018Dijon : Mai 2019* Dates susceptibles de modification</j.0:Schedule>
+    <j.0:TimeOrganisation>Date limite des candidatures : 15 septembre 2018Dates* des séminaires : Saint-Etienne : Octobre 2018Dijon : Mai 2019* Dates susceptibles de modification</j.0:TimeOrganisation>
+    <j.0:Name>DIU Kinésithérapie et Réhabilitation gériatrique</j.0:Name>
+    <j.0:isPartOf rdf:resource="http://decodes/resources/domain_stEtienne_4"/>
+    <j.0:Audience>Ce diplôme s’adresse en particulier à des masseurs kinésithérapeutes et ergothérapeutes spécialistes en gériatrie qui justifient de trois ans d’expérience professionnelle. Il concerne également les médecins intervenant en particulier dans les unités de soins de suite et rééducation gériatrique.Demande d’inscription avant le 15 octobre 2018soit par mail https://cms.univ-st-etienne.fr/_odfmailto:fcsante@univ-st-etienne.frfcsante@univ-st-etienne.fr,soit par courrier à : Formation Continue - Santé Faculté de médecine J. Lisfranc Campus Santé Innovations 10 rue de la Marandière 42270 Saint Priest-en Jarez</j.0:Audience>
+    <j.0:GradingMethods>Assiduité aux enseignements théoriques, Rédaction et soutenance de mémoire.</j.0:GradingMethods>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/sector_stEtienne_0"/>
+    <j.0:Requirements></j.0:Requirements>
+    <j.0:isSubmittedBy rdf:resource="http://decodes/resources/respo_stEtienne_0"/>
+    <j.0:isWelcomedBy rdf:resource="http://decodes/resources/company_stEtienne_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/domain_stEtienne_9">
+    <j.0:Name>Sciences, Technologies, Santé</j.0:Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/domain_stEtienne_5">
+    <j.0:Name>Sciences, Technologies, Santé</j.0:Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/domain_stEtienne_7">
+    <j.0:Name>Droit, Economie, Gestion</j.0:Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/domain_stEtienne_1">
+    <j.0:Name>
+Hors domaine de formation
+</j.0:Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/formation_stEtienne_1">
+    <j.0:Requirements></j.0:Requirements>
+    <j.0:has rdf:resource="http://decodes/resources/label_stEtienne_0"/>
+    <j.0:Price>
+&gt; 900 € par personne
+
+&gt; Pour une adaptation en intra-entreprise, nous consulter.
+</j.0:Price>
+    <j.0:Name>
+Les fondamentaux du management d'équipe
+</j.0:Name>
+    <j.0:RNCP></j.0:RNCP>
+    <j.0:takesPlaceIn rdf:resource="http://decodes/resources/location_stEtienne_0"/>
+    <j.0:isWelcomedBy rdf:resource="http://decodes/resources/company_stEtienne_0"/>
+    <j.0:isPartOf rdf:resource="http://decodes/resources/domain_stEtienne_0"/>
+    <j.0:TimeOrganisation></j.0:TimeOrganisation>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/job_stEtienne_0"/>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/sector_stEtienne_0"/>
+    <j.0:Schedule></j.0:Schedule>
+    <j.0:isSubmittedBy rdf:resource="http://decodes/resources/respo_stEtienne_0"/>
+    <j.0:GradingMethods></j.0:GradingMethods>
+    <j.0:isCertifiedBy rdf:resource="http://decodes/resources/authority_stEtienne_0"/>
+    <j.0:Audience>
+
+Managers de proximité.
+Personnes souhaitant évoluer vers un poste de management.
+
+</j.0:Audience>
+    <j.0:Goals>
+
+Trouver son style managérial et l’adapter en fonction des situations, l’importance du savoir-être.
+Savoir motiver, faire partager et faire adhérer.
+Manier les objectifs de manière opportune.
+Déléguer efficacement.
+Savoir gérer les situations difficiles dans le respect de chacun.
+
+</j.0:Goals>
+    <j.0:isManagedBy rdf:resource="http://decodes/resources/contact_stEtienne_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/formation_stEtienne_3">
+    <j.0:isPartOf>
+      <rdf:Description rdf:about="http://decodes/resources/domain_stEtienne_3">
+        <j.0:Name>Droit, Economie, Gestion</j.0:Name>
+      </rdf:Description>
+    </j.0:isPartOf>
+    <j.0:GradingMethods></j.0:GradingMethods>
+    <j.0:TimeOrganisation></j.0:TimeOrganisation>
+    <j.0:Price></j.0:Price>
+    <j.0:RNCP></j.0:RNCP>
+    <j.0:isWelcomedBy rdf:resource="http://decodes/resources/company_stEtienne_0"/>
+    <j.0:isManagedBy rdf:resource="http://decodes/resources/contact_stEtienne_0"/>
+    <j.0:Schedule></j.0:Schedule>
+    <j.0:isSubmittedBy rdf:resource="http://decodes/resources/respo_stEtienne_0"/>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/job_stEtienne_0"/>
+    <j.0:Name>Licence professionnelle Assurance, Banque, Finances : chargé de clientèle</j.0:Name>
+    <j.0:takesPlaceIn rdf:resource="http://decodes/resources/location_stEtienne_2"/>
+    <j.0:isCertifiedBy rdf:resource="http://decodes/resources/authority_stEtienne_0"/>
+    <j.0:has rdf:resource="http://decodes/resources/label_stEtienne_0"/>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/sector_stEtienne_0"/>
+    <j.0:Requirements></j.0:Requirements>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/formation_stEtienne_5">
+    <j.0:Audience>DUT R&amp;T, GEII, Info,BTS SIO option réseaux, IRIS, Electronique,licence sciences et technologies (mention EEAI) après la deuxième année.Etudiants en deuxième année de CPGE, CPGE intégrées …Etudiants titulaires au minimum d’un  BAC+2 autre, sur entretien.Elle est aussi accessible après validation d'acquis professionnels.</j.0:Audience>
+    <j.0:isManagedBy rdf:resource="http://decodes/resources/contact_stEtienne_0"/>
+    <j.0:TimeOrganisation></j.0:TimeOrganisation>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/job_stEtienne_0"/>
+    <j.0:takesPlaceIn>
+      <rdf:Description rdf:about="http://decodes/resources/location_stEtienne_5">
+        <j.0:Address>42300</j.0:Address>
+      </rdf:Description>
+    </j.0:takesPlaceIn>
+    <j.0:isSubmittedBy rdf:resource="http://decodes/resources/respo_stEtienne_0"/>
+    <j.0:isPartOf rdf:resource="http://decodes/resources/domain_stEtienne_4"/>
+    <j.0:RNCP></j.0:RNCP>
+    <j.0:Price></j.0:Price>
+    <j.0:isWelcomedBy rdf:resource="http://decodes/resources/company_stEtienne_0"/>
+    <j.0:Schedule></j.0:Schedule>
+    <j.0:isCertifiedBy rdf:resource="http://decodes/resources/authority_stEtienne_0"/>
+    <j.0:Goals>Superviser, gérer et assurer la maintenance d'un réseau existantMettre en œuvre un réseau à intégration de systèmes routage, NAT, VPN, xDSL et de gestion de réseaux voix-données et imagesMettre en œuvre des systèmes de messagerie d'entreprise ou d'annuaireFaire évoluer une configuration en fonction des besoins, de l'évolution technologiques...Connaître, installer, maintenir et faire évoluer les logiciels et les applications distribuéesMaîtriser de grandes structures multi-réseaux, notamment grâce à une bonne connaissance des problèmes d'interconnexions Réseaux opérateurs et Très Haut Débithttps://cms.univ-st-etienne.fr/_odf/_contents-images/ametys%253Aodf/ametys%253Acontents/program-licence-professionnelle-metiers-des-reseaux-informatiques-et-telecommunications-parcours-administration-des-reseaux-multimedias/_metadata/objectives/_data/Fotolia_12754646_M-RT-2.jpg_470x705705px470px</j.0:Goals>
+    <j.0:has rdf:resource="http://decodes/resources/label_stEtienne_0"/>
+    <j.0:Requirements></j.0:Requirements>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/sector_stEtienne_0"/>
+    <j.0:Name>Licence professionnelle Métiers des réseaux informatiques et télécommunications Parcours Administration des réseaux Multimédias</j.0:Name>
+    <j.0:GradingMethods></j.0:GradingMethods>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/location_stEtienne_4">
+    <j.0:Address>42000</j.0:Address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/formation_stEtienne_7">
+    <j.0:isSubmittedBy rdf:resource="http://decodes/resources/respo_stEtienne_0"/>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/job_stEtienne_0"/>
+    <j.0:GradingMethods></j.0:GradingMethods>
+    <j.0:isWelcomedBy rdf:resource="http://decodes/resources/company_stEtienne_0"/>
+    <j.0:isCertifiedBy rdf:resource="http://decodes/resources/authority_stEtienne_0"/>
+    <j.0:Price></j.0:Price>
+    <j.0:RNCP></j.0:RNCP>
+    <j.0:Schedule></j.0:Schedule>
+    <j.0:isManagedBy rdf:resource="http://decodes/resources/contact_stEtienne_0"/>
+    <j.0:Name>Master Management de Projet</j.0:Name>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/sector_stEtienne_0"/>
+    <j.0:Goals>Former à et par la gestion de projet donnant accès aux métiers de chef de projet, assistant chef de projets  Former plus généralement aux métiers de l'encadrement qui intègrent de plus en plus une dimension projets :  marketing,  GRH, qualité, SI, production, logistique...  Appréhender et mener des projets de changements organisationnels (structure, processus, méthodes de travail...) </j.0:Goals>
+    <j.0:has rdf:resource="http://decodes/resources/label_stEtienne_0"/>
+    <j.0:Audience>Etre détenteur d'un diplôme dans le domaine de la gestion (marketing, GRH, SI,  qualité, production, etc.) de niveau immédiatement inférieur au niveau d'entrée demandé (par exemple: Bac+4 minimum en gestion pour une entrée en M2)Etre détenteur d'un diplôme de niveau inférieur hors gestion (sciences de l'ingénieur, Lettres, etc.) sous réserve d'acquis en gestion suffisants (via l'expérience professionnelle et/ou un suivi minimal d'enseignements de gestion dans le parcours initial)Justifier - pour une personne en reprise d'études - d'une expérience en management suffisante validée par une procédure VAPP.Formation continue, VAE, contactez le responsable pédagogique et le service de https://www.univ-st-etienne.fr/fr/formation/formation-continue.htmlFormation Continue</j.0:Audience>
+    <j.0:takesPlaceIn rdf:resource="http://decodes/resources/location_stEtienne_2"/>
+    <j.0:Requirements></j.0:Requirements>
+    <j.0:isPartOf rdf:resource="http://decodes/resources/domain_stEtienne_3"/>
+    <j.0:TimeOrganisation></j.0:TimeOrganisation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/location_stEtienne_6">
+    <j.0:Address>42000</j.0:Address>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/formation_stEtienne_9">
+    <j.0:isCertifiedBy rdf:resource="http://decodes/resources/authority_stEtienne_0"/>
+    <j.0:RNCP>Assiduité aux modules de formation, validation du stage, validation d’un examen écrit par module et de la soutenance d’un mémoire.</j.0:RNCP>
+    <j.0:Goals>Acquérir les compétences pour pouvoir participer, au sein d’une EOH, à l’amélioration de la qualité et de la sécurité des soins pour les usagers et le personnel, dans le cadre de la prévention du risque infectieux. Acquérir :Les connaissances nécessaires à la prévention du risque infectieux,Les méthodes et outils en communication et pédagogie,Les méthodes et outils adaptés à la promotion de la qualité, de l’évaluation et de la gestion de risques,Les principes de management d’un projet.Pour être un acteur efficace de la gestion du risque infectieux.Identifier, à partir d’une analyse de données, les niveaux de risques infectieux ou autres événements indésirables, les points critiques inhérents aux activités de soins et à leur environnement.Déterminer un programme de prévention et de gestion du risque infectieux.Proposer les actions d’amélioration à mettre en place.Mettre en œuvre une stratégie de changement efficace et l’évaluer.</j.0:Goals>
+    <j.0:isManagedBy rdf:resource="http://decodes/resources/contact_stEtienne_0"/>
+    <j.0:GradingMethods>Assiduité aux modules de formation, validation du stage, validation d’un examen écrit par module et de la soutenance d’un mémoire.</j.0:GradingMethods>
+    <j.0:isWelcomedBy rdf:resource="http://decodes/resources/company_stEtienne_0"/>
+    <j.0:takesPlaceIn rdf:resource="http://decodes/resources/location_stEtienne_2"/>
+    <j.0:Price>&gt; M1+M2+M3+M4 : 2 600 € TTC (l’université n’est pas assujettie à la TVA)*&gt; M1+M3 : 1500 € TTC (l’université n’est pas assujettie à la TVA)*&gt; M2+ M4 : 1300 €*&gt; Année mémoire : 240 € TTC**Tarifs indicatifs susceptibles de modification</j.0:Price>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/sector_stEtienne_0"/>
+    <j.0:Requirements></j.0:Requirements>
+    <j.0:has rdf:resource="http://decodes/resources/label_stEtienne_0"/>
+    <j.0:Name>DU Infirmier en hygiène</j.0:Name>
+    <j.0:isPartOf rdf:resource="http://decodes/resources/domain_stEtienne_4"/>
+    <j.0:givesOpportunitiesIn rdf:resource="http://decodes/resources/job_stEtienne_0"/>
+    <j.0:Schedule>Date limite des candidatures : 20 juin 2018Délibération candidatures : 1ère semaine de juillet 2018Rentrée : mi-septembre 2018</j.0:Schedule>
+    <j.0:Audience>Les candidats habilités à s’inscrire sont des infirmier(e)s, titulaires d’un Diplôme d’Etat, ayant une expérience professionnelle minimale de 4 ans.Admission sur CV et lettre de motivation avant le 20 juin 2018 soit par mail https://cms.univ-st-etienne.fr/_odfmailto:fcsante@univ-st-etienne.frfcsante@univ-st-etienne.fr, soit par courrier à : Formation Continue - Santé - Faculté de médecine J. Lisfranc - Campus Santé Innovations - 10 rue de la Marandière - 42270 Saint Priest-en JarezAccords transmis à partir du 6 juillet 2018</j.0:Audience>
+    <j.0:TimeOrganisation>Date limite des candidatures : 20 juin 2018Délibération candidatures : 1ère semaine de juillet 2018Rentrée : mi-septembre 2018</j.0:TimeOrganisation>
+    <j.0:isSubmittedBy rdf:resource="http://decodes/resources/respo_stEtienne_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/domain_stEtienne_8">
+    <j.0:Name>Sciences, Technologies, Santé</j.0:Name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://decodes/resources/domain_stEtienne_6">
+    <j.0:Name>Sciences Humaines et Sociales</j.0:Name>
+  </rdf:Description>
 </rdf:RDF>

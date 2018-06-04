@@ -13,6 +13,7 @@ import xmlToRDF.WriteHTML;
 
 public class Reader {
 	public static void main(String[] args) {
+		/*
 		File dir = new File("fichiers/StEtienne");
 		File[] directoryListing = dir.listFiles();
 		if (directoryListing != null) {
@@ -25,11 +26,11 @@ public class Reader {
 					System.out.println(child.getName());
 					Mapping.mapping(nameDirectory+"/"+child.getName(), 
 							nameDirectory+"/stEtienne_keys.txt", 
-							"formation", 
+							"CDM", 
 							"StEtienne");
 					WriteHTML.writeOneHTML(nameDirectory+"/"+child.getName(), 
 							"fichiers/output/StEtienne_"+i+"_Output.rdf", 
-							"StEtienne", "formation",i);
+							"StEtienne", "CDM",i);
 
 				}
 				i++;
@@ -44,6 +45,10 @@ public class Reader {
 		/*String nameDirectory = "fichiers/stEtienne";
 		//Reader.normalizeXML(nameDirectory+"/cnam.xml");
 		Mapping.mapping(nameDirectory+"/stEtienne.xml", nameDirectory+"/stEtienne_keys.txt", "formation", "StEtienne");*/
+		
+		String nameDirectory = "fichiers/stEtienne";
+		int numberFormations = Mapping.mappingFromMultipleXML(nameDirectory, nameDirectory+"/stEtienne_keys.txt", "CDM", "stEtienne");
+		WriteHTML.writeHTML("fichiers/output/stEtienneOutput.rdf", "stEtienne", numberFormations);
 	}
 	
 	public static void normalizeXML(String pathToXML)

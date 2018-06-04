@@ -1,5 +1,5 @@
-formation/Name cdmfr:ProgramName
-formation/RNCP ametys-cdm:ujm-validation
+formation/Name cdmfr:programName
+formation/RNCP ametys-cdm:ujm-validation/linkName
 formation/CPF
 formation/DCP
 formation/General 
@@ -8,7 +8,7 @@ formation/Audience targetGroup
 formation/Requirements formalPrerequisites
 formation/Goals learningObjectives 
 formation/SkillsLearned 
-formation/LearningMethods
+formation/LearningMethods cmdfr:programStructure
 formation/TimeOrganisation ametys-cdm:ujm-calendrier
 formation/GradingMethods ametys-cdm:ujm-validation
 formation/DistanceLearning
@@ -23,19 +23,16 @@ formation/Price ametys-cdm:ujm-specific-rights
 formation/Notes
 formation/ID
 formation/RomeCode 
-Location/Address teachingPlace
-Location/Institution teachingPlace
+Location/Address teachingPlace/adr
+Location/Institution 
 Domain/Name ametys-cdm:ujm-domains-etude_multiple
 Domain/NSFCode
 Authority/Name 
 Authority/ID
-Contact/Name 
-Contact/PhoneNumber 
-Contact/EmailAddress 
-Contact/Name
-Contact/ID
+Contact/Name infoBlock/p/bold
 Contact/PhoneNumber
-Contact/EmailAddress
+Contact/EmailAddress infoBlock/webLink/href
+Contact/ID
 Respo/ID
 Respo/Name
 Respo/Job

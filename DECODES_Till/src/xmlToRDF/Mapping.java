@@ -33,8 +33,9 @@ public class Mapping {
 	 * @param pathKeyDoc Where the key document (.txt linking properties and tags) is stored
 	 * @param tagFormation Tag name defining each formation in the .xml
 	 * @param institutionName Name designating the institution offering the formation (will be found in uris and output documents' names)
+	 * @return the total number of formations for this institution
 	 */
-	public static void mapping(String pathXML, String pathKeyDoc, String tagFormation, String institutionName){
+	public static int mapping(String pathXML, String pathKeyDoc, String tagFormation, String institutionName){
 		  Document doc = readXML(pathXML);
 		  
 		  HashMap<String,HashMap<String,String>> keysHM;
@@ -128,9 +129,138 @@ public class Mapping {
 		  }	  
 		  
 		  
-		  model.write(System.out);
+		  //model.write(System.out);
 		  printModel(model, institutionName + "Output");
+		  
+		  return (allPrograms.getLength()); 
 	}
+	
+	
+	
+	/**
+	 * This function reads an .xml document, and creates the corresponding .rdf model
+	 * @param pathXMLs Where the .xml documents are stored
+	 * @param pathKeyDoc Where the key document (.txt linking properties and tags) is stored
+	 * @param tagFormation Tag name defining each formation in the .xml
+	 * @param institutionName Name designating the institution offering the formation (will be found in uris and output documents' names)
+	 * @return the total number of formations for this institution
+	 */
+	public static int mappingFromMultipleXML(String pathXMLs, String pathKeyDoc, String tagFormation, String institutionName){
+		 	  
+		  HashMap<String,HashMap<String,String>> keysHM;
+		  keysHM = KeyReader.readKeys(pathKeyDoc);
+		  
+		  HashMap<String, List<String>> linkTypeProp = Mapping.linkTypeAndProperties(); 
+		  
+		  HashMap<String, ArrayList<Resource>> allResources = new HashMap<String, ArrayList<Resource>>() ; 
+		  allResources.put("formation", new ArrayList<Resource>());
+		  allResources.put("location", new ArrayList<Resource>());
+		  allResources.put("domain", new ArrayList<Resource>());
+		  allResources.put("respo", new ArrayList<Resource>());
+		  allResources.put("sector", new ArrayList<Resource>());
+		  allResources.put("job", new ArrayList<Resource>());
+		  allResources.put("label", new ArrayList<Resource>());
+		  allResources.put("contact", new ArrayList<Resource>());
+		  allResources.put("company", new ArrayList<Resource>());
+		  allResources.put("authority", new ArrayList<Resource>());
+		  
+		  //initialize model
+		  Model model = MyModel.initiliazeModel(); 
+		  
+		  File dir = new File("fichiers/StEtienne");
+		  File[] directoryListing = dir.listFiles();
+		  
+		  int i = 0;
+		  if (directoryListing != null) {
+				for (File child : directoryListing) {
+					
+					
+					//file name starts with a number (== is a formation)
+					if(child.getName().charAt(0)<58){
+					
+					Document doc = readXML(pathXMLs+"/"+child.getName());
+						
+					NodeList allPrograms = doc.getElementsByTagName(tagFormation);
+					Element formationNode = (Element) allPrograms.item(0);
+						  
+					  HashMap<String, Resource> typeResInit = new HashMap<String, Resource>();
+					  HashMap<String, Resource> typeResFinal = new HashMap<String, Resource>();
+						  
+						  
+					  Resource formationResource = model.createResource(MyModel.uriRes+"formation" + "_" + institutionName + "_" +i);
+					  Resource locationResource = model.createResource(MyModel.uriRes+"location" + "_" + institutionName + "_" +i);
+					  Resource domainResource = model.createResource(MyModel.uriRes+"domain" + "_" + institutionName + "_" +i);
+					  Resource respoResource = model.createResource(MyModel.uriRes+"respo" + "_" + institutionName + "_" +i);
+					  Resource sectorResource = model.createResource(MyModel.uriRes+"sector" + "_" + institutionName + "_" +i);
+					  Resource jobResource = model.createResource(MyModel.uriRes+"job" + "_" + institutionName + "_" +i);
+					  Resource labelResource = model.createResource(MyModel.uriRes+"label" + "_" + institutionName + "_" +i);						  Resource contactResource = model.createResource(MyModel.uriRes+"contact" + "_" + institutionName + "_" +i);
+					  Resource companyResource = model.createResource(MyModel.uriRes+"company" + "_" + institutionName + "_" +i);
+					  Resource authorityResource = model.createResource(MyModel.uriRes+"authority" + "_" + institutionName + "_" +i);
+						  		  
+					  typeResInit.put("formation", formationResource);	  
+					  typeResInit.put("location", locationResource);						  typeResInit.put("domain", domainResource);
+					  typeResInit.put("respo", respoResource);
+					  typeResInit.put("sector", sectorResource);
+					  typeResInit.put("job", jobResource);
+					  typeResInit.put("label", labelResource);
+					  typeResInit.put("contact", contactResource);
+					  typeResInit.put("company", companyResource);
+					  typeResInit.put("authority", authorityResource);
+						    
+						 			  
+						  for (String type : linkTypeProp.keySet()) {
+							  
+							  Resource res = typeResInit.get(type.toLowerCase());
+							  
+							  for (String prop : linkTypeProp.get(type)) {
+								  
+								  String tag = keysHM.get(type.toLowerCase()).get(prop);
+							
+								  System.out.println(i + "_ Type: "+type+"; Tag: "+ tag+"; Prop: "+prop);
+								  if (tag!=null){
+									  findAndAddValueToProperty(formationNode, res , model, prop, tag);
+								  }
+								  
+							  }
+							  
+							  Resource resIdentical = Mapping.findIdenticalResourceIfExists(model, res, allResources.get(type), type);
+							  if (resIdentical==null) {
+								  allResources.get(type).add(res) ;
+								  typeResFinal.put(type, res) ;
+							  }
+							  else {
+								  typeResFinal.put(type, resIdentical) ; 
+							  }
+						  }			  
+						  
+						  formationResource.addProperty(model.getProperty(MyModel.uriProp,"takesPlaceIn"), typeResFinal.get("location"));
+						  formationResource.addProperty(model.getProperty(MyModel.uriProp,"isPartOf"), typeResFinal.get("domain"));
+						  formationResource.addProperty(model.getProperty(MyModel.uriProp,"isSubmittedBy"), typeResFinal.get("respo"));
+						  formationResource.addProperty(model.getProperty(MyModel.uriProp,"givesOpportunitiesIn"), typeResFinal.get("sector"));
+						  formationResource.addProperty(model.getProperty(MyModel.uriProp,"givesOpportunitiesIn"), typeResFinal.get("job"));
+						  formationResource.addProperty(model.getProperty(MyModel.uriProp,"has"), typeResFinal.get("label"));
+						  formationResource.addProperty(model.getProperty(MyModel.uriProp,"isManagedBy"), typeResFinal.get("contact"));
+						  formationResource.addProperty(model.getProperty(MyModel.uriProp,"isWelcomedBy"), typeResFinal.get("company"));
+						  formationResource.addProperty(model.getProperty(MyModel.uriProp,"isCertifiedBy"), typeResFinal.get("authority"));
+						  
+					  }	 
+					i++; 
+
+					
+					}
+					
+				}
+		  
+		 	  
+		  
+		  
+		  
+		  //model.write(System.out);
+		  printModel(model, institutionName + "Output");
+		  
+		  return (i-1);
+	}
+	
  
 /**
  * This function allows us to export a model to an .rdf file
@@ -181,27 +311,31 @@ public static Node getElementsByTagList(Element node, ArrayList<String> tagsList
 	 
 	 //System.out.println(tagsList);
 	 
-	 if (tagsList.isEmpty()) { 
+	 if ((tagsList.isEmpty())||(tagsList==null)) { 
 		 System.out.println("Tags list was empty, we returned null element.");
 		 return null ;
 	 }
 	 else {
 		 nodeL =node.getElementsByTagName(tagsList.get(0)) ;
-		 mainNode = (Element) nodeL.item(0);
 		 
 		 if (nodeL.getLength()!=1) {
 		/*	 if (nodeL.getLength()==0) {System.out.println("There was no \"" + tagsList.get(0) + "\" tag.");}
 			 else {System.out.println("There was more than one \"" + tagsList.get(0) + "\" tag.");}*/
 		 }
-	 
+		 else {
+			 mainNode = (Element) nodeL.item(0); 
 		 for (int i = 1; i < tagsList.size() ; i++) {
+			 
 			 nodeL = mainNode.getElementsByTagName(tagsList.get(i)); 
-			 mainNode = (Element) nodeL.item(0);
 			 if (nodeL.getLength()!=1) {
 				 /*if (nodeL.getLength()==0) {System.out.println("There was no \"" + tagsList.get(i) + "\" tag.");}
 				 else {System.out.println("There was more than one \"" + tagsList.get(i) + "\" tag.");}*/
 				 break; 
 		 	 }
+			 else {
+				 mainNode = (Element) nodeL.item(0);
+			 }
+		 }
 		 }
 	 }
 	

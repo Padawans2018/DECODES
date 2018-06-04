@@ -32,13 +32,11 @@ public class WriteHTML {
 		return INSTANCE;
 	}
 	
-	public static void writeHTML(String pathXML, String pathRDF, String institutionName, String tagFormation) {
-		Document doc = Mapping.readXML(pathXML);
+	public static void writeHTML(String pathRDF, String institutionName, int numberFormations) {
+		
 		  
 		 //initialize model, in order to get the number of formations in it
 		 Model model = MyModel.initiliazeModel(); 
-		 NodeList allPrograms = doc.getElementsByTagName(tagFormation);
-		 int numberFormations = allPrograms.getLength();
 		 
 		 for (int i = 0 ; i<numberFormations ; i++) {
 			 try{
@@ -81,7 +79,7 @@ public class WriteHTML {
 				  }
 			  }
 			  
-			  System.out.println(content);
+			  //System.out.println(content);
 
 			  try {
 				  //BufferedWriter bw = new BufferedWriter(new FileWriter("docs/"+institutionName+"/"+institutionName+"_"+indexFormation+".html"));
@@ -168,9 +166,5 @@ public class WriteHTML {
 			  
 	}
 	
-	public static void main(String[] args) {
-		//WriteHTML.writeHTML("fichiers/FrComte.xml", "fichiers/output/FrancheComteOutput.rdf", "FrancheComte", "formation");
-		//WriteHTML.writeFormationHTML("fichiers/output/FrComteOutput.rdf", "FrancheComte", 3);
-	}
 	
 }
