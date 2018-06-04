@@ -71,7 +71,7 @@ public class WriteHTML {
 			  for (String prop : propsAndObj.keySet()) {
 				  String obj = propsAndObj.get(prop);
 				  if (obj!=null) {
-					  content = content.replace("$" + prop, obj);
+					  content = content.replace("$" + prop, obj).replace("&alt;", "<").replace("&gt;", ">");
 					  //System.out.println(prop + " : " + obj);
 				  }
 				  else {
